@@ -73,23 +73,7 @@
     "@pulumi/pulumi" "^1.0.0"
     semver "^5.4.0"
 
-"@pulumi/kubernetes@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-1.3.3.tgz#3ad9157c4d9d4265b0d80a0f05f634c9d5e1a75b"
-  integrity sha512-RiH1qMVuJLie4y2WP5DrhLn6jPCTAJNXqJTq2vvpK8U3OOyTSNylkEsDHYvuSkx84ovKLimlk//dQrp5/38ecw==
-  dependencies:
-    "@pulumi/pulumi" "^1.6.0"
-    "@types/glob" "^5.0.35"
-    "@types/js-yaml" "^3.11.2"
-    "@types/node-fetch" "^2.1.4"
-    "@types/tmp" "^0.0.33"
-    glob "^7.1.2"
-    js-yaml "^3.12.0"
-    node-fetch "^2.3.0"
-    shell-quote "^1.6.1"
-    tmp "^0.0.33"
-
-"@pulumi/kubernetes@latest":
+"@pulumi/kubernetes@^1.3.3", "@pulumi/kubernetes@^1.4.0", "@pulumi/kubernetes@latest":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-1.4.0.tgz#9c34e89609e51028119ef0408d846b4279064f4f"
   integrity sha512-fF6klyb52UXa/B7JdleHcYf3eSdQp7h2ZrUW6FYEhdN3jwIbunltmY1JH2hNKF5gdqsBIi04uvC5+DZMjze6Pw==
