@@ -1,4 +1,5 @@
 #!/bin/sh -l
+set -ex
 
 export PULUMI_CI_SYSTEM="GitHub"
 export PULUMI_CI_BUILD_ID=
