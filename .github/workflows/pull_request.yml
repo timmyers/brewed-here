@@ -1,6 +1,6 @@
 name: Pulumi
 on:
-  - pull_request
+  - push
 jobs:
   preview:
     name: Preview
