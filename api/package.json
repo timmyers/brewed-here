@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "PORT=8000 ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/koa": "^2.11.0",
+    "koa": "^2.11.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.16",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}

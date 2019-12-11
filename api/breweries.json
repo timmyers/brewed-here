@@ -1,0 +1,2937 @@
+[
+  {
+    "name": "Ratio Beerworks",
+    "lat": 39.76151,
+    "lng": -104.9816222,
+    "googlePlaceId": "ChIJgZ4HIR95bIcRVav2shAUzp8",
+    "website": "http://ratiobeerworks.com/",
+    "id": "589e0cbf-a55a-4ac7-92e8-0cd299bba847"
+  },
+  {
+    "name": "Stem Ciders",
+    "lat": 39.761634,
+    "lng": -104.98379,
+    "googlePlaceId": "ChIJIZUhsx95bIcRtNtK5_f-dM8",
+    "website": "https://stemciders.com/taproom/",
+    "locationName": "RiNo Taproom",
+    "id": "3ee42f23-c476-4349-9887-a4091a3caf48"
+  },
+  {
+    "name": "Beryl's Beer Company",
+    "lat": 39.76471,
+    "lng": -104.980229,
+    "googlePlaceId": "ChIJkRwTBRx5bIcRd73MJLxiZZk",
+    "website": "http://berylsbeerco.com/",
+    "id": "ece3751f-196a-4d44-b86b-f92177a54f3e"
+  },
+  {
+    "name": "10 Barrel Brewing Company",
+    "lat": 39.759358,
+    "lng": -104.985527,
+    "googlePlaceId": "ChIJBRyMHeB4bIcRr9Ps0aYWhno",
+    "website": "http://10barrel.com/pub/denver",
+    "id": "63e375bc-e11b-4334-a2b6-bba8a3057096"
+  },
+  {
+    "name": "River North",
+    "lat": 39.806562,
+    "lng": -104.979076,
+    "googlePlaceId": "ChIJS2Sm7bUsDogR96Ftwh-QLis",
+    "website": null,
+    "id": "521c7490-2049-4575-a70d-7e364c3a3e96"
+  },
+  {
+    "name": "Zephyr Brewing Company",
+    "lat": 39.759548,
+    "lng": -104.986378,
+    "googlePlaceId": "ChIJKYGCF-B4bIcRYYbZ5H7_b1M",
+    "website": "http://www.zephyrbrewingco.com/",
+    "id": "43d5778b-77dd-4328-b277-81d931dedaad"
+  },
+  {
+    "name": "Mountain Sun Pub & Brewery",
+    "locationName": "Vine Street Pub & Brewery",
+    "lat": 39.743473,
+    "lng": -104.961995,
+    "googlePlaceId": "ChIJ1aNkg0p5bIcRultN3x_J9bg",
+    "website": "http://www.mountainsunpub.com/",
+    "id": "8f901c17-0578-433c-a60d-ac0ffc271c58"
+  },
+  {
+    "name": "Cerebral Brewing",
+    "lat": 39.739747,
+    "lng": -104.945493,
+    "googlePlaceId": "ChIJBSeHC6x-bIcRyGC8NIyfXeo",
+    "website": "http://cerebralbrewing.com/",
+    "id": "0732b0ed-1bfe-4261-9eab-3345a28660a5"
+  },
+  {
+    "name": "Bierstadt Lagerhaus",
+    "lat": 39.762816,
+    "lng": -104.984037,
+    "googlePlaceId": "ChIJAchlax55bIcRwYpXUARI_Rk",
+    "website": "http://www.bierstadtlager.com/",
+    "id": "82d8da13-c4bc-4c1b-a32a-35ab5f31db58"
+  },
+  {
+    "name": "Spangalang Brewery",
+    "lat": 39.755075,
+    "lng": -104.977124,
+    "googlePlaceId": "ChIJLx-igyN5bIcRmLSst1q41To",
+    "website": "http://spangalangbrewery.com/",
+    "id": "dc787799-b7de-4dbd-8dc8-28e9f8b62b7c"
+  },
+  {
+    "name": "Great Divide Brewing Co.",
+    "locationName": "Ballpark: Brewery & Tap Room",
+    "lat": 39.753808,
+    "lng": -104.988529,
+    "googlePlaceId": "ChIJo_c5KN94bIcRf-MnunKDJug",
+    "website": "http://www.greatdivide.com/",
+    "id": "9549e610-61e7-407d-8d84-d052bafea43f"
+  },
+  {
+    "name": "Jagged Mountain Craft Brewery",
+    "lat": 39.75226,
+    "lng": -104.991383,
+    "googlePlaceId": "ChIJvYxIWdl4bIcRUyEqYYTPM1Y",
+    "website": "http://www.jaggedmountainbrewery.com/",
+    "id": "1d05f72b-b0fa-484d-9a59-c368a9be1f78"
+  },
+  {
+    "name": "Our Mutual Friend Brewing",
+    "lat": 39.760485,
+    "lng": -104.982423,
+    "googlePlaceId": "ChIJwXUKCR95bIcRt-x24xExeKM",
+    "website": "http://www.omfmb.com/",
+    "id": "c0d0a118-f99d-4bd2-8552-e757bba8915f"
+  },
+  {
+    "name": "Denver ChopHouse & Brewery",
+    "lat": 39.755046,
+    "lng": -104.997238,
+    "googlePlaceId": "ChIJ_Xn8zMJ4bIcRDE9w8dnwix8",
+    "website": "http://www.denverchophouse.com/",
+    "id": "ba1e8174-8d59-42e4-ac9c-30eb89cbc99c"
+  },
+  {
+    "name": "Wynkoop Brewing Company",
+    "lat": 39.753395,
+    "lng": -104.998485,
+    "googlePlaceId": "ChIJBadAhB95bIcR1h_loSGkaR0",
+    "website": "http://www.wynkoop.com/",
+    "id": "0c5793ba-d57a-4ed5-a014-5d8b0a4d0b8c"
+  },
+  {
+    "name": "Woods Boss Brewing Company",
+    "lat": 39.750809,
+    "lng": -104.9844,
+    "googlePlaceId": "ChIJ26hhmSd5bIcR7PIWBk1RCvM",
+    "website": "http://www.woodsbossbrewing.com/",
+    "id": "2f6e75a3-8f7f-4677-9f52-995092fb5508"
+  },
+  {
+    "name": "Blue Moon Brewing Company",
+    "locationName": "Sandlot",
+    "lat": 39.755417,
+    "lng": -104.993832,
+    "googlePlaceId": "ChIJCXwUxt14bIcRtFjIiDsUqmA",
+    "website": "https://www.bluemoonbrewingcompany.com/",
+    "id": "7d616e0d-72d8-4ead-981e-c52ad7519b2b"
+  },
+  {
+    "name": "C Squared Ciders",
+    "lat": 39.762812,
+    "lng": -104.984027,
+    "googlePlaceId": "ChIJAchlax55bIcRUiS4eV2RkO8",
+    "website": "http://csquaredciders.com/",
+    "id": "d5be82ac-b402-41b9-bb81-dc5150ec30ce"
+  },
+  {
+    "name": "Rock Bottom Brewery Denver",
+    "lat": 39.747615,
+    "lng": -104.994725,
+    "googlePlaceId": "ChIJHY5jhNp4bIcR8ij0UT5PKRY",
+    "website": "https://rockbottom.com/locations/denver/?utm_source=local&utm_medium=listings&utm_campaign=imm",
+    "id": "1e248547-7afa-44c9-996f-8c817f71d206"
+  },
+  {
+    "name": "Tivoli Brewing Company",
+    "lat": 39.745642,
+    "lng": -105.005702,
+    "googlePlaceId": "ChIJxQ8Oh8h4bIcRgjWk2qPleWA",
+    "website": "http://tivolibrewingco.com/",
+    "id": "5733f8c3-a34a-42cb-b61f-58dc9b0f2994"
+  },
+  {
+    "name": "Pint's Pub Brewery & Freehouse",
+    "lat": 39.736972,
+    "lng": -104.990852,
+    "googlePlaceId": "ChIJF4PORCt_bIcRzu99r3p8-Ww",
+    "website": "http://www.pintspub.com/",
+    "id": "7ed2e87f-7d59-4794-a9c6-367f5fa565a9"
+  },
+  {
+    "name": "CO-Brew",
+    "lat": 39.734572,
+    "lng": -104.987619,
+    "googlePlaceId": "ChIJCTBgRip_bIcRFl-fxyOlcr0",
+    "website": "http://www.cobrewdenver.com/",
+    "id": "b604f073-f262-4a85-ad73-b815bd9dd850"
+  },
+  {
+    "name": "Alpine Dog Brewing Company",
+    "lat": 39.740325,
+    "lng": -104.974929,
+    "googlePlaceId": "ChIJX8Z4Ti15bIcRQ35_NnzlkEA",
+    "website": "http://www.alpinedogbrewery.com/",
+    "id": "9e192a71-babf-4b99-89df-75c4b2cfac77"
+  },
+  {
+    "name": "Epic Brewing Company",
+    "lat": 39.763172,
+    "lng": -104.981323,
+    "googlePlaceId": "ChIJKYr_lh55bIcRYYxmmq4FZU8",
+    "website": "http://www.epicbrewing.com/",
+    "id": "676308a6-999d-4ff8-b953-c377b54c2abc"
+  },
+  {
+    "name": "Lost Highway Brewing Company",
+    "lat": 39.739833,
+    "lng": -104.980403,
+    "googlePlaceId": "ChIJ-UWVWit5bIcRmcUi1_hphW0",
+    "website": "http://www.losthighwaybrewing.com/",
+    "id": "a891bbb3-e4c8-437d-97b0-26273c872019"
+  },
+  {
+    "name": "Renegade Brewing Company",
+    "lat": 39.730621,
+    "lng": -104.999274,
+    "googlePlaceId": "ChIJqwGVljF_bIcRAeSeNZuyFOs",
+    "website": "http://www.renegadebrewing.com/",
+    "id": "4641db00-f2e5-4c64-a249-62a4dfbd4c61"
+  },
+  {
+    "name": "Lowdown Brewery + Kitchen",
+    "lat": 39.729316,
+    "lng": -104.985758,
+    "googlePlaceId": "ChIJu2pXICh_bIcRGgb3XEfREdo",
+    "website": "http://www.lowdownbrewery.com/",
+    "id": "b0318d9f-3cfd-44c9-9fb6-7a5e701e4cba"
+  },
+  {
+    "name": "Banded Oak Brewing Company",
+    "lat": 39.723725,
+    "lng": -104.987125,
+    "googlePlaceId": "ChIJh5MaOCd_bIcRmI-czUsKz9o",
+    "website": "http://bandedoakbrewing.com/",
+    "id": "2b30e8fa-8aac-4aed-ba04-9a58785ffdaa"
+  },
+  {
+    "name": "Black Sky Brewery",
+    "lat": 39.723933,
+    "lng": -104.998454,
+    "googlePlaceId": "ChIJRdLgJjt_bIcR_laCL5XuKVM",
+    "website": "http://www.blackskybrewing.com/",
+    "id": "8721e687-8993-418d-8970-b219bc0ca99b"
+  },
+  {
+    "name": "Crazy Mountain Brewing Company",
+    "locationName": "Denver Taproom & Beer Garden",
+    "lat": 39.723675,
+    "lng": -105.000591,
+    "googlePlaceId": "ChIJOxqCrDt_bIcRcB73fAD-PkU",
+    "website": "https://crazymountainbrewery.com/location/denver-tap-room/",
+    "id": "c286ade6-0bf4-4428-be93-7caa226e124a"
+  },
+  {
+    "name": "Baere Brewing Company",
+    "lat": 39.721426,
+    "lng": -104.986996,
+    "googlePlaceId": "ChIJ85q57CB_bIcRBu10hSSJlvo",
+    "website": "http://www.baerebrewing.com/home.html",
+    "id": "2fe63a45-b91d-401c-8831-651d12cea831"
+  },
+  {
+    "name": "TRVE Brewing Company",
+    "lat": 39.719919,
+    "lng": -104.987682,
+    "googlePlaceId": "ChIJhyjlWiB_bIcRVqrck99vTHg",
+    "website": "http://trvebrewing.com/",
+    "id": "029f4d7c-dbcc-4fe6-89d1-9b207c55f4b2"
+  },
+  {
+    "name": "Deep Draft Brewing Company",
+    "lat": 39.743022,
+    "lng": -104.968134,
+    "closed": true,
+    "id": "9e910a2e-9b30-49e1-b312-23fd74e9514c"
+  },
+  {
+    "name": "Wit's End Brewing Company",
+    "lat": 39.720592,
+    "lng": -105.017411,
+    "closed": true,
+    "googlePlaceId": "ChIJT4fZg7N4bIcRczRuOMzTaL8",
+    "website": "http://www.strangecraftbeerdenver.com/",
+    "id": "a6d36bc8-375f-49a4-a780-8820d56d1e6b"
+  },
+  {
+    "name": "Chain Reaction Brewing Company",
+    "lat": 39.69955,
+    "lng": -105.0012,
+    "googlePlaceId": "ChIJdUzA7nd-a4cRPeVhiV-2Tfw",
+    "website": "http://chainreactionbrewingco.com/",
+    "id": "1148e37a-e128-48a8-b883-eda39bc068bc"
+  },
+  {
+    "name": "Grandma's House",
+    "lat": 39.685456,
+    "lng": -104.987354,
+    "googlePlaceId": "ChIJ68jq4LJ_bIcR-DHPb2eI5Zc",
+    "website": "http://www.grandmasbeer.co/",
+    "id": "5010dd97-26d8-42fc-a760-d37a3a1e3601"
+  },
+  {
+    "name": "Black Project Spontaneous & Wild Ales",
+    "lat": 39.693383,
+    "lng": -104.987263,
+    "googlePlaceId": "ChIJEzIcZqt_bIcRcFdcuqR84tI",
+    "website": "http://www.blackprojectbeer.com/",
+    "id": "fbf35ed5-0709-4031-8702-0cbfaa2e77b5"
+  },
+  {
+    "name": "Declaration Brewing Company",
+    "lat": 39.679761,
+    "lng": -104.990782,
+    "googlePlaceId": "ChIJ96Kg1LV_bIcR4ineWPk2o6A",
+    "website": "http://www.declarationbrewing.com/",
+    "id": "5c763318-566a-4ef5-8e5f-e1e6f071c1b8"
+  },
+  {
+    "name": "Platt Park Brewing Company",
+    "lat": 39.682564,
+    "lng": -104.980782,
+    "googlePlaceId": "ChIJrwlI6Ut-bIcRo6EJZw0kTl4",
+    "website": "http://www.plattparkbrewing.com/",
+    "id": "937b6e1a-3d99-4a04-b9b6-b089ba137124"
+  },
+  {
+    "name": "FERMÆNTRA Brewery",
+    "lat": 39.678707,
+    "lng": -104.967046,
+    "googlePlaceId": "ChIJo7jkOz9-bIcRgVkD3wQr8bo",
+    "website": "http://www.fermaentra.com/",
+    "id": "786514c2-8ad5-4dfe-96a6-5754fe6a4d39"
+  },
+  {
+    "name": "Bull & Bush Brewery",
+    "lat": 39.703095,
+    "lng": -104.932409,
+    "googlePlaceId": "ChIJy0fuetN9bIcRfTivsjBIIPw",
+    "website": "http://www.bullandbush.com/",
+    "id": "e5b413c4-dde9-4a57-82c2-f050c7929759"
+  },
+  {
+    "name": "Copper Kettle Brewing Company",
+    "lat": 39.692679,
+    "lng": -104.891338,
+    "googlePlaceId": "ChIJG0JMiAp9bIcR-zA1C9E4HiQ",
+    "website": "http://www.copperkettledenver.com/",
+    "id": "e15dedfd-5fda-47ef-97e6-363f71a4bfb0"
+  },
+  {
+    "name": "Station 26 Brewing Company",
+    "lat": 39.769582,
+    "lng": -104.905979,
+    "googlePlaceId": "ChIJJ9l6Zb17bIcR49ODquiBujs",
+    "website": "http://www.station26brewing.co/",
+    "id": "51c56888-ae0e-41f5-b1c1-ae860c2187cf"
+  },
+  {
+    "name": "Fiction Beer Company",
+    "lat": 39.740381,
+    "lng": -104.905647,
+    "googlePlaceId": "ChIJ70rZRnB8bIcRatf_Jil0-VE",
+    "website": "http://www.fictionbeer.com/",
+    "id": "9f7fc048-41b7-4d64-b0dc-fadad9d2c41b"
+  },
+  {
+    "name": "Comrade Brewing Company",
+    "lat": 39.67566,
+    "lng": -104.898487,
+    "googlePlaceId": "ChIJnVnWEYR9bIcRioFnEUpyw4M",
+    "website": "http://www.comradebrewing.com/",
+    "id": "5b0c5787-5ab2-4e05-ad8c-4adc766639b8"
+  },
+  {
+    "name": "Black Shirt Brewing Company",
+    "lat": 39.769737,
+    "lng": -104.972831,
+    "googlePlaceId": "ChIJYWO6GxB5bIcR0C3amGQv8ZI",
+    "website": "http://www.blackshirtbrewingco.com/",
+    "id": "c55b0170-68e1-4263-b856-7ec2cb6b0de8"
+  },
+  {
+    "name": "Mockery Brewing",
+    "lat": 39.771212,
+    "lng": -104.979737,
+    "googlePlaceId": "ChIJAw9dnQR5bIcRkz0GGlQigqM",
+    "website": "http://mockerybrewing.com/",
+    "id": "e48115d0-b78f-4ede-876e-2906fdf98667"
+  },
+  {
+    "name": "Crooked Stave Artisan Beer Project",
+    "lat": 39.768558,
+    "lng": -104.979582,
+    "googlePlaceId": "ChIJKaXonLdkbIcRfdwvx088nEo",
+    "website": "http://csartisans.com/",
+    "id": "e283861a-fdb5-4d0d-8237-5966fcd9f1c4"
+  },
+  {
+    "name": "Denver Beer Co.",
+    "locationName": "Platte Street Taproom",
+    "lat": 39.758233,
+    "lng": -105.007367,
+    "googlePlaceId": "ChIJs2kmHut4bIcRkQyaPSHmobk",
+    "website": "http://denverbeerco.com/locations/platte-street-taproom/",
+    "id": "421b745c-1826-4907-907d-2bc11aa676b5"
+  },
+  {
+    "name": "Diebolt Brewing Company",
+    "lat": 39.770351,
+    "lng": -105.003134,
+    "googlePlaceId": "ChIJ2dZYX_F4bIcRhKc-iGqkX7w",
+    "website": "http://dieboltbrewing.com/contact-us/",
+    "id": "b112fc3d-e61c-4220-944b-80f117928623"
+  },
+  {
+    "name": "Prost Brewing Company",
+    "lat": 39.761408,
+    "lng": -105.006742,
+    "googlePlaceId": "ChIJmzNshex4bIcR7jMK6Qn3gwA",
+    "website": "http://www.prostbrewing.com/",
+    "id": "f224188d-d1b1-41b4-9330-b4bdc93c4234"
+  },
+  {
+    "name": "Briar Common Brewery + Eatery",
+    "lat": 39.751068,
+    "lng": -105.020378,
+    "googlePlaceId": "ChIJP5Do07x4bIcRrBUCu1Ve8EE",
+    "website": "http://briarcommon.com/",
+    "id": "5126b7a5-8513-4b03-ab73-ebc81e0c9c51"
+  },
+  {
+    "name": "Strange Craft Beer Company",
+    "lat": 39.73726,
+    "lng": -105.014804,
+    "googlePlaceId": "ChIJT4fZg7N4bIcRczRuOMzTaL8",
+    "website": "http://www.strangecraftbeerdenver.com/",
+    "id": "371b74ad-afa5-4060-9c13-194fcfd8b9c4"
+  },
+  {
+    "name": "Ursula Brewery",
+    "lat": 39.748301,
+    "lng": -104.83803,
+    "googlePlaceId": "ChIJBcgH61FjbIcRcFmjIi3hZ68",
+    "website": "http://www.ursulabrewery.com/",
+    "id": "76632399-8922-4931-be62-ce9eb6b72338"
+  },
+  {
+    "name": "Dry Dock Brewing Co.",
+    "locationName": "South Dock",
+    "lat": 39.652696,
+    "lng": -104.811942,
+    "googlePlaceId": "ChIJQ0KkmEWIbIcRMxPMGW4gWgw",
+    "website": "https://drydockbrewing.com/locations-hours/south-dock/",
+    "id": "6e9c7891-4cc5-4174-b6ea-ebc3a3b39694"
+  },
+  {
+    "name": "Two22 Brew",
+    "lat": 39.635244,
+    "lng": -104.759133,
+    "googlePlaceId": "ChIJ27N6lGSJbIcR4nRh3uFcJ0g",
+    "website": "http://www.two22brew.com/",
+    "id": "cc9e889a-9d30-4d13-8952-f22a03c6fddc"
+  },
+  {
+    "name": "Dad & Dudes Breweria",
+    "lat": 39.59398,
+    "lng": -104.806376,
+    "googlePlaceId": "ChIJtc9m6i6PbIcRXS5AAcSPTTw",
+    "website": "http://www.breweria.com/",
+    "id": "d6059d8c-fad6-4000-b9a4-91c253cfa749"
+  },
+  {
+    "name": "Seedstock Brewery",
+    "lat": 39.740016,
+    "lng": -105.035073,
+    "googlePlaceId": "ChIJXZ93X-WLbIcRKyHybYOgJZA",
+    "website": "http://seedstockbrewery.com/",
+    "id": "5fee3fff-230a-49fc-bebf-51ff0fc6dc24"
+  },
+  {
+    "name": "The Brew on Broadway",
+    "lat": 39.654104,
+    "lng": -104.988016,
+    "googlePlaceId": "ChIJ2R5cWn6AbIcRXACzJayFAIc",
+    "website": "http://thebrewonbroadway.com/",
+    "id": "7c384c35-217b-4d29-9f4c-fea8bad023e3"
+  },
+  {
+    "name": "Saint Patrick's Brewing Company",
+    "lat": 39.61276,
+    "lng": -105.024499,
+    "googlePlaceId": "ChIJpdywGD-AbIcRUD9ptFxW_AY",
+    "website": "http://www.saintpatricksbrewing.com/",
+    "id": "26c5cc2f-de96-482c-baec-6d88f4ac8ac1"
+  },
+  {
+    "name": "Locavore Beer Works",
+    "lat": 39.608641,
+    "lng": -105.03613,
+    "googlePlaceId": "ChIJdY-Jcit-a4cRtJEI-3QZUqE",
+    "website": "http://www.locavorebeerworks.com/",
+    "id": "80b8490f-7395-4a31-ab0b-e61c2a4bfcf5"
+  },
+  {
+    "name": "Grist Brewing Company",
+    "locationName": "Original Grist",
+    "lat": 39.549053,
+    "lng": -105.033841,
+    "googlePlaceId": "ChIJueYDwIp9a4cR_eetXPTJIpE",
+    "website": "https://www.gristbrewingcompany.com/",
+    "id": "7ff621b6-6090-4d51-88ae-a559d8a3c90b"
+  },
+  {
+    "name": "Blue Spruce Brewing Company",
+    "lat": 39.566909,
+    "lng": -104.939903,
+    "googlePlaceId": "ChIJF_Ec7vWDbIcR3Sbaiv5n86Y",
+    "website": "http://www.bluesprucebrewing.com/",
+    "locationName": "Centennial",
+    "id": "4e6c5544-1584-4bb6-a591-2a1b825ee785"
+  },
+  {
+    "name": "Living The Dream Brewing Company",
+    "lat": 39.540525,
+    "lng": -105.039907,
+    "googlePlaceId": "ChIJA-WDaY99a4cRSv_Flikrr6M",
+    "website": "http://www.livingthedreambrewing.com/",
+    "id": "e651d736-d589-49ab-baaa-c8b9a8880b4a"
+  },
+  {
+    "name": "Halfpenny Brewing Company",
+    "lat": 39.593525,
+    "lng": -104.927405,
+    "googlePlaceId": "ChIJ81u9qbqGbIcRjxxV-79x4p0",
+    "website": "http://www.halfpennybrewing.com/",
+    "id": "ada9d442-c61a-4ee1-944c-188339f7225a"
+  },
+  {
+    "name": "38 State Brewing Company",
+    "lat": 39.568965,
+    "lng": -104.989613,
+    "googlePlaceId": "ChIJn8bjfSyCbIcR2LogONWiN_4",
+    "website": "http://www.38statebrew.com/",
+    "id": "3db776b9-8af0-4748-8d50-17f4272e5043"
+  },
+  {
+    "name": "3 Freaks Brewery",
+    "lat": 39.564884,
+    "lng": -104.905989,
+    "googlePlaceId": "ChIJxUwTTkeEbIcRrwrTor00tHo",
+    "website": "http://www.3freaksbrewery.com/",
+    "id": "de704fc9-93c5-4aef-bc0a-18c9599ca665"
+  },
+  {
+    "name": "Barnett & Son Brewing Company",
+    "lat": 39.522205,
+    "lng": -104.77498,
+    "googlePlaceId": "ChIJg6S5DOCRbIcRv13-hNgwk9Y",
+    "website": "http://www.barnettandsonbrewing.com/",
+    "id": "4dcc80f4-c9b9-4546-83f0-d7330077a96f"
+  },
+  {
+    "name": "105 West Brewing Company",
+    "lat": 39.381136,
+    "lng": -104.867702,
+    "googlePlaceId": "ChIJv0u4nTeYbIcR5Z6ZNboBVS0",
+    "website": "http://www.105westbrewing.com/",
+    "id": "f492ae62-5302-414e-8843-da5da08f8646"
+  },
+  {
+    "name": "Elk Mountain Brewing",
+    "lat": 39.527035,
+    "lng": -104.770214,
+    "googlePlaceId": "ChIJ9ftYMxyObIcRP4eyk4xOofg",
+    "website": "http://www.elkmountainbrewing.com/",
+    "id": "e2206aae-9f86-446f-a965-80dea1df5f7d"
+  },
+  {
+    "name": "Rockyard Brewing Company",
+    "lat": 39.409238,
+    "lng": -104.869856,
+    "googlePlaceId": "ChIJ642p77-ZbIcR4bbt9PGfwvI",
+    "website": "http://www.rockyard.com/",
+    "id": "1fc458d0-fcf6-4d90-b8bf-8e9dadeef67c"
+  },
+  {
+    "name": "Dead Hippie Brewing",
+    "lat": 39.64926,
+    "lng": -105.004022,
+    "googlePlaceId": "ChIJ59SU6HOAbIcRatwx_WO-SEo",
+    "website": "http://www.deadhippiebrewing.com/",
+    "id": "b64f135d-c619-4947-a4bd-c3d5641cde02"
+  },
+  {
+    "name": "Boggy Draw Brewery",
+    "lat": 39.652904,
+    "lng": -105.010541,
+    "googlePlaceId": "ChIJt2nr7QqAbIcRKFRk95f7cBk",
+    "website": "http://www.boggydrawbreweryenglewoodco.com/",
+    "id": "cf2eb396-7fa0-463a-9524-d37b4d101daa"
+  },
+  {
+    "name": "WestFax Brewing Company",
+    "lat": 39.741527,
+    "lng": -105.071036,
+    "googlePlaceId": "ChIJK9fuWiSHa4cR3T6JoQyIxAM",
+    "website": "http://www.westfaxbrewingcompany.com/",
+    "id": "d7792bc4-3067-4187-8beb-ff28f9ac6a90"
+  },
+  {
+    "name": "Great Frontier Brewing Company",
+    "lat": 39.681343,
+    "lng": -105.117704,
+    "googlePlaceId": "ChIJofQDhXiBa4cRljPe7jUXfA0",
+    "website": "http://www.greatfrontierbeer.com/",
+    "id": "d51143cc-ce59-4014-917e-7424e0296dcf"
+  },
+  {
+    "name": "Ironworks Brewery & Pub",
+    "lat": 39.703915,
+    "lng": -105.136217,
+    "googlePlaceId": "ChIJjwQU6OWDa4cRNsYwEHayz20",
+    "website": "http://www.ironworkspub.com/",
+    "id": "c095bbee-6448-4184-a3ef-1b7869cde710"
+  },
+  {
+    "name": "Green Mountain Beer Company",
+    "lat": 39.669949,
+    "lng": -105.113682,
+    "googlePlaceId": "ChIJHfj-FJCBa4cRN0AdDO4DeHU",
+    "website": "http://www.greenmountainbeercompany.com/",
+    "id": "d2ca9c44-5804-4501-8ad0-2c3ddbc82595"
+  },
+  {
+    "name": "CAUTION: Brewing Company",
+    "lat": 39.698131,
+    "lng": -105.082399,
+    "googlePlaceId": "ChIJSQhhVRyBa4cRkMFTzKFwMk4",
+    "website": "http://www.cautionbrewingco.com/",
+    "id": "21188173-9fb0-4a9e-a4de-78d39b2dc52f"
+  },
+  {
+    "name": "Hogshead Brewery",
+    "lat": 39.758199,
+    "lng": -105.045039,
+    "googlePlaceId": "ChIJYVlUnm-Ha4cRWR-pLf1PChs",
+    "website": "http://www.hogsheadbrewery.com/",
+    "id": "94e99d88-7706-4ebd-8b1f-478741776020"
+  },
+  {
+    "name": "Joyride Brewing Company",
+    "lat": 39.753124,
+    "lng": -105.053446,
+    "googlePlaceId": "ChIJxZSKEmuHa4cRnHpq2FyH10c",
+    "website": "http://joyridebrewing.com/",
+    "id": "0343b90c-126b-4f32-9348-a75cebb723d6"
+  },
+  {
+    "name": "De Steeg Brewing",
+    "lat": 39.776057,
+    "lng": -105.043506,
+    "googlePlaceId": "ChIJcxvcqYSHa4cRrXeOrBXD_oE",
+    "website": "http://desteegbrewing.com/",
+    "id": "d4912bc9-0f28-44ef-b326-7daff96bff5e"
+  },
+  {
+    "name": "Call to Arms Brewery",
+    "lat": 39.77893,
+    "lng": -105.043615,
+    "googlePlaceId": "ChIJg6lFKYWHa4cRJbp9ZoNPN4c",
+    "website": "http://www.calltoarmsbrewing.com/",
+    "id": "641ed9db-05f1-4f0d-8303-25e9e2502319"
+  },
+  {
+    "name": "Brewery Rickoli",
+    "lat": 39.775749,
+    "lng": -105.081791,
+    "googlePlaceId": "ChIJrSOzhlKGa4cRb5NHB_LYUxg",
+    "website": "http://www.breweryrickoli.com/",
+    "id": "9a03d032-4c3a-4457-99e7-1c812c3d2dfd"
+  },
+  {
+    "name": "Yak and Yeti Restaurant and Brewpub",
+    "lat": 39.802289,
+    "lng": -105.084163,
+    "googlePlaceId": "ChIJIZOu6SuGa4cRh4xAPHPxHZ0",
+    "website": "http://theyakandyeti.com/",
+    "id": "22c84f51-aab7-44f1-b5b0-c02564725396"
+  },
+  {
+    "name": "Goldspot Brewing Company",
+    "lat": 39.786886,
+    "lng": -105.034315,
+    "googlePlaceId": "ChIJy9JbjomHa4cRzRcOcSnrcBs",
+    "website": "http://goldspotbrewing.com/",
+    "id": "584e5ce8-5bce-425b-8fdd-b784dc075a85"
+  },
+  {
+    "name": "Creede Brewing Company",
+    "lat": 39.829359,
+    "lng": -104.977116,
+    "googlePlaceId": "ChIJzVF2bnp3bIcR_YbGnM0PlC0",
+    "website": "http://www.jmoes.net/",
+    "id": "505b7c2c-20bf-413b-8ddf-7455486dba8b"
+  },
+  {
+    "name": "Odyssey Beerwerks",
+    "lat": 39.80086,
+    "lng": -105.058954,
+    "googlePlaceId": "ChIJm40EpcKHa4cR6VCHoHMScHU",
+    "website": "http://www.odysseybeerwerks.com/",
+    "id": "79b69cf4-a74d-4d68-95d9-d13cc8f0618e"
+  },
+  {
+    "name": "Kokopelli Beer Company",
+    "lat": 39.858669,
+    "lng": -105.065231,
+    "googlePlaceId": "ChIJ2VXQkbCJa4cRbUbsbKALsIM",
+    "website": "http://kokopellibeer.com/",
+    "id": "ef36427a-de54-4dba-834f-e36f302b4577"
+  },
+  {
+    "name": "Westminster Brewing Company",
+    "lat": 39.893247,
+    "lng": -105.083016,
+    "googlePlaceId": "ChIJI5UDvNOLa4cRLzG2FGc3mks",
+    "website": "http://westminsterbrewingco.com/",
+    "id": "ea5c5a02-b5a4-444a-91b3-09016264f0ec"
+  },
+  {
+    "name": "Beer by Design Brewery",
+    "lat": 39.899194,
+    "lng": -104.963318,
+    "closed": true,
+    "googlePlaceId": "ChIJWbcKaZ92bIcRBlWA1l35drE",
+    "website": "http://www.beerbydesign.com/",
+    "id": "c7d3d55d-8b87-4f2f-85c6-c476a063c365"
+  },
+  {
+    "name": "Wonderland Brewing Company",
+    "lat": 39.913324,
+    "lng": -105.055853,
+    "googlePlaceId": "ChIJudOw10GKa4cRdP7c0XxRiK8",
+    "website": "http://wonderlandbrewing.com/",
+    "id": "015bd4f8-eb92-4784-b1b2-edb94eae4e76"
+  },
+  {
+    "name": "Rails End Beer Company",
+    "lat": 39.908463,
+    "lng": -105.075054,
+    "googlePlaceId": "ChIJ5dzrbUqKa4cRYvMAzgoopGo",
+    "website": "http://www.railsendbeerco.com/",
+    "id": "059d82ce-63a5-493e-83bb-cd000582cfd3"
+  },
+  {
+    "name": "4 Noses Brewing Company",
+    "lat": 39.906449,
+    "lng": -105.098594,
+    "googlePlaceId": "ChIJ__RsGr-La4cRxZjhPokFgdA",
+    "website": "http://www.4nosesbrewing.com/",
+    "id": "cfaecd05-16f5-46ec-95e2-52cf0ee5cabe"
+  },
+  {
+    "name": "Gravity Brewing",
+    "lat": 39.97608,
+    "lng": -105.128643,
+    "googlePlaceId": "ChIJCcbjKl_za4cR01mcaweoUGo",
+    "website": "http://www.thegravitybrewing.com/",
+    "id": "382e24bc-3653-423b-9469-5d83b0500b2a"
+  },
+  {
+    "name": "Gordon Biersch Brewery Restaurant",
+    "lat": 39.930583,
+    "lng": -105.135398,
+    "googlePlaceId": "ChIJvZii0JqMa4cR8zIYt_8BpZk",
+    "website": "http://www.gordonbiersch.com/locations/broomfield?action=view",
+    "id": "5e4b2343-0574-4f1a-9cd9-43759b9cc27e"
+  },
+  {
+    "name": "Crystal Springs Brewing Company",
+    "lat": 39.960592,
+    "lng": -105.120261,
+    "googlePlaceId": "ChIJfao9YFOLa4cR9-7DKm8DwWI",
+    "website": "http://www.crystalspringsbrewing.com/",
+    "id": "f0770695-1fa2-4f3d-aa60-cfacd5812cf2"
+  },
+  {
+    "name": "12Degree Brewing",
+    "lat": 39.97824,
+    "lng": -105.131992,
+    "googlePlaceId": "ChIJV5-01V3za4cRHErorPGilxs",
+    "website": "http://www.12degree.com/",
+    "id": "bc02666a-7dab-47d5-afc0-f107200bee06"
+  },
+  {
+    "name": "Odd13 Brewing",
+    "lat": 39.998383,
+    "lng": -105.087843,
+    "googlePlaceId": "ChIJ_R0qA_v0a4cRJi1lkwuinH8",
+    "website": "http://www.odd13brewing.com/",
+    "id": "500972d2-58c9-40a1-8ab8-f0396e0daa0c"
+  },
+  {
+    "name": "Front Range Brewing Company",
+    "lat": 39.985625,
+    "lng": -105.094892,
+    "googlePlaceId": "ChIJEW-Ne-f0a4cR5bhZnyeV538",
+    "website": "http://www.frontrangebrewingcompany.com/",
+    "id": "fbc01749-34a5-47d7-b8b4-01fc7584298b"
+  },
+  {
+    "name": "The Post Brewing Co.",
+    "locationName": "Lafayette",
+    "lat": 39.994389,
+    "lng": -105.091253,
+    "googlePlaceId": "ChIJmXAejO_0a4cRIMxxNraJMGs",
+    "website": "http://www.postbrewing.com/lafayette",
+    "id": "efcd03f5-f64c-4ada-b7b9-7d80b6773d8e"
+  },
+  {
+    "name": "Big Choice Brewing",
+    "lat": 39.986387,
+    "lng": -104.8232262,
+    "googlePlaceId": "ChIJZeLbJ0uKa4cRdq5lZDB9QfY",
+    "website": "http://www.bigchoicebrewing.com/",
+    "id": "25645342-905d-4de2-92fc-307422b6f333"
+  },
+  {
+    "name": "U Turn BBQ",
+    "lat": 40.003452,
+    "lng": -105.101617,
+    "googlePlaceId": "ChIJq6qeR_X0a4cRFEGd2IDxX6U",
+    "website": "http://uturnbbq.com/",
+    "id": "552e132e-8e17-462f-a740-6d6d7cd45e32"
+  },
+  {
+    "name": "Echo Brewing",
+    "lat": 40.05043,
+    "lng": -105.047755,
+    "googlePlaceId": "ChIJe3TUXNEIbIcR6LdAA4a_UWI",
+    "website": "http://www.echobrewing.com/",
+    "id": "2a275d07-f28d-4c40-932f-27c987d30c97"
+  },
+  {
+    "name": "Liquid Mechanics Brewing Company",
+    "lat": 39.99972,
+    "lng": -105.103518,
+    "googlePlaceId": "ChIJaVkaXIv0a4cRY0wrDeNceBg",
+    "website": "http://liquidmechanicsbrewing.com/",
+    "id": "5905984b-c0ab-4980-b9a5-a6233ef3a010"
+  },
+  {
+    "name": "Mountain Sun Pub & Brewery",
+    "locationName": "Southern Sun Pub & Brewery",
+    "lat": 39.984316,
+    "lng": -105.249367,
+    "googlePlaceId": "ChIJo4V38Anta4cRLCiqcjrj9mc",
+    "website": "http://www.mountainsunpub.com/",
+    "id": "26ddb1fb-0eb1-45c1-8d96-d42ff76e16ff"
+  },
+  {
+    "name": "FATE Brewing Company - Boulder",
+    "lat": 40.015096,
+    "lng": -105.245734,
+    "googlePlaceId": "ChIJkzs51sLta4cReynXvDD7kss",
+    "website": "http://www.fatebrewingcompany.com/",
+    "id": "fd9fe79b-5f75-4d1d-912a-3dcfdad88c74"
+  },
+  {
+    "name": "VisionQuest Brewery",
+    "lat": 40.02627,
+    "lng": -105.243694,
+    "googlePlaceId": "ChIJP7DNqgrua4cRI9qBlFEUSk4",
+    "website": "http://visionquestbrewing.com/",
+    "id": "fcbd361e-09b6-4966-a075-6ecef70d1384"
+  },
+  {
+    "name": "Kettle and Spoke Brewery",
+    "lat": 40.02589,
+    "lng": -105.242828,
+    "googlePlaceId": "ChIJ042p-N_ta4cRuv1-Q6nscBc",
+    "website": "http://kettleandspoke.com/",
+    "id": "b58db495-b7b4-4d19-b19a-dcd66baec308"
+  },
+  {
+    "name": "Boulder Beer Company",
+    "locationName": "The Pub On Wilderness",
+    "lat": 40.026571,
+    "lng": -105.248054,
+    "googlePlaceId": "ChIJi3Yuw3Xua4cRlhWnWu2hujE",
+    "website": "http://www.boulderbeer.com/",
+    "id": "c984d247-8bda-4b36-af65-04c65e4b36d1"
+  },
+  {
+    "name": "Sanitas Brewing Company",
+    "lat": 40.021394,
+    "lng": -105.247332,
+    "googlePlaceId": "ChIJNR0O297ta4cRo3mZc_QoWTc",
+    "website": "http://www.sanitasbrewing.com/",
+    "id": "74ea4292-d163-4748-875f-759b38b68cd1"
+  },
+  {
+    "name": "Twisted Pine Brewing Company",
+    "lat": 40.020524,
+    "lng": -105.251073,
+    "googlePlaceId": "ChIJ0YswZdnta4cRqludvCGJrQ8",
+    "website": "http://twistedpinebrewing.com/",
+    "id": "abfc5d71-63e1-4cab-a11f-805bb5014fc2"
+  },
+  {
+    "name": "Upslope Brewing Company - Flatiron Park",
+    "lat": 40.020267,
+    "lng": -105.218383,
+    "googlePlaceId": "ChIJWfRG6Qfya4cRP2by2QjKl3M",
+    "website": "http://upslopebrewing.com/",
+    "id": "eae25c28-c785-4e36-ac6d-acbbf0022ce9"
+  },
+  {
+    "name": "BJ's Restaurant & Brewhouse",
+    "locationName": "Boulder",
+    "lat": 40.017739,
+    "lng": -105.257825,
+    "googlePlaceId": "ChIJ5795rtHta4cRCCFi66t4Xws",
+    "website": "http://www.bjsrestaurants.com/locations/co/boulder",
+    "id": "dbe40351-9d0a-47fd-8d12-0acec57868f2"
+  },
+  {
+    "name": "Shine Restaurant and Gathering Place",
+    "lat": 40.01877,
+    "lng": -105.279184,
+    "closed": true,
+    "id": "1d1c11d5-2143-42f9-a693-7694abe76a44"
+  },
+  {
+    "name": "White Labs Boulder Tasting Room",
+    "lat": 40.019901,
+    "lng": -105.218079,
+    "googlePlaceId": "ChIJy2z0G7Pzb0ARQsvzskYieh4",
+    "website": "http://www.whitelabs.com/",
+    "id": "1afe534c-866b-4026-a243-f71013b3334a"
+  },
+  {
+    "name": "Mountain Sun Pub & Brewery",
+    "locationName": "Mountain Sun Pub & Brewery",
+    "lat": 40.018997,
+    "lng": -105.275235,
+    "googlePlaceId": "ChIJIVg0_ijsa4cRGkwGu-Jw-fo",
+    "website": "http://www.mountainsunpub.com/",
+    "id": "3ca35a3d-972e-4391-a928-9b7f7c2cb1f8"
+  },
+  {
+    "name": "West Flanders Brewing Company",
+    "lat": 40.018024,
+    "lng": -105.280716,
+    "googlePlaceId": "ChIJCZAlVCbsa4cRGGGxhIGIlwg",
+    "website": "http://wfbrews.com/",
+    "id": "a5b25ce2-2de0-4e72-bbcc-0674bd6c5e60"
+  },
+  {
+    "name": "Walnut Brewery",
+    "lat": 40.01687,
+    "lng": -105.280435,
+    "closed": true,
+    "googlePlaceId": "ChIJ33E-Zybsa4cRradD8syOA3Y",
+    "website": "http://www.boulderbeer.com/",
+    "id": "9701bfa0-21ce-4efd-a2d4-9c4729976a44"
+  },
+  {
+    "name": "Cellar West Artisan Ales",
+    "lat": 40.063048,
+    "lng": -105.284171,
+    "googlePlaceId": "ChIJ0X0EdB7va4cR1t8NzNLXgaE",
+    "website": "http://www.cellarwest.com/",
+    "id": "04538a41-6707-4d76-b726-b44465c9d73f"
+  },
+  {
+    "name": "Upslope Brewing Company - Lee Hill",
+    "lat": 40.062991,
+    "lng": -105.279397,
+    "googlePlaceId": "ChIJST2eOx3va4cRPXMokfU-jNY",
+    "website": "http://www.upslopebrewing.com/",
+    "id": "d0f6b954-0944-4a75-a1ab-9e084a53d71d"
+  },
+  {
+    "name": "Asher Brewing Company",
+    "lat": 40.060132,
+    "lng": -105.205916,
+    "googlePlaceId": "ChIJHbuycsXxa4cRP-4h5pr42lY",
+    "website": "http://www.asherbrewing.com/",
+    "id": "4ae14b61-6b63-4919-bdd0-b842c336f611"
+  },
+  {
+    "name": "Finkel & Garf Brewing Company",
+    "lat": 40.073947,
+    "lng": -105.202422,
+    "googlePlaceId": "ChIJS-HTnTPwa4cRZts7nsR_DeA",
+    "website": "http://www.finkelandgarf.com/",
+    "id": "6c4c05b0-8563-4dcc-8521-ba06aac2e8c4"
+  },
+  {
+    "name": "Vindication Brewing",
+    "lat": 40.076828,
+    "lng": -105.192969,
+    "googlePlaceId": "ChIJd-5kzUvwa4cRTNzBxl3q840",
+    "website": "http://vindicationbrewing.com/",
+    "id": "59ddf1c1-4b82-4594-83c8-a08e710f25eb"
+  },
+  {
+    "name": "Avery Brewing Company",
+    "lat": 40.062561,
+    "lng": -105.204743,
+    "googlePlaceId": "ChIJoe7MMgjya4cRRiQzBFTNDLk",
+    "website": "http://averybrewing.com/",
+    "id": "5e3667f2-4888-4a89-8b7d-1c9f7c960668"
+  },
+  {
+    "name": "Powder Keg Brewing Company",
+    "lat": 40.103378,
+    "lng": -105.172881,
+    "googlePlaceId": "ChIJQRWsg2Lwa4cRU9JnKgzWIbg",
+    "website": "http://www.powderkegbrewingcompany.com/",
+    "id": "46ac6750-39a3-42d9-a092-391dbf332a40"
+  },
+  {
+    "name": "Bootstrap Brewing Company",
+    "lat": 40.099925,
+    "lng": -105.168499,
+    "googlePlaceId": "ChIJJSIcGIvwa4cRYOtZ2v6LjM0",
+    "website": "http://www.bootstrapbrewing.com/",
+    "id": "2184c8bf-b2f6-4861-8463-da3e782cd491"
+  },
+  {
+    "name": "Großen Bart Brewery",
+    "lat": 40.154447,
+    "lng": -105.109275,
+    "googlePlaceId": "ChIJW9LZCJr5a4cRRIh2hhi3V5w",
+    "website": "http://grossenbart.com/index.html",
+    "id": "11a1e4ec-1f03-483f-98ed-03fd276c6099"
+  },
+  {
+    "name": "Oskar Blues Home Made Liquids & Solids",
+    "lat": 40.139175,
+    "lng": -105.131508,
+    "googlePlaceId": "ChIJb3IFSB_6a4cRbVzNdVMYpK4",
+    "website": "http://oskarbluesfooderies.com/oskar-blues/oskar-blues-longmont/",
+    "id": "8efb61e8-ab0a-4eb0-ad55-8a58856ca3e4"
+  },
+  {
+    "name": "300 Suns Brewing",
+    "lat": 40.159903,
+    "lng": -105.101228,
+    "googlePlaceId": "ChIJzTJtH6L5a4cRxe_WXDORfxc",
+    "website": "http://300sunsbrewing.com/",
+    "id": "b6f8a1b3-6e7f-4c48-9aa5-21c1a229510c"
+  },
+  {
+    "name": "Shoes & Brews",
+    "lat": 40.158043,
+    "lng": -105.107576,
+    "googlePlaceId": "ChIJ01DGQpn5a4cRs2VPIaQmkgY",
+    "website": "http://www.shoesbrews.com/",
+    "id": "28658be2-e797-4fef-85ed-224403c46d3c"
+  },
+  {
+    "name": "Left Hand Brewing Company",
+    "lat": 40.158333,
+    "lng": -105.115089,
+    "googlePlaceId": "ChIJ2cylXYP5a4cR97u-1MG0f3U",
+    "website": "http://www.lefthandbrewing.com/",
+    "id": "3fc66a65-7810-4530-8359-b086b0eebeca"
+  },
+  {
+    "name": "Pumphouse Brewery",
+    "lat": 40.16883,
+    "lng": -105.102188,
+    "googlePlaceId": "ChIJdTCsMgv5a4cRJsUrOdu3f1Q",
+    "website": "http://pumphousebrewery.com/",
+    "id": "809e1f2d-18b1-4bb9-bf01-8e7a59e84681"
+  },
+  {
+    "name": "SKEYE Brewing",
+    "lat": 40.151994,
+    "lng": -105.130248,
+    "googlePlaceId": "ChIJNQcimCj6a4cRngdq845gJws",
+    "website": "http://www.skeyebrewing.com/",
+    "id": "f0612b3c-4c73-46da-896e-c18b2eb3fae7"
+  },
+  {
+    "name": "Oskar Blues Grill & Brew",
+    "lat": 40.224326,
+    "lng": -105.268592,
+    "googlePlaceId": "ChIJ716ibVXia4cRX3-fPmu9lho",
+    "website": "http://oskarblues.com/",
+    "id": "265a8c11-0045-4666-ad0a-43f08083947f"
+  },
+  {
+    "name": "Wibby Brewing",
+    "lat": 40.162291,
+    "lng": -105.100186,
+    "googlePlaceId": "ChIJfW8nqaH5a4cR_ZNBUxJkl_w",
+    "website": "http://www.wibbybrewing.com/",
+    "id": "3fc700f9-5375-4cf0-84db-75dc39f38959"
+  },
+  {
+    "name": "Pikes Peak Brewing Company",
+    "lat": 39.0958347,
+    "lng": -104.85959960000002,
+    "googlePlaceId": "ChIJKXezpO-tbIcRS-iX5foCXYk",
+    "website": "http://www.pikespeakbrewing.com/",
+    "id": "dedbb962-d386-4701-91ed-8b6473c178dc"
+  },
+  {
+    "name": "JAKs Brewing Company",
+    "lat": 38.970157,
+    "lng": -104.60692140000003,
+    "googlePlaceId": "ChIJJaxisPs2E4cR9KTV2xajtAw",
+    "website": "http://www.jaksbrewing.com/",
+    "id": "8f6bbc89-bb48-4dff-b75b-6b36c0ed8ee4"
+  },
+  {
+    "name": "Colorado Mountain Brewery",
+    "lat": 38.9934219,
+    "lng": -104.81175810000002,
+    "googlePlaceId": "ChIJGf67bwhNE4cRceCyXKeVzio",
+    "website": "http://www.cmbrew.com/",
+    "id": "f5fc1e03-47c7-4da0-a196-18f54f82022a"
+  },
+  {
+    "name": "Lone Tree Brewing Company",
+    "lat": 39.562658,
+    "lng": -104.89286800000002,
+    "googlePlaceId": "ChIJGRZ5t0yEbIcRuQE2GQZsAVE",
+    "website": "http://www.lonetreebrewingco.com/",
+    "id": "7f4c7e4d-e8e2-4263-9aab-5c0c77846067"
+  },
+  {
+    "name": "Peaks N Pines Brewery",
+    "lat": 38.889596,
+    "lng": -104.71348239999998,
+    "googlePlaceId": "ChIJGwyZg4VIE4cRjUapGPNLAy8",
+    "website": "http://www.peaksnpinesbrewery.com/",
+    "id": "571bc9db-5d01-4f21-aeab-a15805e7cb67"
+  },
+  {
+    "name": "Whistle Pig Brewing Company",
+    "lat": 38.9240604,
+    "lng": -104.79277179999997,
+    "googlePlaceId": "ChIJLQuALfFOE4cRbCMBNU4rYLQ",
+    "website": "http://www.whistlepigbrewing.com/",
+    "id": "2713e310-63a6-4d64-b62f-93ec35b7d9d2"
+  },
+  {
+    "name": "Nano 108 Brewery",
+    "lat": 38.8666517,
+    "lng": -104.7178298,
+    "googlePlaceId": "ChIJHWkofTpGE4cRAMZCYe0EShY",
+    "website": "http://nano108brewing.com/",
+    "id": "ece341c8-b795-4084-9e61-235e52ad82c8"
+  },
+  {
+    "name": "Red Leg Brewing Company",
+    "lat": 38.898022,
+    "lng": -104.84179599999999,
+    "googlePlaceId": "ChIJZz5h7dZPE4cRonqxmUm3PzI",
+    "website": "http://www.redlegbrewing.com/",
+    "id": "96bc5e03-3595-4ebe-acce-3895cca50906"
+  },
+  {
+    "name": "Great Storm Brewing",
+    "lat": 38.890442,
+    "lng": -104.81817999999998,
+    "googlePlaceId": "ChIJG0dZ8b5PE4cRdFRrfmESXNU",
+    "website": "http://www.greatstormbrewing.com/",
+    "id": "97e4c43e-4e29-4b10-9b4b-ca58906d41c1"
+  },
+  {
+    "name": "Storybook Brewing",
+    "lat": 38.8776529,
+    "lng": -104.81244420000002,
+    "googlePlaceId": "ChIJ0SQnL5BPE4cRNgKNuI5FHws",
+    "website": "http://www.storybookbrewing.com/",
+    "id": "e2821b29-d1b9-4809-8d48-905d7e643521"
+  },
+  {
+    "name": "Trinity Brewing Co",
+    "lat": 38.8974503,
+    "lng": -104.85433890000002,
+    "googlePlaceId": "ChIJgYt0Ci5QE4cR47D5cu-7fJw",
+    "website": "http://trinitybrew.com/",
+    "id": "9503aed0-ec37-45d2-9169-e09a61b2b1b0"
+  },
+  {
+    "name": "Fossil Craft Beer Company",
+    "lat": 38.8487338,
+    "lng": -104.87077740000001,
+    "googlePlaceId": "ChIJ2VeBhpdaE4cRaBQku4QW420",
+    "website": "http://www.fossilcraftbeer.com/",
+    "id": "1c6fef87-4e7c-4900-b730-45bd4d3187f3"
+  },
+  {
+    "name": "Castle Rock Beer Company",
+    "lat": 39.37521999999999,
+    "lng": -104.858382,
+    "googlePlaceId": "ChIJ7aQlozyYbIcRaRtr2lqebsQ",
+    "website": "http://www.castlerockbeerco.com/",
+    "id": "a7e57aae-bba1-4b0b-bf96-b8e49155edf0"
+  },
+  {
+    "name": "New Belgium Brewing Company",
+    "lat": 40.5927963,
+    "lng": -105.068601,
+    "googlePlaceId": "ChIJjeSAApJKaYcRKv8bH2qWBP4",
+    "website": "http://www.newbelgium.com/",
+    "id": "28862fe0-e869-498b-8182-56e73ab38c40"
+  },
+  {
+    "name": "Cerberus Brewing Company",
+    "lat": 38.8330164,
+    "lng": -104.8374187,
+    "googlePlaceId": "ChIJxcdfLy5FE4cRxvDgZ59-MJE",
+    "website": "http://www.cerberusbrewingco.com/",
+    "id": "8c0617d2-261d-4581-b2e6-0c7157c08620"
+  },
+  {
+    "name": "The Industrial Revolution Brewing Company",
+    "lat": 40.051861,
+    "lng": -105.048634,
+    "googlePlaceId": "ChIJJQlWVrSLa4cRVlEr2DmKzvg",
+    "website": "http://www.theirbc.com/",
+    "id": "35ab3cd9-a17e-4e77-ad64-fd2d51097db2"
+  },
+  {
+    "name": "Fort Collins Brewery & Tavern",
+    "lat": 40.589257,
+    "lng": -105.058516,
+    "closed": true,
+    "googlePlaceId": "ChIJ_Zd5z4pKaYcRe-dEmPXervE",
+    "website": "http://www.mainlinefoco.com/",
+    "id": "274521ef-b979-4374-a833-631a53d2669a"
+  },
+  {
+    "name": "Odell Brewing Company",
+    "lat": 40.58946739999999,
+    "lng": -105.06318190000002,
+    "googlePlaceId": "ChIJGRU_s-xKaYcRJNVJw2tch2Q",
+    "website": "http://www.odellbrewing.com/",
+    "id": "9432a3bc-e55c-4c8e-9aff-c9657408f97c"
+  },
+  {
+    "name": "Wild Woods Brewery",
+    "lat": 40.016127,
+    "lng": -105.225937,
+    "googlePlaceId": "ChIJBz2t0fDta4cRMQsXC8TbM3I",
+    "website": "http://www.wildwoodsbrewery.com/",
+    "id": "05b87cc1-1d8a-4cdd-8fdd-df12ae1848e2"
+  },
+  {
+    "name": "snowbank brewing",
+    "lat": 40.5899624,
+    "lng": -105.05866789999999,
+    "googlePlaceId": "ChIJZZpMKZVKaYcRGp_WrnId3Gc",
+    "website": "http://www.snowbank.beer/",
+    "id": "7be9597e-7b62-45e8-bfd0-f9593d70d286"
+  },
+  {
+    "name": "Funkwerks, Inc.",
+    "lat": 40.583127,
+    "lng": -105.041992,
+    "googlePlaceId": "ChIJX5z1u89KaYcR49QLxbQkGN0",
+    "website": "http://www.funkwerks.com/",
+    "id": "c5c96f0d-05d9-4a9a-b3fa-e9bef1d806ca"
+  },
+  {
+    "name": "Horse & Dragon Brewing Company, Craft Brewery",
+    "lat": 40.58964400000001,
+    "lng": -105.04562299999998,
+    "googlePlaceId": "ChIJnTTquMdKaYcRMXvpjUgGsQ4",
+    "website": "http://www.horseanddragonbrewing.com/",
+    "id": "d9a4aacc-0286-46c7-a84f-34a2caf1d76a"
+  },
+  {
+    "name": "Coopersmith's Pub & Brewing",
+    "lat": 40.5873521,
+    "lng": -105.07565970000002,
+    "googlePlaceId": "ChIJe4RKKYtKaYcRZHdJ0hwEyFQ",
+    "website": "http://www.coopersmithspub.com/",
+    "id": "ce72b769-6ae4-4d52-9025-cd0d0e288a6c"
+  },
+  {
+    "name": "Equinox Brewing",
+    "lat": 40.58632679999999,
+    "lng": -105.07569430000001,
+    "googlePlaceId": "ChIJ8VEm2_RKaYcR7zUXafhcxkg",
+    "website": "http://www.equinoxbrewing.com/",
+    "id": "5641a14b-076a-4389-9b1c-d57c6685a794"
+  },
+  {
+    "name": "Black Bottle Brewery",
+    "lat": 40.5664414,
+    "lng": -105.07866769999998,
+    "googlePlaceId": "ChIJs563JQBLaYcRf8IJP-I6HmQ",
+    "website": "http://www.blackbottlebrewery.com/",
+    "id": "426372e0-1e88-4184-8822-71246799f5dc"
+  },
+  {
+    "name": "McClellan's Brewing Company",
+    "lat": 40.5728462,
+    "lng": -105.1153976,
+    "googlePlaceId": "ChIJi3d2QyVKaYcRxVUHH09L_cg",
+    "website": "http://www.mcclellansbrewingcompany.com/",
+    "id": "264fd057-79ee-4ab5-a040-8d09f09aee77"
+  },
+  {
+    "name": "BRU Handbuilt Ales & Eats",
+    "lat": 40.014167,
+    "lng": -105.229954,
+    "googlePlaceId": "ChIJR5HxvvHta4cREteRzJauKsE",
+    "website": "http://www.bruboulder.com/",
+    "id": "b62d3817-5a43-45c5-8316-43170ebd2945"
+  },
+  {
+    "name": "Rally King Brewing",
+    "lat": 40.5661171,
+    "lng": -105.0567484,
+    "googlePlaceId": "ChIJzSkBQh9LaYcRKO1EPMeymHQ",
+    "website": "http://rallykingbrewing.com/",
+    "id": "c3890a13-393f-41c7-a5a8-61da08d234df"
+  },
+  {
+    "name": "Jessup Farm Barrel House",
+    "lat": 40.56217979999999,
+    "lng": -105.03784100000001,
+    "googlePlaceId": "ChIJN8CqBjJLaYcRKlRtWju_kDg",
+    "website": "http://www.jessupfarmbarrelhouse.com/",
+    "id": "f9dd396d-b1c4-4df9-90da-44851315ecf9"
+  },
+  {
+    "name": "Intersect Brewing",
+    "lat": 40.5541952,
+    "lng": -105.1178329,
+    "googlePlaceId": "ChIJmTnJrNFLaYcRRwC_wXra63M",
+    "website": "http://www.intersectbrewing.com/",
+    "id": "740f702f-87a6-420d-a3d4-5f223c6e7290"
+  },
+  {
+    "name": "Maxline Brewing",
+    "lat": 40.549705,
+    "lng": -105.079252,
+    "googlePlaceId": "ChIJm6u6gaBLaYcRGZYp8vPPoa0",
+    "website": "http://maxlinebrewing.com/",
+    "id": "51e3c77a-b269-4ae6-93e3-5eb1ade96a02"
+  },
+  {
+    "name": "Gilded Goat Brewing Company",
+    "lat": 40.539772,
+    "lng": -105.075426,
+    "googlePlaceId": "ChIJyySmEXdLaYcRkmURKQasnf4",
+    "website": "https://gildedgoatbrewing.com/",
+    "id": "5daf17d4-9d00-4e67-9cc7-cc1737fafd22"
+  },
+  {
+    "name": "Three Four Beer Co.",
+    "lat": 40.5751455,
+    "lng": -105.09664659999999,
+    "googlePlaceId": "ChIJy9lg_UVKaYcRqPFguPfaeNc",
+    "website": "http://www.threefourbeerco.com/",
+    "id": "c9a84a95-e486-40a1-a2e8-fdafc4262b98"
+  },
+  {
+    "name": "Zwei Brewing Co.",
+    "lat": 40.5227531,
+    "lng": -105.07835990000001,
+    "googlePlaceId": "ChIJGyQVVPVKaYcRVxEe1NbseCU",
+    "website": "http://zweibrewing.com/",
+    "id": "27e899f5-b40e-4d8e-8af6-beb513a05bb1"
+  },
+  {
+    "name": "Mash Lab Brewing",
+    "lat": 40.437857,
+    "lng": -104.9682009,
+    "googlePlaceId": "ChIJ8wvsArytbocReVfnhJG9mwU",
+    "website": "http://www.mashlabbrewing.com/",
+    "id": "5dc649dc-2ba3-4c90-ab9d-4f9e01c9d3a6"
+  },
+  {
+    "name": "High Hops Brewery",
+    "lat": 40.4806871,
+    "lng": -104.9356128,
+    "googlePlaceId": "ChIJgXdO-PaxbocRqtrLgw6w5MQ",
+    "website": "http://www.highhopsbrewery.com/",
+    "id": "e198c1fc-e437-48f9-83d3-b58e668ea932"
+  },
+  {
+    "name": "Big Beaver Brewing Co",
+    "lat": 40.4079804,
+    "lng": -105.114465,
+    "googlePlaceId": "ChIJX4rFBi5SaYcRc1yUKe5sMq0",
+    "website": "http://www.bigbeaverbrew.com/",
+    "id": "0694d92e-e3ba-42d2-93cf-7dea89e2b1b7"
+  },
+  {
+    "name": "Buckhorn Brewers llc",
+    "lat": 40.40788209999999,
+    "lng": -105.13812009999998,
+    "googlePlaceId": "ChIJpwfoxZpRaYcRf70w01tJVrs",
+    "website": null,
+    "id": "e52d600c-05db-42cf-a695-771614ebb018"
+  },
+  {
+    "name": "Grimm Brothers Brewhouse",
+    "lat": 40.39676300000001,
+    "lng": -105.04694899999998,
+    "googlePlaceId": "ChIJDeygITpTaYcReJj_uVydpFk",
+    "website": "http://www.grimmbrosbrewhouse.com/",
+    "id": "942195ca-fe9b-45ce-b944-100f71802853"
+  },
+  {
+    "name": "Broken Plow Brewery",
+    "lat": 40.4219791,
+    "lng": -104.75721490000001,
+    "googlePlaceId": "ChIJcyMm0AikbocRMGN6lUBt3hk",
+    "website": "http://www.brokenplowbrewery.com/",
+    "id": "013ca97c-9f04-4c4a-80f1-84741ffff75d"
+  },
+  {
+    "name": "Verboten Brewing and Barrel Project",
+    "lat": 40.396818,
+    "lng": -105.07511499999998,
+    "googlePlaceId": "ChIJa-ZUUT1TaYcROFIzNY-qc1E",
+    "website": "http://www.verbotenbrewing.com/",
+    "id": "4ca9bb13-72fb-47fd-8452-b440562aa849"
+  },
+  {
+    "name": "Crabtree Brewing Company",
+    "lat": 40.3909542,
+    "lng": -104.7268924,
+    "googlePlaceId": "ChIJ20kfhDyibocRW49wibY5gYY",
+    "website": "http://www.crabtreebrewing.com/",
+    "id": "40b0beae-7947-490c-b0b4-be894da4e93e"
+  },
+  {
+    "name": "Brix Taphouse & Brewery",
+    "lat": 40.425166,
+    "lng": -104.69160049999999,
+    "googlePlaceId": "ChIJ_63-uSWibocR7WQ-OuLp9gw",
+    "website": "http://www.brixtaphouseandbrewery.com/",
+    "id": "849ec26d-ad22-429f-a033-195ef9444d71"
+  },
+  {
+    "name": "Big Thompson Brewery",
+    "lat": 40.40778,
+    "lng": -105.07543049999998,
+    "googlePlaceId": "ChIJ-Uz6J_5SaYcRuv5ZJni4D0E",
+    "website": "http://lovelandbrewery.com/",
+    "id": "b3499051-fc69-4e08-ae11-a2473e7f4aa7"
+  },
+  {
+    "name": "City Star Brewing",
+    "lat": 40.3050516,
+    "lng": -105.07895159999998,
+    "googlePlaceId": "ChIJc5_8gHVVaYcRqIt-1yMXEts",
+    "website": "https://citystarbrewing.com/",
+    "id": "6f7a306b-dfd7-4f4f-8035-032bb7194db1"
+  },
+  {
+    "name": "Crow Hop Brewery and Taproom",
+    "lat": 40.3945768,
+    "lng": -105.07406930000002,
+    "googlePlaceId": "ChIJOdnpRwlTaYcRruFrytnM6dg",
+    "website": "http://www.crowhopbrewing.com/",
+    "id": "b9e4c582-5973-4800-bec9-70d0d05cb016"
+  },
+  {
+    "name": "Wiley Roots Brewing Company",
+    "lat": 40.431393,
+    "lng": -104.68849799999998,
+    "googlePlaceId": "ChIJBRX8fzuibocRJo-yCEyPwaA",
+    "website": "http://www.wileyroots.com/",
+    "id": "b750defa-982f-463a-a093-b750f44d53b5"
+  },
+  {
+    "name": "Lumpy Ridge Brewing Co.",
+    "lat": 40.36901599999999,
+    "lng": -105.50468999999998,
+    "googlePlaceId": "ChIJ611rP95laYcRD-POQbTdL_A",
+    "website": "http://lumpyridgebrewing.com/",
+    "id": "d9c9a67d-1afc-4703-9182-f81b41e671e9"
+  },
+  {
+    "name": "Estes Park Brewery",
+    "lat": 40.37141889999999,
+    "lng": -105.52612099999999,
+    "googlePlaceId": "ChIJl5DRsJRlaYcRmt2If6pM5uM",
+    "website": "http://www.epbrewery.com/",
+    "id": "777a59bc-953c-4cec-9ec5-cbdec077702d"
+  },
+  {
+    "name": "WeldWerks Brewing Co.",
+    "lat": 40.428113,
+    "lng": -104.69051339999999,
+    "googlePlaceId": "ChIJC0BzwySibocRXSemF11Ulxw",
+    "website": "http://www.weldwerksbrewing.com/",
+    "id": "194101a9-b5f6-4004-8d0f-2df040a38e64"
+  },
+  {
+    "name": "Rock Cut Brewing Company",
+    "lat": 40.3718277,
+    "lng": -105.52294890000002,
+    "googlePlaceId": "ChIJ-8xtROtlaYcRbf2ZE64J5jo",
+    "website": "http://www.rockcutbrewing.com/",
+    "id": "d42a80df-19e9-4ba9-87ca-b391e6d05dfa"
+  },
+  {
+    "name": "Very Nice Brewing Company",
+    "lat": 39.95991399999999,
+    "lng": -105.509116,
+    "googlePlaceId": "ChIJV5WH1s_Ga4cRkCrPlPsPLqA",
+    "website": "http://www.verynicebrewing.com/",
+    "id": "5ef8f5d2-e372-4bb4-a049-671f01063548"
+  },
+  {
+    "name": "James Peak Brewery & Smokehouse",
+    "lat": 39.9617759,
+    "lng": -105.509366,
+    "googlePlaceId": "ChIJPUIprc_Ga4cRCUy-SZrKrAE",
+    "website": "http://jamespeakbrew.com/",
+    "id": "66fa56f2-6f0a-45b9-880c-36e5838cf45e"
+  },
+  {
+    "name": "Berthoud Brewing Company",
+    "lat": 40.3043199,
+    "lng": -105.08485410000003,
+    "googlePlaceId": "ChIJd4qdKplVaYcRB-vkCdu2y5w",
+    "website": "http://www.berthoudbrewing.com/",
+    "id": "85b8890e-0eec-4aa9-add4-c286cef99ceb"
+  },
+  {
+    "name": "New Terrain Brewing Company",
+    "lat": 39.77959,
+    "lng": -105.18596600000001,
+    "googlePlaceId": "ChIJIw05Sm6Fa4cRSpLLIiPx7oY",
+    "website": "http://www.newterrainbrewing.com/",
+    "id": "1e51ca44-6aae-4856-94c6-bd814ed88e91"
+  },
+  {
+    "name": "Holidaily Brewing Company",
+    "lat": 39.779977,
+    "lng": -105.23314399999998,
+    "googlePlaceId": "ChIJ1TjixqWaa4cRxgvnONu4xq0",
+    "website": "http://www.holidailybrewing.com/",
+    "id": "9856a1cb-ade1-423d-829c-cd181099e735"
+  },
+  {
+    "name": "Mountain Toad Brewing",
+    "lat": 39.7581344,
+    "lng": -105.2241651,
+    "googlePlaceId": "ChIJW-G7682aa4cRnHYMd5A647o",
+    "website": "http://mountaintoadbrewing.com/",
+    "id": "c9ca896a-b1bd-4db1-a40c-f23431843cbd"
+  },
+  {
+    "name": "Golden City Brewery",
+    "lat": 39.75467709999999,
+    "lng": -105.22368590000002,
+    "googlePlaceId": "ChIJTWY5tdOaa4cRrfqurdOVGUQ",
+    "website": "http://www.gcbrewery.com/",
+    "id": "5b7e8dd1-23d8-41de-9c16-8c0f9c855e24"
+  },
+  {
+    "name": "Manitou Brewing Company",
+    "lat": 38.8571353,
+    "lng": -104.9156724,
+    "googlePlaceId": "ChIJu3ZF1qFQE4cRFT1bzqypj4M",
+    "website": "http://manitou-brewing.com/",
+    "id": "73648732-f3e0-4800-847d-984572743f53"
+  },
+  {
+    "name": "Barrels & Bottles Brewery",
+    "lat": 39.7564734,
+    "lng": -105.21993199999997,
+    "googlePlaceId": "ChIJ9aRlSi2Fa4cRcfriOe8jjBE",
+    "website": "http://www.barrelsbottles.com/",
+    "id": "2895dae6-5779-413f-b2f0-318a99040325"
+  },
+  {
+    "name": "Cannonball Creek Brewing Company",
+    "lat": 39.768679,
+    "lng": -105.23514190000003,
+    "googlePlaceId": "ChIJhzqC_Liaa4cRvLMjI77WRJo",
+    "website": "http://www.cannonballcreekbrewing.com/",
+    "id": "b03e1b01-31e0-420b-a3d1-75b4737bf311"
+  },
+  {
+    "name": "Colorado Mountain Brewery at the Roundhouse",
+    "lat": 38.8399411,
+    "lng": -104.85952050000003,
+    "googlePlaceId": "ChIJoZ12msdaE4cRQiao0Tsqboc",
+    "website": "http://cmbreweryroadhouse-hub.com/",
+    "id": "04d08719-86fe-40c6-871c-fdb360477c85"
+  },
+  {
+    "name": "Loveland Aleworks",
+    "lat": 40.395281,
+    "lng": -105.0773352,
+    "googlePlaceId": "ChIJ2zMkSwhTaYcRbOb9G0Dlvvk",
+    "website": "http://www.lovelandaleworks.com/",
+    "id": "db1147d9-c84a-49c4-a7a1-92200e9d4a72"
+  },
+  {
+    "name": "Parts and Labor Brewing Company",
+    "lat": 40.624939,
+    "lng": -103.20991200000003,
+    "googlePlaceId": "ChIJE8oB5w3zcYcRrWLGX597SSA",
+    "website": "https://www.partsandlaborbrewing.com/",
+    "id": "9ab5e235-f50b-49c1-b208-2f06b35e998e"
+  },
+  {
+    "name": "Yampa Valley Brewing Company",
+    "lat": 40.49580699999999,
+    "lng": -107.257632,
+    "googlePlaceId": "ChIJZ-1P-BxTQocRzio4MeMgPZE",
+    "website": "http://www.yampavalleybrew.com/",
+    "id": "528205f1-e3ee-4ea4-8d29-108d55ba8ec3"
+  },
+  {
+    "name": "Butcherknife Brewing Company, LLC",
+    "lat": 40.51077239999999,
+    "lng": -106.85826500000002,
+    "googlePlaceId": "ChIJdfse0INoQocRrIAM1HtGQv4",
+    "website": "http://butcherknifebrewing.com/",
+    "id": "18da7317-dc97-4179-9100-e790c621da50"
+  },
+  {
+    "name": "Storm Peak Brewing Company",
+    "lat": 40.502118,
+    "lng": -106.855165,
+    "googlePlaceId": "ChIJw7nNf5JoQocRi2VwuPg6JNo",
+    "website": "http://stormpeakbrewing.com/",
+    "id": "e418f1dc-10e0-45cd-92fa-b4e66c75d5f9"
+  },
+  {
+    "name": "Mountain Tap Brewery",
+    "lat": 40.4865628,
+    "lng": -106.83714229999998,
+    "googlePlaceId": "ChIJ3XLwz9xoQocRQyzePYR4Wow",
+    "website": "https://www.mountaintapbrewery.com/",
+    "id": "0857c2be-c96c-41c1-8805-9f68330b3e84"
+  },
+  {
+    "name": "Mahogany Ridge Brewery & Grill",
+    "lat": 40.4838221,
+    "lng": -106.8314527,
+    "googlePlaceId": "ChIJUQw7PdpoQocR9OISf49p6_c",
+    "website": "http://www.mahoganyridgesteamboat.com/",
+    "id": "67255dfc-25fe-472b-974b-2f59a5caa88a"
+  },
+  {
+    "name": "Never Summer Brewing",
+    "lat": 40.085256,
+    "lng": -105.94151999999997,
+    "googlePlaceId": "ChIJdVf2HDQvaocRkUUTkcdZBD8",
+    "website": null,
+    "id": "471b1a46-2519-4537-b3ae-a3bd91d18fc9"
+  },
+  {
+    "name": "Dostal Alley Casino & Brew Pub",
+    "lat": 39.8001831,
+    "lng": -105.5124983,
+    "googlePlaceId": "ChIJ3wu1JpC7a4cRjlc2vxxPxnE",
+    "website": "http://dostalalley.net/",
+    "id": "fb454e7a-fe0e-4d1e-948a-bfde3ed67c58"
+  },
+  {
+    "name": "Westbound & Down Brewing Company",
+    "lat": 39.74177350000001,
+    "lng": -105.51548939999998,
+    "googlePlaceId": "ChIJdVMFdLGka4cRiKfBtsZEBHo",
+    "website": "http://www.westboundanddown.com/",
+    "id": "5bdef35a-5ab9-411c-bb3e-1a3ec032bf21"
+  },
+  {
+    "name": "Tommyknocker Brewery & Pub",
+    "lat": 39.7416177,
+    "lng": -105.51766459999999,
+    "googlePlaceId": "ChIJdQ0nTLGka4cR3lvp7Nl3iyE",
+    "website": "http://tommyknocker.com/",
+    "id": "9bdcb20a-dab7-4448-ba4d-a1d48b4aa9b6"
+  },
+  {
+    "name": "Guanella Pass Brewing Company",
+    "lat": 39.70579089999999,
+    "lng": -105.69735809999997,
+    "googlePlaceId": "ChIJW2EyUeata4cRvp2ztfzch_Q",
+    "website": "http://guanellapass.com/",
+    "id": "44756939-2ab3-4f1a-bdfd-58067fedc819"
+  },
+  {
+    "name": "Hideaway Park Brewery",
+    "lat": 39.9180314,
+    "lng": -105.78401630000002,
+    "googlePlaceId": "ChIJSwhzctM0aocRKDweyPKJRvs",
+    "website": "http://www.hideawayparkbrewery.com/",
+    "id": "cdf6a8fb-d264-4667-920e-fb1e4434436f"
+  },
+  {
+    "name": "The Peak Bistro",
+    "lat": 1.3314672,
+    "lng": 103.83577719999994,
+    "googlePlaceId": "ChIJjX7ZK1oX2jER4LB6Rf6YRiU",
+    "website": null,
+    "id": "4b2db6bb-c833-440a-bd83-abd682418418"
+  },
+  {
+    "name": "Mad Jack's Mountain Brewery",
+    "lat": 39.406618,
+    "lng": -105.477033,
+    "googlePlaceId": "ChIJjfPmnUASa4cRxXjKmbQawjA",
+    "website": "http://www.madjacksmountainbrewery.com/",
+    "id": "37869cd3-0ac8-47df-8817-47f1b2ac6c14"
+  },
+  {
+    "name": "South Park Brewing",
+    "lat": 39.2200524,
+    "lng": -105.99326129999997,
+    "googlePlaceId": "ChIJe2mxKH5T2YARTAAOb1Y-aek",
+    "website": "http://southparkbrewing.com/",
+    "id": "75b5f279-b7ef-4104-b63b-64f344112a0f"
+  },
+  {
+    "name": "Periodic Brewing",
+    "lat": 39.2496561,
+    "lng": -106.291314,
+    "googlePlaceId": "ChIJw8XDQySRaocRV2dmx7ulYP8",
+    "website": "http://www.periodicbrewing.com/",
+    "id": "6633d61a-8d7c-4ee7-b4d4-4687d62a21ac"
+  },
+  {
+    "name": "Outer Range Brewing Company",
+    "lat": 39.5892152,
+    "lng": -106.09895360000002,
+    "googlePlaceId": "ChIJnz4pKSZcaocRiZo6lOeIPpY",
+    "website": "https://www.outerrange.com/",
+    "id": "838cc8db-5aa8-46ba-871a-571675389c2f"
+  },
+  {
+    "name": "Pug Ryan's Brewery",
+    "lat": 39.6281006,
+    "lng": -106.04656749999998,
+    "googlePlaceId": "ChIJG7vv4ptbaocRNFTCyEBpFDs",
+    "website": "http://pugryans.com/",
+    "id": "ba6279c8-17c6-46a0-96bd-9e25ef91798e"
+  },
+  {
+    "name": "Dillon Dam Brewery",
+    "lat": 39.62754399999999,
+    "lng": -106.06029799999999,
+    "googlePlaceId": "ChIJ02ykQ4FbaocRbSKAXs8rQJ8",
+    "website": "http://www.dambrewery.com/",
+    "id": "b1efa2ff-8c3f-47ec-868e-0868eee680ed"
+  },
+  {
+    "name": "The Bakers' Brewery",
+    "lat": 39.62985250000001,
+    "lng": -106.0676459,
+    "googlePlaceId": "ChIJYWtLNn5caocRJHflPffMM-k",
+    "website": "http://thebakersbrewery.com/",
+    "id": "cb76200b-40ad-42f1-862f-b79943c4f0f3"
+  },
+  {
+    "name": "Vail Brewing Company",
+    "lat": 39.62057529999999,
+    "lng": -106.46962289999999,
+    "googlePlaceId": "ChIJMRERPmV3aocR7zXEn0dT4Tc",
+    "website": "http://www.vailbrewingco.com/",
+    "id": "85faea49-32c7-4ee2-8a6c-b91c9fc2baf8"
+  },
+  {
+    "name": "Gore Range Brewery",
+    "lat": 39.643762,
+    "lng": -106.59624200000002,
+    "googlePlaceId": "ChIJ3yFPvw_ZQYcREFIOIzdRy3E",
+    "website": "http://www.gorerangebrewery.com/",
+    "id": "79e641f4-26bd-47f5-8622-5f827f404e4f"
+  },
+  {
+    "name": "Bonfire Brewing",
+    "lat": 39.655346,
+    "lng": -106.8286779,
+    "googlePlaceId": "ChIJJVBARFvBQYcR9y4L6otIz0c",
+    "website": "http://www.bonfirebrewing.com/",
+    "id": "5e8a3cff-9831-4493-ac2e-eb70e9e3f7b8"
+  },
+  {
+    "name": "7 Hermits Brewing Company",
+    "lat": 39.64133269999999,
+    "lng": -106.83080519999999,
+    "googlePlaceId": "ChIJ-0i00LLGQYcRIhkD4OMNrdk",
+    "website": "http://7hermitsbrewing.com/",
+    "id": "8c38d091-cd1e-4232-b9cd-1ec5f1b6dcb9"
+  },
+  {
+    "name": "Eddyline Restaurant at South Main",
+    "lat": 38.84128699999999,
+    "lng": -106.11955999999998,
+    "googlePlaceId": "ChIJ2_9MqyU1FYcRuLxHC8l31dI",
+    "website": "http://www.eddylinerestaurant.com/",
+    "id": "4ada17d9-dfca-43ed-be09-1de96ce1aac4"
+  },
+  {
+    "name": "High Alpine Brewing Company",
+    "lat": 38.544747,
+    "lng": -106.92731100000003,
+    "googlePlaceId": "ChIJaebb4MSSP4cRlnbMtgOdLlM",
+    "website": "http://highalpinebrewing.com/",
+    "id": "38963de1-e3c9-467b-9335-c1201a446c5e"
+  },
+  {
+    "name": "Elevation Beer Company",
+    "lat": 38.5181954,
+    "lng": -106.06546960000003,
+    "googlePlaceId": "ChIJ61jNweEVFYcRnpke14VjQ0g",
+    "website": "http://www.elevationbeerco.com/",
+    "id": "ceb7ba15-5af3-4579-b61c-3472a79d2452"
+  },
+  {
+    "name": "Soulcraft Brewing",
+    "lat": 38.524699,
+    "lng": -106.00631020000003,
+    "googlePlaceId": "ChIJV6roZcgXFYcRDYjB8vXOtXE",
+    "website": "https://www.soulcraftbeer.com/",
+    "id": "87140083-00c1-461b-8f98-d01523f6c8c1"
+  },
+  {
+    "name": "Moonlight Pizza & Brewpub",
+    "lat": 38.534857,
+    "lng": -105.99346700000001,
+    "googlePlaceId": "ChIJb2WPVd0XFYcR1Zqk98HcwYs",
+    "website": "http://www.moonlightpizza.biz/",
+    "id": "395479a2-65c8-48e8-8a9a-d2594ddef1fb"
+  },
+  {
+    "name": "Crestone Brewing Co",
+    "lat": 37.9944916,
+    "lng": -105.699994,
+    "googlePlaceId": "ChIJm2TIV-9LFIcRRYs2hqS19Ts",
+    "website": "http://www.crestonebrewingco.com/",
+    "id": "4e2dca2a-c5d1-4498-b11e-d57cdced98c6"
+  },
+  {
+    "name": "Dodgeton Creek Brewing Company",
+    "lat": 37.2180957,
+    "lng": -104.49036460000002,
+    "googlePlaceId": "ChIJ9bMmhdwaEYcRWc-FEiiARO0",
+    "website": "http://www.dodgetoncreek.com/",
+    "id": "3f8bdde3-59cd-4f91-884f-7f69222f92a5"
+  },
+  {
+    "name": "San Luis Valley Brewing Company",
+    "lat": 37.4683105,
+    "lng": -105.86685139999997,
+    "googlePlaceId": "ChIJ5_GnLA18FocRX3YbrtKCLHs",
+    "website": "http://www.slvbrewco.com/",
+    "id": "c144f457-6f4a-4506-ad7c-55dc25e549b6"
+  },
+  {
+    "name": "Three Barrel Brewing Co",
+    "lat": 37.6786711,
+    "lng": -106.35655710000003,
+    "googlePlaceId": "ChIJg0-x9wTwFYcR-p5otz3APxI",
+    "website": "http://www.threebarrelbrew.com/",
+    "id": "8bda5c78-4041-4bfd-ab6b-d6aba885c990"
+  },
+  {
+    "name": "Riff Raff Brewing Company",
+    "lat": 37.2689076,
+    "lng": -107.00734829999999,
+    "googlePlaceId": "ChIJe6jK-mHbPYcRy1B96jF5KLI",
+    "website": "http://riffraffbrewing.com/",
+    "id": "1e28145c-508b-4c22-ae65-04d8aa03ba30"
+  },
+  {
+    "name": "Pagosa Brewing Company & Grill",
+    "lat": 37.2558675,
+    "lng": -107.08034220000002,
+    "googlePlaceId": "ChIJyQc6C5XaPYcR3lk_5K1OYm8",
+    "website": "http://pagosabrewing.com/",
+    "id": "1887cb00-4857-4311-b62b-e9f9180d130b"
+  },
+  {
+    "name": "Animas Brewing Company",
+    "lat": 37.27998660000001,
+    "lng": -107.87685440000001,
+    "googlePlaceId": "ChIJiQmSeh6oPocRTJ3QXXLD3Ow",
+    "website": "http://www.animasbrewing.com/",
+    "id": "e74cf64e-642f-48d9-a39d-2fe33a8820a2"
+  },
+  {
+    "name": "Steamworks Brewing Company",
+    "lat": 37.2723248,
+    "lng": -107.87999980000001,
+    "googlePlaceId": "ChIJxf8xiKECPIcR7YNI4Fl41es",
+    "website": "http://www.steamworksbrewing.com/",
+    "id": "a969edf8-0d19-412f-a9cb-da7df5f42b19"
+  },
+  {
+    "name": "Brew Pub & Kitchen",
+    "lat": 37.27057569999999,
+    "lng": -107.88236080000001,
+    "googlePlaceId": "ChIJkRBFlpgCPIcRk6WAic9sHCU",
+    "website": "http://brewpubkitchen.com/",
+    "id": "31ecf051-488d-4877-995d-baa69c5a2578"
+  },
+  {
+    "name": "Mancos Brewing Company",
+    "lat": 37.348185,
+    "lng": -108.28311200000002,
+    "googlePlaceId": "ChIJo0JAyRpbOYcR-k6_xkFb95E",
+    "website": "http://www.mancosbrewingcompany.com/contact/",
+    "id": "8237b0ef-4360-47b4-b56c-9ed515715726"
+  },
+  {
+    "name": "WildEdge Brewing Collective",
+    "lat": 37.34999599999999,
+    "lng": -108.58543639999999,
+    "googlePlaceId": "ChIJJ2jTTpZvOYcRPoW6t77tKf4",
+    "website": "http://www.wildedgebrewing.com/",
+    "id": "b3275dff-9aa1-48ad-9f07-8860ee4d23a3"
+  },
+  {
+    "name": "J Fargo's Family Dining & Micro Brewery",
+    "lat": 37.348464,
+    "lng": -108.57029,
+    "googlePlaceId": "ChIJ54_S-Z1vOYcRp-FamtqxTe4",
+    "website": "http://jfargos.com/",
+    "id": "be22d45b-b14f-435b-a30d-fc1f1c5a6e95"
+  },
+  {
+    "name": "The Intrepid Sojourner Beer Project",
+    "lat": 39.7291768,
+    "lng": -104.99924699999997,
+    "googlePlaceId": "ChIJeXEJszF_bIcRxujdJo8SRwI",
+    "website": "http://sojournerbeers.com/?utm_source=local&utm_medium=organic&utm_campaign=gmb",
+    "id": "7feba6ac-ae4b-43f3-a9d0-8d01de169b75"
+  },
+  {
+    "name": "Alternation Brewing Company",
+    "lat": 39.688657,
+    "lng": -104.98789499999998,
+    "googlePlaceId": "ChIJbTcWcq1_bIcRM4U8JeX5wok",
+    "website": "http://www.alternationbrewing.com/",
+    "id": "8813efa9-2a37-4305-be65-d51cc217f0f5"
+  },
+  {
+    "name": "Paradox Beer Company",
+    "lat": 38.943996,
+    "lng": -105.15519899999998,
+    "googlePlaceId": "ChIJp0s7tVisFIcRvNLsAwa_3CA",
+    "website": "http://paradoxbeercompany.com/",
+    "id": "c7bf1dbd-749f-48dc-adc2-afea93924818"
+  },
+  {
+    "name": "Goat Patch Brewing Company",
+    "lat": 38.87160739999999,
+    "lng": -104.8220412,
+    "googlePlaceId": "ChIJoZMXVPNPE4cRAGdriSczITc",
+    "website": "http://www.goatpatchbrewing.com/",
+    "id": "661c7b42-3e9c-476c-b6b5-602b427f505b"
+  },
+  {
+    "name": "Smiling Toad Brewery",
+    "lat": 38.80656159999999,
+    "lng": -104.83853540000001,
+    "googlePlaceId": "ChIJlxGbZ9JFE4cRHP68d5DjSDo",
+    "website": "http://www.smilingtoadbrewery.com/",
+    "id": "24f42751-5836-44b6-93b1-d75e1a3d7586"
+  },
+  {
+    "name": "Rocky Mountain Brewery",
+    "lat": 38.8412557,
+    "lng": -104.71643770000003,
+    "googlePlaceId": "ChIJWeuPgVdGE4cRk0ilWE7n6OA",
+    "website": "http://www.therockymountainbrewery.com/location-1.html",
+    "id": "f0fd9f67-bb5b-4c07-817a-5f6d3e7e8cba"
+  },
+  {
+    "name": "Bristol Brewing Company",
+    "lat": 38.81123629999999,
+    "lng": -104.82739190000001,
+    "googlePlaceId": "ChIJwy4Q3MNEE4cREjDA0ikYYsQ",
+    "website": "http://www.bristolbrewing.com/",
+    "id": "2b91fd73-f541-49c5-b2fa-5a80d96a1334"
+  },
+  {
+    "name": "Ska Brewing Co",
+    "lat": 37.23880219999999,
+    "lng": -107.8761503,
+    "googlePlaceId": "ChIJEwIz09gCPIcRkjbh7HybonY",
+    "website": "http://www.skabrewing.com/",
+    "id": "47954f35-d1d6-4f2b-ada0-d71480617025"
+  },
+  {
+    "name": "New Image Restaurant and Brewery",
+    "lat": 39.7996433,
+    "lng": -105.0823201,
+    "googlePlaceId": "ChIJXQC4XiyGa4cRjNSdeVr9bbs",
+    "website": "http://www.nibrewing.com/",
+    "id": "1bb94314-7787-4a0d-8b99-15c3ef1ee6fb"
+  },
+  {
+    "name": "Mu Brewery",
+    "lat": 39.740439,
+    "lng": -104.8751782,
+    "closed": true,
+    "googlePlaceId": "ChIJbRXMKpd8bIcRsbVF_GCzZ3U",
+    "website": "http://www.brewbymu.com/home.html",
+    "id": "d52a5fb4-4d17-46cf-bc24-d720d2edc24e"
+  },
+  {
+    "name": "Oskar Blues Grill & Brew - Denver",
+    "lat": 39.7502891,
+    "lng": -104.99759419999998,
+    "googlePlaceId": "ChIJE2oTzMR4bIcRTXq2vURvkmI",
+    "website": "http://www.oskarbluesfooderies.com/",
+    "id": "aa3fcd40-b897-4f43-8f37-558d2f67df4a"
+  },
+  {
+    "name": "Broken Compass Brewing",
+    "lat": 39.5148236,
+    "lng": -106.05347710000001,
+    "googlePlaceId": "ChIJC-d4cqhYaocRjlmWok3Bk2E",
+    "website": "http://www.brokencompassbrewing.com/",
+    "id": "b3ce1972-5ac5-4d11-aa61-7675e91e1150"
+  },
+  {
+    "name": "Breckenridge Brewery & Pub",
+    "lat": 39.4761769,
+    "lng": -106.04383710000002,
+    "googlePlaceId": "ChIJZd-WAGH2aocRnXNG7XpBykY",
+    "website": "http://www.breckbrew.com/visit/breckenridge",
+    "id": "6453c428-01bf-4cfb-bea9-a3fc596abdbc"
+  },
+  {
+    "name": "Nighthawk Brewery",
+    "lat": 39.920921,
+    "lng": -105.101066,
+    "googlePlaceId": "ChIJfUnjl5-La4cRGE9S5LZeI1E",
+    "website": "http://www.nighthawkbrewery.com/",
+    "id": "e093aeff-67d3-4dc3-872e-7eb69ecb7899"
+  },
+  {
+    "name": "Grand Lake's Yukon Street Tavern",
+    "lat": 39.79951829999999,
+    "lng": -105.08230370000001,
+    "googlePlaceId": "ChIJ3YahWyyGa4cRE5u7y6eIelM",
+    "website": "http://www.grandlakebrewing.com/",
+    "id": "e5d90b34-3cfe-4c21-8b2a-657de326b701"
+  },
+  {
+    "name": "Grand Lake's 16th St Tavern",
+    "lat": 40.414092,
+    "lng": -104.693715,
+    "googlePlaceId": "ChIJHd4eL0uHaYcRuFPpbArAsG4",
+    "website": "http://www.grandlakebrewing.com/",
+    "id": "2079b9bd-a070-4369-8615-b3f43c57710c"
+  },
+  {
+    "name": "Factotum Brewhouse",
+    "lat": 39.770219,
+    "lng": -105.00206780000002,
+    "googlePlaceId": "ChIJl6H_afF4bIcRfKBuZ4l3nuQ",
+    "website": "http://www.factotumbrewhouse.com/",
+    "id": "a77ee00d-fe7a-4c17-8774-22c6135fe7ab"
+  },
+  {
+    "name": "Flood Stage Ale Works",
+    "lat": 39.9840025,
+    "lng": -104.8218488,
+    "googlePlaceId": "ChIJY4ZPgkBtbIcRV5c6UYPDycw",
+    "website": null,
+    "id": "1e722ebe-0ba0-4c0e-9ffc-566c9f85cadb"
+  },
+  {
+    "name": "Colorado Plus Brew Pub and Taphouse",
+    "lat": 39.769658,
+    "lng": -105.07417900000002,
+    "googlePlaceId": "ChIJu-cAy6uHa4cRa0dFGugQq_I",
+    "website": "http://www.coloradoplus.net/",
+    "id": "624279ff-4605-414b-a905-85be0e3ee1aa"
+  },
+  {
+    "name": "Coors Brewing Company",
+    "lat": 39.758176,
+    "lng": -105.2169921,
+    "googlePlaceId": "ChIJoUBdNi2Fa4cRxPJDBnnzpNg",
+    "website": "http://www.millercoors.com/breweries/coors-brewing-company/tours",
+    "id": "01ff08e7-cddb-4abe-9c4f-2c0f6a1934f7"
+  },
+  {
+    "name": "J Wells Brewery",
+    "lat": 40.0237869,
+    "lng": -105.23779619999999,
+    "googlePlaceId": "ChIJB2ebcOHta4cRswgdLSDBzOU",
+    "website": "http://jwellsbrewery.com/",
+    "id": "012cfdc0-6003-4a00-8c81-af4068d97adc"
+  },
+  {
+    "name": "Little Machine Beer",
+    "lat": 39.747316,
+    "lng": -105.02434499999998,
+    "googlePlaceId": "ChIJu2qBaKR4bIcRnRHLY9On3XY",
+    "website": "http://littlemachinebeer.com/",
+    "id": "88d67e23-0f6a-443e-9541-7198c8aab193"
+  },
+  {
+    "name": "Phantom Canyon Brewing Company",
+    "lat": 38.834232,
+    "lng": -104.82494759999997,
+    "googlePlaceId": "ChIJFc5c2SJFE4cRsiqJ3K3urM0",
+    "website": "http://www.phantomcanyon.com/",
+    "id": "58483def-9ecf-4584-8317-6cb718632b7e"
+  },
+  {
+    "name": "Launch Pad Brewery",
+    "lat": 39.70082699999999,
+    "lng": -104.78990599999997,
+    "googlePlaceId": "ChIJZbrL_GZibIcRniuL5HufCAk",
+    "website": "http://www.launchpadbrewery.com/",
+    "id": "2ef8a45f-83a1-40d3-abe8-bae1b01369a7"
+  },
+  {
+    "name": "Something Brewery",
+    "lat": 39.9883409,
+    "lng": -104.82141460000003,
+    "googlePlaceId": "ChIJl5q-hThtbIcR7n3gKjxsv5Q",
+    "website": "http://www.somethingbrewery.com/",
+    "id": "df200e68-9bca-4c50-bde2-7eb3d72c8f58"
+  },
+  {
+    "name": "El Rancho Brewing Company",
+    "lat": 39.6993451,
+    "lng": -105.33261170000003,
+    "googlePlaceId": "ChIJ4UiSG0mZa4cRGlM6zf4R8mk",
+    "website": "http://www.elranchobrewing.com/",
+    "id": "f2882854-6173-494c-9f6c-3af287834c49"
+  },
+  {
+    "name": "Lariat Lodge Brewing Co.",
+    "lat": 39.638091,
+    "lng": -105.31371000000001,
+    "googlePlaceId": "ChIJ44iU_XWea4cRO-MUNwFxZng",
+    "website": "http://www.lariatlodgebrewing.com/",
+    "id": "1d8d86fa-44a7-4bbe-8007-74e10a1d0f6b"
+  },
+  {
+    "name": "Iron Bird Brewing Co.",
+    "lat": 38.8280121,
+    "lng": -104.82239349999998,
+    "googlePlaceId": "ChIJyUXB0yFFE4cRLjfaQW6Q3Zk",
+    "website": "http://www.ironbirdbrewing.com/",
+    "id": "6ea52de0-488e-4e79-8bf3-a5211f6e845e"
+  },
+  {
+    "name": "Fieldhouse Brewing Company -",
+    "lat": 38.8259821,
+    "lng": -104.82362740000002,
+    "googlePlaceId": "ChIJYSSBFCBFE4cRAHUjmhPgA7Y",
+    "website": "http://www.fieldhousebrew.com/",
+    "id": "989c62ef-c3cd-4f5e-adc2-603309ad54c8"
+  },
+  {
+    "name": "Cogstone Brewing Company, LLC",
+    "lat": 38.8800515,
+    "lng": -104.75548140000001,
+    "googlePlaceId": "ChIJhZ2gd1RPE4cRH3y9ACPORmQ",
+    "website": "http://cogstonebrewing.com/",
+    "id": "e1bd35d4-7538-4ac9-b370-b7c1f0c3f53b"
+  },
+  {
+    "name": "The Peak Bistro & Brewery",
+    "lat": 39.923716,
+    "lng": -105.7868052,
+    "googlePlaceId": "ChIJ456Ots00aocRx0Ykgnk64bA",
+    "website": "http://www.thepeakwp.com/",
+    "id": "a09ba0c8-0463-4ae2-af1b-02d3177bf551"
+  },
+  {
+    "name": "Evergreen Brewery",
+    "lat": 39.66060529999999,
+    "lng": -105.3521101,
+    "googlePlaceId": "ChIJgwcSwuSea4cRAFT_1aTaW2M",
+    "website": "http://www.evergreenbrewery.com/",
+    "id": "892842e5-4265-41f2-8325-239dc6c3120f"
+  },
+  {
+    "name": "Gold Camp Brewing Company",
+    "lat": 38.8195711,
+    "lng": -104.82360990000001,
+    "googlePlaceId": "ChIJk3jw3d1EE4cR99pY3dZCma0",
+    "website": null,
+    "id": "6d7f0bb5-35eb-46d5-8c1e-78e33cd6aef5"
+  },
+  {
+    "name": "PDub Brewing Company",
+    "lat": 38.32089429999999,
+    "lng": -104.70386459999997,
+    "googlePlaceId": "ChIJfUI_OCefE4cR6k6e6yoWt5Q",
+    "website": "http://www.pdubbrewing.com/",
+    "id": "f79b1556-5843-4b9a-be42-a1db42e3d135"
+  },
+  {
+    "name": "Shamrock Brewing Co",
+    "lat": 38.26962779999999,
+    "lng": -104.60775130000002,
+    "googlePlaceId": "ChIJ_emcnwOjE4cRQY4fdD07RTE",
+    "website": "http://www.shamrockbrewing.com/",
+    "id": "1793004f-ff2a-4320-93aa-88e40f587623"
+  },
+  {
+    "name": "Brues Alehouse Brewing Co.",
+    "lat": 38.265413,
+    "lng": -104.60971899999998,
+    "googlePlaceId": "ChIJ-1IwIh2jE4cRv7pdWYfVuN0",
+    "website": "http://bruesalehouse.com/",
+    "id": "69483603-ca3c-44db-ab4d-4bb539c383e6"
+  },
+  {
+    "name": "The Walter Brewing Company",
+    "lat": 38.2623902,
+    "lng": -104.6102419,
+    "googlePlaceId": "ChIJldzdxh2jE4cRtgU5bvrKrPU",
+    "website": "http://www.waltersbeer.com/",
+    "id": "e7bb4b8d-d967-4ab7-8b14-45af2f3f89e1"
+  },
+  {
+    "name": "Bruz Beers",
+    "lat": 39.8181239,
+    "lng": -105.0073137,
+    "googlePlaceId": "ChIJi01E6Ip3bIcRG6UiiVbl_KE",
+    "website": "http://www.bruzbeers.com/",
+    "id": "19171fee-ecac-4916-b2d4-49a5385c8b0e"
+  },
+  {
+    "name": "Old Colorado Brewing Company",
+    "lat": 40.7029414,
+    "lng": -105.00819389999998,
+    "googlePlaceId": "ChIJ7wQ0iZjMbocRJkgvXSQ40Bg",
+    "website": "http://oldcoloradobrewing.com/",
+    "id": "fd849bba-5d02-4ea8-be35-ae50ee8f3e75"
+  },
+  {
+    "name": "Budweiser Brewery Experience",
+    "lat": 40.617477,
+    "lng": -105.00511649999999,
+    "googlePlaceId": "ChIJIRzkFpCz2IcRCN0xLCcntR8",
+    "website": "http://www.budweisertours.com/",
+    "id": "5012be59-75c0-4bf5-8901-77b14acf6196"
+  },
+  {
+    "name": "Resolute Brewing Company",
+    "lat": 39.5849502,
+    "lng": -104.88477699999999,
+    "googlePlaceId": "ChIJB29nStGFbIcR7O2JO9I8Wr8",
+    "website": "http://resolutebrewingco.com/",
+    "id": "c4edace3-c3b1-4336-8c48-ea2b01c09dbb"
+  },
+  {
+    "name": "Ute Pass Brewing Company",
+    "lat": 38.9944728,
+    "lng": -105.05133109999997,
+    "googlePlaceId": "ChIJTe4goLaqFIcRv-tXLRB29Cg",
+    "website": "http://www.utepassbrewingcompany.com/",
+    "id": "032e7d03-2457-4e60-8da7-7ae8e17fd50a"
+  },
+  {
+    "name": "BierWerks",
+    "lat": 38.99414649999999,
+    "lng": -105.0519486,
+    "googlePlaceId": "ChIJN8iMm7aqFIcRviPf5EgDNQ4",
+    "website": "http://bierwerks.com/",
+    "id": "60651287-a287-49a0-ac3e-4554a986e87d"
+  },
+  {
+    "name": "SomePlace Else Brewery",
+    "lat": 39.79169,
+    "lng": -105.06770399999999,
+    "googlePlaceId": "ChIJQfEVn8iHa4cRQlW_nY2mN3M",
+    "website": "http://www.someplaceelse.beer/",
+    "id": "ea0c9ea7-95f6-48c5-a6e0-7bdc424c60f2"
+  },
+  {
+    "name": "Aspen Brewing Company",
+    "lat": 39.190327,
+    "lng": -106.8208472,
+    "googlePlaceId": "ChIJL-h1In05QIcRF9INu04mpFU",
+    "website": "http://www.aspenbrewingcompany.com/",
+    "id": "cdb33ec5-4b15-4f8d-94fd-ea3bf55866f5"
+  },
+  {
+    "name": "Glenwood Canyon Brewing Co",
+    "lat": 39.5476526,
+    "lng": -107.32317290000003,
+    "googlePlaceId": "ChIJX5y5yZcJQYcRrofREdkeoBo",
+    "website": "http://www.glenwoodcanyon.com/",
+    "id": "6be9f0aa-df2d-4d42-8bba-207cb27494a0"
+  },
+  {
+    "name": "Brewability Lab",
+    "lat": 39.7722387,
+    "lng": -104.84408830000001,
+    "googlePlaceId": "ChIJYVJ6jbRkbIcRtFN_cfZ6aPo",
+    "website": "http://www.denvercraftbar.com/",
+    "id": "fb1f8b6e-ae6d-47aa-a8fe-943ab65d87c0"
+  },
+  {
+    "name": "Florence Brewing Company",
+    "lat": 38.388675,
+    "lng": -105.11828500000001,
+    "googlePlaceId": "ChIJI_xwoTGBFIcRJXxaAit1t64",
+    "website": "http://www.florencebrewing.com/",
+    "id": "c31afcc8-9f14-4968-8a42-860a82ddbc5d"
+  },
+  {
+    "name": "Carbondale Beer Works",
+    "lat": 39.4007166,
+    "lng": -107.21308909999999,
+    "googlePlaceId": "ChIJzQ9PY5OrQYcRv4CtNujkppg",
+    "website": "http://carbondalebeerworks.com/",
+    "id": "8c3db95f-21aa-40e3-98f6-1b4861010c33"
+  },
+  {
+    "name": "Roaring Fork Beer Comany",
+    "lat": 39.400421,
+    "lng": -107.2107646,
+    "googlePlaceId": "ChIJ0zeVAJOrQYcRzgXOJcUdljw",
+    "website": "http://roaringforkbeerco.com/",
+    "id": "ff17620c-fc04-4e58-a758-af074b9d49bc"
+  },
+  {
+    "name": "Casey Brewing and Blending LLC",
+    "lat": 39.5157423,
+    "lng": -107.31950649999999,
+    "googlePlaceId": "ChIJhYvfCkYIQYcR3_hbdW1r-A4",
+    "website": "http://caseybrewing.com/",
+    "id": "d8733746-18d1-421c-98c0-86a3316f6bfc"
+  },
+  {
+    "name": "Cheluna Brewing Company",
+    "lat": 39.7527785,
+    "lng": -104.87775640000001,
+    "googlePlaceId": "ChIJG7TLgmJ7bIcRSvhLBk3Lwnc",
+    "website": "http://www.cheluna.com/",
+    "id": "2035a751-9ded-47bc-863b-41b15b213bf7"
+  },
+  {
+    "name": "Kannah Creek Brewing Company",
+    "lat": 39.08528560000001,
+    "lng": -108.5520434,
+    "googlePlaceId": "ChIJ81qEAEwcR4cRe2NQBSo1Vww",
+    "website": "http://www.kannahcreekbrewingco.com/",
+    "id": "30719348-49ff-4b85-8a1c-c987f567551c"
+  },
+  {
+    "name": "The Rockslide Brewery and Restaurant",
+    "lat": 39.0669937,
+    "lng": -108.56595849999997,
+    "googlePlaceId": "ChIJiR4pl2AcR4cR5kCWqQ1t02s",
+    "website": "http://www.rockslidebrewpub.com/",
+    "id": "3fdb5ee4-d519-4b58-b9dc-8b5c36af0d73"
+  },
+  {
+    "name": "Copper Club Brewing Company",
+    "lat": 39.1590776,
+    "lng": -108.73149760000001,
+    "googlePlaceId": "ChIJMea2zpX-RocRfZR4Gx6v-P4",
+    "website": "http://www.copperclubbrew.com/",
+    "id": "7e1f5e5b-673b-4d6a-bc75-675f8ca537c7"
+  },
+  {
+    "name": "Suds Brothers Brewery",
+    "lat": 39.1590389,
+    "lng": -108.7326726,
+    "googlePlaceId": "ChIJ-YcvpZX-RocRAjVDs_66FrU",
+    "website": "http://www.sudsbrothers2fruita.com/",
+    "id": "314534fc-dab0-4ac8-a2ce-88a4edd9877f"
+  },
+  {
+    "name": "Zuni Street Brewing Company",
+    "lat": 39.7584222,
+    "lng": -105.01523320000001,
+    "googlePlaceId": "ChIJY33KvJZ4bIcR57pyW3PCUrE",
+    "website": "http://zunistreetbrewing.com/",
+    "id": "1ed6b4ea-d2c2-4a80-9bc6-aae6e221210e"
+  },
+  {
+    "name": "Open Door Brewing Company",
+    "lat": 40.1343087,
+    "lng": -105.10346270000002,
+    "googlePlaceId": "ChIJsaOQvdrta4cRBBzlx4ZTZNg",
+    "website": "http://opendoorbrewco.com/",
+    "id": "555466d6-803b-450e-9add-589961440102"
+  },
+  {
+    "name": "Mother Tucker Brewery",
+    "lat": 39.913117,
+    "lng": -104.956255,
+    "googlePlaceId": "ChIJ49TprBB0bIcRGFqoO3U7Zsg",
+    "website": "http://mothertuckerbrewery.com/",
+    "id": "8e51c45a-0b9d-4a39-ac60-a51bd83a14d6"
+  },
+  {
+    "name": "Capitol Creek Brewery",
+    "lat": 39.3857337,
+    "lng": -107.08224899999999,
+    "googlePlaceId": "ChIJ8VFHPpSyQYcR4HAOYXoJmO0",
+    "website": "http://www.capitolcreekbrewery.com/",
+    "id": "ded00dbf-4020-46a3-b722-d5a82fa2e834"
+  },
+  {
+    "name": "Revolution Brewing",
+    "lat": 38.869515,
+    "lng": -107.59750700000001,
+    "googlePlaceId": "ChIJZbBeqKKWQIcR7RnDCSFlAes",
+    "website": "http://www.revolution-brewing.com/",
+    "id": "1c823bb2-d13c-425d-b73d-c461d4704cb9"
+  },
+  {
+    "name": "4B's Brewery",
+    "lat": 38.9005,
+    "lng": -107.92599999999999,
+    "googlePlaceId": "ChIJtaP5BCO2QIcRyKLBMXnzDkU",
+    "website": "http://4bsbrewery.com/",
+    "id": "9a128e82-d89b-4af8-8fe8-7b6640f9d26f"
+  },
+  {
+    "name": "SquarePeg Brewerks",
+    "lat": 37.4683132,
+    "lng": -105.8666892,
+    "googlePlaceId": "ChIJrT8t03J8FocRKw-nXMTe3yc",
+    "website": "http://www.squarepegbrewerks.com/",
+    "id": "6dae7924-d71b-4b7d-9897-89d4409ced1c"
+  },
+  {
+    "name": "Ourayle House Brewery",
+    "lat": 38.02428319999999,
+    "lng": -107.67116970000001,
+    "googlePlaceId": "ChIJ22ADqtkhP4cR_k-59zMPMO0",
+    "website": "https://www.facebook.com/Ourayle-House-Brewery-Mr-Grumpy-Pants-349885024771/?fref=ts",
+    "id": "96b3837b-b426-413c-a6a9-413e6d673905"
+  },
+  {
+    "name": "Ouray Brewery",
+    "lat": 38.0229354,
+    "lng": -107.67113,
+    "googlePlaceId": "ChIJpVWbTtghP4cR4kDt_vIMl70",
+    "website": "http://ouraybrewery.com/",
+    "id": "5f5212e3-91e7-43dd-800a-3c518edbbf24"
+  },
+  {
+    "name": "Smuggler's Brewpub",
+    "lat": 37.935736,
+    "lng": -107.81165900000002,
+    "googlePlaceId": "ChIJV6FKnWLYPocR-fyJa9dhbPU",
+    "website": "http://smugglersbrewpub.com/",
+    "id": "8c2d264f-4e24-4e29-a65d-7eb1a8a5ea4f"
+  },
+  {
+    "name": "Telluride Brewing Company",
+    "lat": 37.946158,
+    "lng": -107.87629770000001,
+    "googlePlaceId": "ChIJvXj_hhgoP4cR2i7fgRTs2ic",
+    "website": "http://www.telluridebrewingco.com/",
+    "id": "56009956-eb89-4049-83a8-a9f2e0a690d1"
+  },
+  {
+    "name": "Horsefly Brewing Company",
+    "lat": 38.4827516,
+    "lng": -107.87136659999999,
+    "googlePlaceId": "ChIJP70OZpBQP4cRHfVjJJ_-qV8",
+    "website": "http://horseflybrewing.com/",
+    "id": "87773500-4b82-42c0-8323-0c06b7b903e7"
+  },
+  {
+    "name": "Palisade Brewing Company",
+    "lat": 39.11111599999999,
+    "lng": -108.35429899999997,
+    "googlePlaceId": "ChIJv30u2TwhR4cR5ZoS_pnIMVs",
+    "website": "http://www.palisadebrewingcompany.com/",
+    "id": "66ac397a-f3a6-4c9f-900e-a0e1523469a4"
+  },
+  {
+    "name": "Colorado Boy Pub & Brewery",
+    "lat": 38.152289,
+    "lng": -107.757814,
+    "googlePlaceId": "ChIJh438WIM8P4cR8gKSteuAVhI",
+    "website": "http://coloradoboy.com/",
+    "id": "f7f1590a-62f1-4ed6-82b7-eabe960e7b4d"
+  },
+  {
+    "name": "Gunbarrel Brewing Company",
+    "lat": 40.07878,
+    "lng": -105.18860899999999,
+    "googlePlaceId": "ChIJv_xfmE7wa4cRNBKmTxiTz90",
+    "website": "http://www.gunbarrelbrewing.com/",
+    "id": "f4818659-fd25-4ee4-ac71-b8b7a4abbc3a"
+  },
+  {
+    "name": "DC Oakes Brewhouse And Eatery",
+    "lat": 40.52283379999999,
+    "lng": -105.01160700000003,
+    "googlePlaceId": "ChIJSbhfTEKzbocR2csIyacN2T4",
+    "website": "http://dcoakesbrewhouse.com/",
+    "id": "5717f2a5-abcd-4704-9b87-20c526939b8d"
+  },
+  {
+    "name": "Peak To Peak Tap & Brew",
+    "lat": 39.6740868,
+    "lng": -104.79386220000004,
+    "googlePlaceId": "ChIJ9-RWPNKJbIcRQp3X4UDF-Yw",
+    "website": "http://www.peakbrews.com/",
+    "id": "4eccb0b0-7591-4e1c-91d5-e6d0c252e0b6"
+  },
+  {
+    "name": "Veteran Brothers Brewing",
+    "lat": 40.3368404,
+    "lng": -104.90596170000003,
+    "googlePlaceId": "ChIJl43GObqpbocRQiF5oS9Y8Ms",
+    "website": "http://www.veteranbrosbrewing.com/",
+    "id": "4e9c1a5d-d1a9-4dd2-8abf-247bae35c275"
+  },
+  {
+    "name": "Purpose Brewing and Cellars",
+    "lat": 40.5311625,
+    "lng": -105.08018909999998,
+    "googlePlaceId": "ChIJbR6Z7oFLaYcRh_wN5kVl3ss",
+    "website": "http://www.purposebrewing.com/",
+    "id": "25f9b98d-f0ff-4e30-a7b7-69de3acf8be2"
+  },
+  {
+    "name": "LandLocked Ales",
+    "lat": 39.6576919,
+    "lng": -105.08302420000001,
+    "googlePlaceId": "ChIJgXRpN8yBa4cRu_MrrHWIRMc",
+    "website": "http://www.landlockedales.com/",
+    "id": "7161ceb9-3057-4b71-a6c4-c7298ee613c1"
+  },
+  {
+    "name": "Endo Brewing Company",
+    "lat": 40.01307619999999,
+    "lng": -105.13153699999998,
+    "googlePlaceId": "ChIJRYKs1Yjza4cRk3cRMpmLGYs",
+    "website": "https://endobrewing.com/",
+    "id": "fe738b4a-86e0-48dd-88b9-aac460d5d1b1"
+  },
+  {
+    "name": "The Eldo Brewery and Taproom",
+    "lat": 38.86992499999999,
+    "lng": -106.98680100000001,
+    "googlePlaceId": "ChIJE_oxIz5yQIcRv21BIlMJs9U",
+    "website": "http://www.eldobrewpub.com/",
+    "id": "775f7da4-fe9b-477d-8195-9ed6c977c456"
+  },
+  {
+    "name": "Irwin Brewing Company",
+    "lat": 38.867025,
+    "lng": -106.98468780000002,
+    "googlePlaceId": "ChIJHQJvFT9yQIcR_k3qeDaFnvU",
+    "website": "http://www.irwinbrewingco.com/",
+    "id": "a9e9d92c-b421-4a09-94fe-c945b1fc7390"
+  },
+  {
+    "name": "Pitchers Sports Restaurant",
+    "lat": 39.6862581,
+    "lng": -104.80903089999998,
+    "googlePlaceId": "ChIJZ-N2t4RibIcRDWLBEeqxm1c",
+    "website": "http://www.pitcherssportsgrill.com/",
+    "id": "9b1991af-31ee-4e4e-a2eb-309a2f6f7135"
+  },
+  {
+    "name": "Bottom Shelf Brewery",
+    "lat": 37.22500900000001,
+    "lng": -107.59908300000001,
+    "googlePlaceId": "ChIJs9JIisIjPIcRrG3q18RiX1E",
+    "website": "http://bottomshelfbrewery.com/",
+    "id": "90542559-b7f7-44d9-a277-f017a26493cf"
+  },
+  {
+    "name": "Durango Brewing Co",
+    "lat": 37.29765999999999,
+    "lng": -107.87175300000001,
+    "googlePlaceId": "ChIJz_nGkhKoPocRz4xBTvNvjn0",
+    "website": "http://www.durangobrewing.com/",
+    "id": "034aa27a-2301-4b0f-a35a-89b8d240e217"
+  },
+  {
+    "name": "Main Street Brewery",
+    "lat": 37.348308,
+    "lng": -108.58457599999997,
+    "googlePlaceId": "ChIJyYoei6Ppj4ARwlJYF4soDcY",
+    "website": "http://www.mainstbrewery.com/",
+    "id": "c88bb145-f5bb-4374-a457-1cdce42ed4e8"
+  },
+  {
+    "name": "Carver Brewing Co",
+    "lat": 37.274824,
+    "lng": -107.8800933,
+    "googlePlaceId": "ChIJq-I-s6ECPIcRlpUtynQqctw",
+    "website": "http://www.carverbrewing.com/",
+    "id": "20877a1e-24b9-46a9-99b4-02e6dc086b53"
+  },
+  {
+    "name": "Dolores River Brewery",
+    "lat": 37.4735404,
+    "lng": -108.50466460000001,
+    "googlePlaceId": "ChIJVzuJ33NrOYcRU5Mlt4aSNTI",
+    "website": "http://www.doloresriverbrewery.com/",
+    "id": "dc261a0b-0e99-432d-b462-02064c8b4d24"
+  },
+  {
+    "name": "Green Earth Brewing Company",
+    "lat": 40.42284699999999,
+    "lng": -104.69020699999999,
+    "googlePlaceId": "ChIJzQvnjSaibocRKrKRtZ8Ylew",
+    "website": "http://greenearthbrewingco.com/",
+    "id": "26b07f8f-9706-4136-8a6d-5fcf4235117a"
+  },
+  {
+    "name": "Beyond the Mountain Brewing Co.",
+    "lat": 40.0643699,
+    "lng": -105.21460300000001,
+    "googlePlaceId": "ChIJhbgkHtTxa4cRRZlZf5u60b8",
+    "website": "http://www.beyondthemountainbrewing.com/",
+    "id": "cdec0b98-a001-4cbc-8714-5720f79c406c"
+  },
+  {
+    "name": "Mountain Cowboy Brewing Co.",
+    "lat": 40.0985346,
+    "lng": -104.9380883,
+    "googlePlaceId": "ChIJKwdk2tIObIcRf7lthjvU2cI",
+    "website": "https://m.facebook.com/mountaincowboybrewing/",
+    "id": "9df71f85-7493-488f-9498-9a8d3b9381b1"
+  },
+  {
+    "name": "The Post Brewing Co.",
+    "locationName": "Boulder",
+    "lat": 40.0188169,
+    "lng": -105.27910680000002,
+    "googlePlaceId": "ChIJuyj4zCfsa4cRrvrjo92Gyds",
+    "website": "http://www.postbrewing.com/boulder",
+    "id": "3e65244b-ec8c-4873-b750-229e76e457bd"
+  },
+  {
+    "name": "The Post Brewing Co.",
+    "locationName": "Rosedale",
+    "lat": 39.67651499999999,
+    "lng": -104.98731900000001,
+    "googlePlaceId": "ChIJdRzxlMp_bIcRn4anFgKV2bc",
+    "website": "http://www.postbrewing.com/rosedale/",
+    "id": "4410372c-67e3-4689-9ea5-30c9309f0acd"
+  },
+  {
+    "name": "Oskar Blues Boulder Taproom",
+    "lat": 40.01731619999999,
+    "lng": -105.28326749999997,
+    "googlePlaceId": "ChIJDcvPzybsa4cRbOhuOdOFRqQ",
+    "website": "https://www.oskarblues.com/breweries/boulder/",
+    "id": "68826180-dfd3-47aa-8ba9-892fb0b4f03e"
+  },
+  {
+    "name": "The Post Brewing Co.",
+    "locationName": "Longmont",
+    "lat": 40.14453150000001,
+    "lng": -105.13020130000001,
+    "googlePlaceId": "ChIJNeIudyH6a4cRcB-RjmfNijQ",
+    "website": "http://www.postbrewing.com/longmont/",
+    "id": "d8abb316-fb1c-4d7b-9035-f8e8a77e0d67"
+  },
+  {
+    "name": "Boulder Beer Company",
+    "locationName": "Boulder Beer on Walnut",
+    "lat": 40.017013,
+    "lng": -105.28047500000002,
+    "googlePlaceId": "ChIJ33E-Zybsa4cRradD8syOA3Y",
+    "website": "http://www.boulderbeer.com/",
+    "id": "d86dff00-f515-4bda-ab39-33d0df891b9c"
+  },
+  {
+    "name": "FATE Brewing Company - Lafayette",
+    "lat": 39.9858225,
+    "lng": -105.094558,
+    "googlePlaceId": "ChIJkzs51sLta4cReynXvDD7kss",
+    "website": "http://www.fatebrewingcompany.com/",
+    "id": "80928f01-c217-486b-87d4-8d6ba27de6e3"
+  },
+  {
+    "name": "Great Divide Brewing Co.",
+    "locationName": "RiNo: Barrel Bar & Packaging Wonderland",
+    "lat": 39.770259,
+    "lng": -104.97919000000002,
+    "googlePlaceId": "ChIJoZUuqAR5bIcRTb1P4dV43aY",
+    "website": "http://greatdivide.com/",
+    "id": "348785d8-2917-465f-b671-62608067d188"
+  },
+  {
+    "name": "Blue Moon Brewing Company",
+    "locationName": "RiNo",
+    "lat": 39.7735697,
+    "lng": -104.97690979999999,
+    "googlePlaceId": "ChIJ_TFaNQR5bIcR2gm8aERUra0",
+    "website": "https://www.bluemoonbrewingcompany.com/rino-brewery-page",
+    "id": "ae08b67f-fd2e-4878-a37d-6de92efb63f8"
+  },
+  {
+    "name": "Arvada Beer Company",
+    "lat": 39.799309,
+    "lng": -105.0818022,
+    "closed": true,
+    "id": "3793dacd-27f4-4120-8cbd-3a0842a71cb5"
+  },
+  {
+    "name": "Denver Beer Co.",
+    "locationName": "Canworks",
+    "lat": 39.7770477,
+    "lng": -105.00074760000001,
+    "website": "http://denverbeerco.com/locations/canworks/",
+    "id": "22c0ccb9-d2a2-473f-9c74-21656df56958"
+  },
+  {
+    "name": "Dry Dock Brewing Co.",
+    "locationName": "North Dock",
+    "lat": 39.7565349,
+    "lng": -104.7732643,
+    "website": "https://drydockbrewing.com/locations-hours/north-dock/",
+    "id": "2552a8c2-5724-4571-bc14-efd1f5843061"
+  },
+  {
+    "name": "Grist Brewing Company",
+    "locationName": "Grist Lab",
+    "lat": 39.55472109999999,
+    "lng": -104.87889000000001,
+    "website": "https://www.gristbrewingcompany.com/",
+    "id": "a9afc111-3799-47b4-b9f2-ab17311f6053"
+  },
+  {
+    "name": "Crazy Mountain Brewing Company",
+    "locationName": "Edwards",
+    "closed": true,
+    "lat": 39.6489091,
+    "lng": -106.5887899,
+    "website": "https://crazymountainbrewery.com",
+    "id": "1fcff42d-8b7e-429d-9588-aad1ed8aeef6"
+  },
+  {
+    "name": "FanDraught Sports Brewery",
+    "lat": 39.5521046,
+    "lng": -104.77350130000002,
+    "googlePlaceId": "ChIJM5CLRWiObIcRdZLD2nbH_Yc",
+    "website": "https://www.fandraught.com/",
+    "id": "028fc423-e420-47de-b7a7-4cd883ff05e9"
+  },
+  {
+    "name": "Crazy Mountain Brewing Company",
+    "locationName": "Cherry Creek Taproom",
+    "lat": 39.7050496,
+    "lng": -104.93904659999998,
+    "googlePlaceId": "ChIJLYmxFYB-bIcRIaydrmGdHaI",
+    "website": "https://crazymountainbrewery.com/location/cherry-creek-taproom/",
+    "id": "4a1901df-0eb7-47a9-b475-82b547569cce"
+  },
+  {
+    "name": "Crazy Mountain Brewing Company",
+    "locationName": "Lakewood Taproom",
+    "lat": 39.7087856,
+    "lng": -105.07780560000003,
+    "website": "https://crazymountainbrewery.com/location/lakewood-taproom/",
+    "googlePlaceId": "ChIJC5bxdN-Aa4cRlBkX-qDATfU",
+    "id": "924bdac6-a1c8-47c5-84ea-dcd2ded19e80"
+  },
+  {
+    "name": "BJ's Restaurant & Brewhouse",
+    "locationName": "Aurora",
+    "lat": 39.7122687,
+    "lng": -104.81989750000002,
+    "website": "https://www.bjsrestaurants.com/locations/co/aurora",
+    "googlePlaceId": "ChIJ05thEOdibIcRkithk7HVheI",
+    "id": "4a9b4a6e-bca5-4602-b8fe-d21a10393544"
+  },
+  {
+    "name": "BJ's Restaurant & Brewhouse",
+    "locationName": "Westminster",
+    "lat": 39.88816,
+    "lng": -105.07427100000001,
+    "website": "https://www.bjsrestaurants.com/locations/co/westminster",
+    "googlePlaceId": "pTDiqKa4cR1zqIeanpr9s",
+    "id": "ea39e143-b41d-4f53-a198-4f9dd3a04c86"
+  },
+  {
+    "name": "BJ's Restaurant & Brewhouse",
+    "locationName": "Colorado Springs",
+    "lat": 38.9034735,
+    "lng": -104.81781360000002,
+    "website": "https://www.bjsrestaurants.com/locations/co/colorado-springs",
+    "googlePlaceId": "ChIJ2QtVfbRPE4cRd7ZoqStwYus",
+    "id": "747b3401-b8a6-4db7-8e5c-1c97ce9e0554"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Breckenridge",
+    "lat": 39.4795053,
+    "lng": -106.04618249999999,
+    "website": "http://www.cbpotts.com/locations/breck/",
+    "googlePlaceId": "ChIJP-tVnGb2aocRJQVaqTP4DdU",
+    "id": "8963a65b-613b-4e1d-95b0-00e90f4bc22c"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Collindale",
+    "lat": 40.53763049999999,
+    "lng": -105.05082019999998,
+    "website": "http://www.cbpotts.com/locations/collindale/",
+    "googlePlaceId": "ChIJN602ZlxLaYcRz6BlBdWs2Dc",
+    "id": "e3b00e10-9c7d-43ee-9ac4-0da47e59222d"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Highlands Ranch",
+    "lat": 39.5626892,
+    "lng": -104.98842809999996,
+    "website": "http://www.cbpotts.com/locations/highlands-ranch/",
+    "googlePlaceId": "ChIJh0srz0uCbIcRaAGbgQk5P0M",
+    "id": "0f8c9acc-9400-4c7a-a1d2-1255ce154ac4"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Denver Tech Center",
+    "lat": 39.5973312,
+    "lng": -104.89574160000001,
+    "website": "http://www.cbpotts.com/locations/denver-tech-center/",
+    "googlePlaceId": "ChIJ1-4EtIeGbIcRO4-Gk5d_ytU",
+    "id": "d8edbc04-c51d-4bd4-a5a5-542d4d178601"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "FoCo Foothills",
+    "lat": 40.54350609999999,
+    "lng": -105.07399889999999,
+    "website": "http://www.cbpotts.com/locations/foothills/",
+    "googlePlaceId": "ChIJgYO8MXRLaYcR-bcwge7bmjY",
+    "id": "48e63a51-be57-488c-978d-7af15b7a452f"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Westminster",
+    "lat": 39.91492249999999,
+    "lng": -105.00076079999997,
+    "website": "http://www.cbpotts.com/locations/westminster/",
+    "googlePlaceId": "ChIJJV1g-8Z1bIcRQdAWrI6Gjx8",
+    "id": "7c6c7b50-5246-49b7-96dd-6f6e898b068d"
+  },
+  {
+    "name": "C.B. & Potts Restaurant and Brewery",
+    "locationName": "Colorado Springs",
+    "lat": 39.0215169,
+    "lng": -104.8256634,
+    "website": "http://www.cbpotts.com/locations/colorado-springs/",
+    "googlePlaceId": "ChIJ_Wkij0lNE4cR_75-Pz8MFvs",
+    "id": "198c8f40-2b1a-41e8-adb9-9b18432fab35"
+  },
+  {
+    "name": "Denver Beer Co.",
+    "locationName": "Olde Town Arvada Taproom",
+    "lat": 39.80152289999999,
+    "lng": -105.08107530000001,
+    "website": "http://denverbeerco.com/arvada-taproom/",
+    "id": "bd4d34a2-aaff-4b59-9bd7-9b3f6df6decc"
+  },
+  {
+    "name": "14er Brewing Company",
+    "lat": 39.76133400000001,
+    "lng": -104.98380600000002,
+    "website": "http://www.14erbrewing.com/",
+    "id": "6cf989d2-28d9-4534-8475-aec483a5e1dd"
+  },
+  {
+    "name": "Dueces Wild Brewery",
+    "lat": 38.8427,
+    "lng": -104.7022052,
+    "website": "https://www.dwbbrewery.com/",
+    "id": "7fccca1d-4d75-4c75-a0c1-93263cf56e0e"
+  },
+  {
+    "name": "Angry James Brewery",
+    "lat": 39.632148,
+    "lng": -106.0765472,
+    "website": "http://angryjamesbrewing.com/",
+    "id": "3618c9af-794b-43b0-b669-16dc6599a51c"
+  },
+  {
+    "name": "Haykin Family Cider",
+    "lat": 39.7643912,
+    "lng": -104.84812679999999,
+    "website": "http://www.haykinfamilycider.com/",
+    "googlePlaceId": "ChIJxTpZ9lJ7bIcRrsGQCmY2zGI",
+    "id": "ac1b1885-8903-434b-b4d8-7d38cc72a5a5"
+  },
+  {
+    "name": "Blue Spruce Brewing Company",
+    "website": "https://www.bluesprucebrewing.com/",
+    "locationName": "Littleton",
+    "lat": 39.567887,
+    "lng": -105.1184662,
+    "id": "c60b51a2-3530-4013-beee-f85d44530475"
+  },
+  {
+    "name": "Lake City Brewing Company",
+    "lat": 38.0271841,
+    "lng": -107.3193962,
+    "website": "https://www.facebook.com/Lake-City-Brewing-Company-150558988820566/",
+    "id": "7a60cc05-628d-4d8a-97c5-adc334c3de4e"
+  },
+  {
+    "name": "Colorado Farm Brewery",
+    "lat": 37.4000275,
+    "lng": -105.9497392,
+    "website": "https://www.cofarmbeer.com/",
+    "id": "8feaa7b9-f881-41e5-abb4-2e2d7c7317fd"
+  },
+  {
+    "name": "Soul Squared Brewing Company",
+    "lat": 40.7042054,
+    "lng": -105.0143218,
+    "googlePlaceId": "ChIJCUk9sZnMbocRytiqsnwJDVs",
+    "website": "https://soulsquaredbrewing.com/",
+    "id": "fc474c85-9464-4f08-812a-4536dbec7dd1"
+  },
+  {
+    "name": "Stem Ciders",
+    "lat": 39.9818828,
+    "lng": -105.0652586,
+    "googlePlaceId": "ChIJX6jqTzr1a4cR9BiEDWE7cTU",
+    "website": "https://stemciders.com/acreage-ciderhouse-eatery/",
+    "locationName": "Acreage Lafayette",
+    "id": "dd779ffd-0381-4394-8d07-3e735362363e"
+  }
+]
