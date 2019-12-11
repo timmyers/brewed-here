@@ -7,6 +7,7 @@ console.log(breweries);
 const app = new Koa();
 
 app.use(async (ctx: Koa.Context) => {
+  console.log('got request');
   ctx.body = JSON.stringify(breweries);
 });
 
