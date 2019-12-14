@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "BrewedHere",
-    "slug": "app",
+    "name": "Brewed Here",
+    "slug": "brewed-here",
     "privacy": "public",
     "sdkVersion": "35.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "githubUrl": "https://github.com/timmyers/brewed-here",
+    "description": ""
   }
 }

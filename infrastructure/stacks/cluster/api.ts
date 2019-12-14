@@ -44,11 +44,18 @@ class API extends pulumi.ComponentResource {
         env: {
           PORT: `${port}`,
         },
+        // resources: {
+        //   requests: {
+        //     cpu: '500m',
+        //   },
+        // },
       }],
     });
 
     const deployment = new kx.Deployment(name, {
-      spec: pb.asDeploymentSpec(),
+      spec: pb.asDeploymentSpec({
+        // replicas: 3,
+      }),
     }, defaultOptions);
 
     const service = deployment.createService({
