@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import Map from './components/Map';
-import BreweryList from './components/BreweryList';
-import { StyleSheet, View, Dimensions, Text } from 'react-native';
+import { Platform, StyleSheet, View } from 'react-native';
 import axios from 'axios';
+import { Region } from 'react-native-maps';
+import BreweryMap from './components/BreweryMap';
+import BreweryList from './components/BreweryList';
+import { useMapRegion } from './hooks';
+import { getVisits } from './db/visits'
 
-export default function App() {
+const useBreweries = () => {
   const [breweries, setBreweries] = useState([])
 
   useEffect(() => {
@@ -18,11 +21,43 @@ export default function App() {
     })()
   }, []);
 
+  return breweries;
+}
+
+const filterBreweries = (breweries: any[], region: Region) => {
+  const latDif = region.latitudeDelta / 2;
+  const lngDif = region.longitudeDelta / 2;
+  return breweries.filter((brewery) => {
+    if (brewery.lat < region.latitude - latDif
+        || brewery.lat > region.latitude + latDif
+        || brewery.lng < region.longitude - lngDif
+        || brewery.lng > region.longitude + lngDif) {
+      return false;
+    }
+
+    return true;
+  });
+}
+
+export default function App() {
+  const breweries = useBreweries();
+  const [mapRegion, setMapRegion] = useMapRegion();
+
+  useEffect(() => {
+    (async () => {
+      await getVisits();
+    })()
+  }, []);
+
   return (
     <View style={styles.container}>
-      <Map breweries={breweries} />
+      <BreweryMap 
+        breweries={breweries} 
+        initialRegion={mapRegion}
+        onRegionChangeComplete={(region => setMapRegion(region))}
+      />
       <View style={styles.bottom} >
-        <BreweryList breweries={breweries} />
+        <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
       </View>
     </View>
   )
@@ -37,7 +72,5 @@ const styles = StyleSheet.create({
   bottom: {
     height: '20%',
     width: '100%',
-    // backgroundColor: 'gray',
-    // opacity: .2,
   },
 });
