@@ -97,10 +97,10 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
-"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.6.0", "@pulumi/pulumi@^1.6.1", "@pulumi/pulumi@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.7.0.tgz#dc6d600c0074c312d863632d0c3a2d13646f1b72"
-  integrity sha512-CB1ucT5sWdcLBWJcIggaeT1ykVeLsHFhkIoBd4TEIy8nIMdyNJoSUJ6pNFbJiAPzf2ODyFTi3/ekaCfO9hok4A==
+"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.6.0", "@pulumi/pulumi@^1.6.1", "@pulumi/pulumi@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.8.1.tgz#02d1a2b98e1c873792868d378360a569454b6c01"
+  integrity sha512-YECXh3TRCl21QYpvUrzGDGBVqZBr3V053x1chXnt/7+FgwxM5M1cpH3T7kQX44+z7crvIqvQ7FbngNpgCHKa1Q==
   dependencies:
     "@pulumi/query" "^0.3.0"
     deasync "^0.1.15"
@@ -113,8 +113,8 @@
     require-from-string "^2.0.1"
     semver "^6.1.0"
     source-map-support "^0.4.16"
-    ts-node "^7.0.0"
-    typescript "=3.6.3"
+    ts-node "^8.5.4"
+    typescript "~3.7.3"
     upath "^1.1.0"
 
 "@pulumi/pulumi@latest":
@@ -1528,10 +1528,10 @@ typescript@=3.6.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
   integrity sha512-N7bceJL1CtRQ2RiG0AQME13ksR7DiuQh/QehubYcghzv20tnh+MQnQIuJddTmsbqYj+dztchykemz0zFzlvdQw==
 
-typescript@^3.7.3:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
-  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
+typescript@^3.7.3, typescript@~3.7.3:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
+  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
 
 upath@^1.1.0:
   version "1.2.0"
