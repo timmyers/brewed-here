@@ -2,9 +2,9 @@ name: Expo
 on:
   - push
 jobs:
-  preview:
+  publish:
     if: github.ref != 'master'
-    name: Preview
+    name: Publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -12,3 +12,6 @@ jobs:
         uses: ./.github/actions/pulumi
         with:
           entrypoint: /appEntrypoint.sh
+        env:
+          EXPO_CLI_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
+          EXPO_CLI_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}

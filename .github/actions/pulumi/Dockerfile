@@ -6,10 +6,10 @@ ARG HELM_URL="https://storage.googleapis.com/kubernetes-helm/helm-v2.14.3-linux-
 RUN apk --no-cache add --update \
     curl \
     build-base \
-    # python \
     libc6-compat \
     docker \
-    python3
+    python3 \
+    bash
 
 WORKDIR /tmp
 
