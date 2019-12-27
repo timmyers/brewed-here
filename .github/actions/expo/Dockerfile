@@ -9,4 +9,5 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
   && rm -rf /var/lib/apt/lists/*
 
 COPY entrypoint.sh /entrypoint.sh
+COPY publish.sh /publish.sh
 ENTRYPOINT ["/bin/bash"]
