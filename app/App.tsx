@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { Updates } from 'expo';
+import { Updates, ScreenOrientation } from 'expo';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
 import { StoreProvider, useBreweries, useMapRegion } from './hooks';
+
 
 import './db';
 
@@ -30,6 +31,12 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
+      try {
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.ALL_BUT_UPSIDE_DOWN);
+        console.log('ORIENTATION DONE')
+      } catch (err) {
+        console.log(err);
+      }
       const result = await Updates.checkForUpdateAsync();
       setUpdateIsAvailable(result.isAvailable);
     })()

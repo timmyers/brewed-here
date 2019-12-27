@@ -9,9 +9,17 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Expo
-        uses: ./.github/actions/pulumi
+        uses: ./.github/actions/expo
         with:
-          entrypoint: /appEntrypoint.sh
+          entrypoint: /entrypoint.sh
         env:
           EXPO_CLI_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
           EXPO_CLI_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dsokal/expo-turtle-android
+        env:
+          TURTLE_VERSION: 0.13.6
+          PLATFOR: android
