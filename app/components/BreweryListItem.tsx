@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, View, Text, Dimensions, Switch } from 'react-native';
+import { useBreweryVisited } from '../hooks';
 
 interface PropTypes {
   brewery: any;
 }
 
 export default ({ brewery }: PropTypes) => {
+  const [breweryVisited, setBreweryVisited] = useBreweryVisited(brewery.id)
+
   return (
     <View 
       style={styles.holder}
@@ -17,9 +20,10 @@ export default ({ brewery }: PropTypes) => {
       <View style={styles.visitedHolder}>
         <Text style={styles.visitedText}>Visited</Text>
         <Switch
-          onValueChange={(value) => {
+          value={breweryVisited}
+          onValueChange={async (value) => {
             console.log(`${brewery.name} visited`)
-
+            await setBreweryVisited(value);
           }}
         />
       </View>

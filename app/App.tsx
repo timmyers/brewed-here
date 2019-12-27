@@ -1,28 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Platform, StyleSheet, View } from 'react-native';
-import axios from 'axios';
+import { StyleSheet, View } from 'react-native';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
-import { useMapRegion } from './hooks';
-import { getVisits } from './db/visits'
+import { StoreProvider, useBreweries, useMapRegion } from './hooks';
 
-const useBreweries = () => {
-  const [breweries, setBreweries] = useState([])
-
-  useEffect(() => {
-    (async () => {
-      try {
-        const breweries = await axios.get('https://api.brewedhere.co');
-        setBreweries(breweries.data);
-      } catch (err) {
-        console.log(err);
-      }
-    })()
-  }, []);
-
-  return breweries;
-}
+import './db';
 
 const filterBreweries = (breweries: any[], region: Region) => {
   const latDif = region.latitudeDelta / 2;
@@ -43,23 +26,19 @@ export default function App() {
   const breweries = useBreweries();
   const [mapRegion, setMapRegion] = useMapRegion();
 
-  useEffect(() => {
-    (async () => {
-      await getVisits();
-    })()
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <BreweryMap 
-        breweries={breweries} 
-        initialRegion={mapRegion}
-        onRegionChangeComplete={(region => setMapRegion(region))}
-      />
-      <View style={styles.bottom} >
-        <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
+    <StoreProvider>
+      <View style={styles.container}>
+        <BreweryMap 
+          breweries={breweries} 
+          initialRegion={mapRegion}
+          onRegionChangeComplete={(region => setMapRegion(region))}
+        />
+        <View style={styles.bottom} >
+          <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
+        </View>
       </View>
-    </View>
+    </StoreProvider>
   )
 }
 

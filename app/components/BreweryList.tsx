@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, View, Text, FlatList, SafeAreaView, Dimensions } from 'react-native';
 import BreweryListItem from './BreweryListItem';
 
-
 export default ({ breweries }) => {
   return (
     <SafeAreaView style={styles.holder}>
