@@ -11,4 +11,4 @@ jobs:
       - name: Pulumi
         uses: ./.github/actions/pulumi
         with:
-          entrypoint: ./appEntrypoint.sh
+          entrypoint: /appEntrypoint.sh
