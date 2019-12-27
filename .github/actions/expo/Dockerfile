@@ -1,5 +1,5 @@
 
-FROM node:13.5.0
+FROM node:12.14.0
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
   openjdk-8-jdk=8u232-b09-1~deb9u1 \
