@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
@@ -35,6 +35,7 @@ export default function App() {
           onRegionChangeComplete={(region => setMapRegion(region))}
         />
         <View style={styles.bottom} >
+          <Text>Hello</Text>
           <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
         </View>
       </View>

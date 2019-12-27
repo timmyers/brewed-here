@@ -113,10 +113,10 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
-"@pulumi/pulumi@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.7.1.tgz#7edb4c980c351c9f9b9e15e8e50746b2f9b2e43a"
-  integrity sha512-kyJ7zs9FlgLEVygeNbOv361T6LFsBow2ZihlMAcgsxzNxsP90wBiOGqsliyymznX03A6cHt4llTqSIH4ONeXKw==
+"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.6.0", "@pulumi/pulumi@^1.6.1", "@pulumi/pulumi@^1.8.1", "@pulumi/pulumi@latest":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.8.1.tgz#02d1a2b98e1c873792868d378360a569454b6c01"
+  integrity sha512-YECXh3TRCl21QYpvUrzGDGBVqZBr3V053x1chXnt/7+FgwxM5M1cpH3T7kQX44+z7crvIqvQ7FbngNpgCHKa1Q==
   dependencies:
     "@pulumi/query" "^0.3.0"
     deasync "^0.1.15"
@@ -129,48 +129,8 @@
     require-from-string "^2.0.1"
     semver "^6.1.0"
     source-map-support "^0.4.16"
-    ts-node "^7.0.0"
-    typescript "=3.6.3"
-    upath "^1.1.0"
-
-"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.6.0", "@pulumi/pulumi@^1.6.1":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.7.0.tgz#dc6d600c0074c312d863632d0c3a2d13646f1b72"
-  integrity sha512-CB1ucT5sWdcLBWJcIggaeT1ykVeLsHFhkIoBd4TEIy8nIMdyNJoSUJ6pNFbJiAPzf2ODyFTi3/ekaCfO9hok4A==
-  dependencies:
-    "@pulumi/query" "^0.3.0"
-    deasync "^0.1.15"
-    google-protobuf "^3.5.0"
-    grpc "1.24.2"
-    minimist "^1.2.0"
-    normalize-package-data "^2.4.0"
-    protobufjs "^6.8.6"
-    read-package-tree "^5.3.1"
-    require-from-string "^2.0.1"
-    semver "^6.1.0"
-    source-map-support "^0.4.16"
-    ts-node "^7.0.0"
-    typescript "=3.6.3"
-    upath "^1.1.0"
-
-"@pulumi/pulumi@latest":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.6.1.tgz#ba3f1026aa92452dee2dadc9388a3c0d41062501"
-  integrity sha512-KB8pz0awGaAmZz3iqtedNOq6hoCxsJtePV0jBAPnEK1T8lbrU+OsRVTHO+XTzvmCal7mgCZSkP2HnO2OtXE5hQ==
-  dependencies:
-    "@pulumi/query" "^0.3.0"
-    deasync "^0.1.15"
-    google-protobuf "^3.5.0"
-    grpc "1.24.2"
-    minimist "^1.2.0"
-    normalize-package-data "^2.4.0"
-    protobufjs "^6.8.6"
-    read-package-tree "^5.3.1"
-    require-from-string "^2.0.1"
-    semver "^6.1.0"
-    source-map-support "^0.4.16"
-    ts-node "^7.0.0"
-    typescript "=3.6.3"
+    ts-node "^8.5.4"
+    typescript "~3.7.3"
     upath "^1.1.0"
 
 "@pulumi/query@^0.3.0":
@@ -400,11 +360,6 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
-arrify@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
-  integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
-
 asap@^2.0.0:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
@@ -438,7 +393,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-buffer-from@^1.0.0, buffer-from@^1.1.0:
+buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
   integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
@@ -613,11 +568,6 @@ dezalgo@^1.0.0:
   dependencies:
     asap "^2.0.0"
     wrappy "1"
-
-diff@^3.1.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/diff/-/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
-  integrity sha512-A46qtFgd+g7pDZinpnwiRJtxbC1hpgf0uzP3iG89scHk0AUC7A1TGxf5OiiOUv/JMZR8GOt8hL900hV0bOy5xA==
 
 diff@^4.0.1:
   version "4.0.1"
@@ -1526,20 +1476,6 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-ts-node@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-7.0.1.tgz#9562dc2d1e6d248d24bc55f773e3f614337d9baf"
-  integrity sha512-BVwVbPJRspzNh2yfslyT1PSbl5uIk03EZlb493RKHN4qej/D06n1cEhjlOJG69oFsE7OT8XjpTUcYf6pKTLMhw==
-  dependencies:
-    arrify "^1.0.0"
-    buffer-from "^1.1.0"
-    diff "^3.1.0"
-    make-error "^1.1.1"
-    minimist "^1.2.0"
-    mkdirp "^0.5.1"
-    source-map-support "^0.5.6"
-    yn "^2.0.0"
-
 ts-node@^8.5.4:
   version "8.5.4"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.5.4.tgz#a152add11fa19c221d0b48962c210cf467262ab2"
@@ -1564,17 +1500,12 @@ type-is@^1.6.16:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@=3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
-  integrity sha512-N7bceJL1CtRQ2RiG0AQME13ksR7DiuQh/QehubYcghzv20tnh+MQnQIuJddTmsbqYj+dztchykemz0zFzlvdQw==
-
 typescript@^3.7.3:
   version "3.7.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
   integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
-typescript@^3.7.4:
+typescript@^3.7.4, typescript@~3.7.3:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
   integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
@@ -1666,11 +1597,6 @@ ylru@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ylru/-/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
   integrity sha512-faQrqNMzcPCHGVC2aaOINk13K+aaBDUPjGWl0teOXywElLjyVAB6Oe2jj62jHYtwsU49jXhScYbvPENK+6zAvQ==
-
-yn@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/yn/-/yn-2.0.0.tgz#e5adabc8acf408f6385fc76495684c88e6af689a"
-  integrity sha1-5a2ryKz0CPY4X8dklWhMiOavaJo=
 
 yn@^3.0.0:
   version "3.1.1"
