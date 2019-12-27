@@ -1,15 +1,15 @@
 FROM node:13.5.0-alpine
 
-ARG PULUMI_URL="https://get.pulumi.com/releases/sdk/pulumi-v1.8.1-linux-x64.tar.gz"
+ARG PULUMI_URL="https://get.pulumi.com/releases/sdk/pulumi-v1.7.1-linux-x64.tar.gz"
 ARG HELM_URL="https://storage.googleapis.com/kubernetes-helm/helm-v2.14.3-linux-amd64.tar.gz"
 
 RUN apk --no-cache add --update \
     curl \
     build-base \
-    # python \
     libc6-compat \
     docker \
-    python3
+    python3 \
+    bash
 
 WORKDIR /tmp
 
@@ -26,4 +26,5 @@ RUN curl -s $HELM_URL -o helm.tar.gz \
     && mv ./helm/linux-amd64/tiller /usr/bin
 
 COPY entrypoint.sh /entrypoint.sh
+COPY appEntrypoint.sh /appEntrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
