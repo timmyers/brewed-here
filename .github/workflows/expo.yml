@@ -26,5 +26,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Determine Expo SDK version for this project
-        working_directory: ./app
+        working-directory: ./app
         run: cat app.json | jq '.expo.sdkVersion' -r > /tmp/expo-sdk-version
