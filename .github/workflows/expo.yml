@@ -13,6 +13,8 @@ jobs:
         with:
           entrypoint: /entrypoint.sh
         env:
+          TURTLE_VERSION: 0.13.6
+          PLATFORM: android
           EXPO_CLI_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
           EXPO_CLI_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
   # build:
