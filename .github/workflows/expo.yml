@@ -1,0 +1,13 @@
+name: Expo
+on:
+  - push
+jobs:
+  preview:
+    if: github.ref != 'master'
+    name: Preview
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Pulumi
+        uses: ./.github/actions/pulumi
+        entrypoint: ./appEntrypoint.sh
