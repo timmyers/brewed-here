@@ -11,7 +11,7 @@ export default async (): Promise<void> => {
     version: '1.16.2-do.0',
     nodePool: {
       name: 'pool1',
-      size: 's-1vcpu-2gb',
+      size: doc.DropletSlugs.DropletS1VCPU2GB,
       autoScale: true,
       minNodes: 1,
       maxNodes: 3,
@@ -52,44 +52,11 @@ export default async (): Promise<void> => {
     ],
   }, defaultOpts);
 
-  // const linkerd = new k8s.helm.v2.Chart('linkerd', {
-  //   repo: 'linkerd',
-  //   chart: 'linkerd2',
-  //   version: '2.6.0',
-  //   values: {
-  //     Identity: {
-  //       TrustAnchorsPEM: fs.readFileSync('./linkerd-certs/ca.crt').toString('utf8'),
-  //       Issuer: {
-  //         TLS: {
-  //           CrtPEM: fs.readFileSync('./linkerd-certs/issuer.crt').toString('utf8'),
-  //           KeyPEM: fs.readFileSync('./linkerd-certs/issuer.key').toString('utf8'),
-  //         },
-  //         CrtExpiry: '2020-12-04T11:48:54Z'
-  //       },
-  //     },
-  //   },
-  //   transformations: [(y: any, opts: pulumi.CustomResourceOptions): void => {
-  //     if (y.kind === 'Secret' || y.kind === 'ConfigMap') {
-  //       opts.ignoreChanges = ['data']
-  //     }
-  //     if (y.kind === 'MutatingWebhookConfiguration' || y.kind === 'ValidatingWebhookConfiguration') {
-  //       opts.ignoreChanges = ['webhooks[0].clientConfig.caBundle']
-  //     }
-  //     if (y.kind === 'APIService') {
-  //       opts.ignoreChanges = ['spec.caBundle']
-  //     }
-  //   }],
-  // }, defaultOpts);
-  
   const nginxNamespace = new k8s.core.v1.Namespace('nginx', {
     metadata: { 
       name: 'nginx',
-      // annotations: {
-      //   'linkerd.io/inject': 'enabled',
-      // },
     },
   }, defaultComponentOpts);
-
 
   const nginx = new k8s.helm.v2.Chart('nginx', {
     repo: 'stable',
@@ -135,98 +102,6 @@ export default async (): Promise<void> => {
     }],
   }, defaultOpts);
 
-  // const traefikNamespace = new k8s.core.v1.Namespace('traefik', {
-  //   metadata: { 
-  //     name: 'traefik',
-  //     // annotations: {
-  //     //   'linkerd.io/inject': 'enabled',
-  //     // },
-  //   },
-  // }, defaultComponentOpts);
-
-  // const traefikDashboardAuthSecret = new k8s.core.v1.Secret('traefik-dashboard-auth', {
-  //   metadata: {
-  //     name: 'authsecret',
-  //     namespace: traefikNamespace.metadata.name,
-  //   },
-  //   type: 'Opaque',
-  //   stringData: {
-  //     users: 'brewedhere:$apr1$HkFfbu2E$uzgittuYAx51CpupwL4Rv0',
-  //   },
-  // }, defaultComponentOpts);
-
-
-  // const traefik = new k8s.helm.v2.Chart('traefik', {
-  //   repo: 'stable',
-  //   chart: 'traefik',
-  //   version: '1.82.3',
-  //   namespace: traefikNamespace.metadata.name,
-  //   values: {
-  //     rbac: {
-  //       enabled: true,
-  //     },
-  //     service: {
-  //       annotations: {
-  //         'service.beta.kubernetes.io/do-loadbalancer-protocol': 'https',
-  //         'service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https': 'true',
-  //         'service.beta.kubernetes.io/do-loadbalancer-certificate-id': certificate.id,
-  //       },
-  //     },
-  //     ssl: {
-  //       enabled: false,
-  //       // enabled: true,
-  //       // enforced: true,
-  //     },
-  //     acme: {
-  //       enabled: false,
-  //       // enabled: true,
-  //       staging: true,
-  //       logging: true,
-  //       email: 'timmyers09@gmail.com',
-  //       challengeType: 'tls-alpn-01',
-  //       persistence: {
-  //         storageClass: 'do-block-storage',
-  //       },
-  //       domains: {
-  //         enabled: true,
-  //         domainsList: [{
-  //           main: 'traefik.brewedhere.co',
-  //         }],
-  //       },
-  //     },
-  //     dashboard: {
-  //       enabled: true,
-  //       domain: 'traefik.brewedhere.co',
-  //       ingress: {
-  //         annotations: {
-  //           'kubernetes.io/ingress.class': 'traefik',
-  //           'external-dns.alpha.kubernetes.io/ttl': '60',
-  //           'traefik.ingress.kubernetes.io/auth-type': 'basic',
-  //           'traefik.ingress.kubernetes.io/auth-secret': traefikDashboardAuthSecret.metadata.name,
-  //         },
-  //       },
-  //     },
-  //     kubernetes: {
-  //       ingressEndpoint: {
-  //         useDefaultPublishedService: true,
-  //       },
-  //     },
-  //   },
-  //   transformations: [(y: any, opts: pulumi.CustomResourceOptions): void => {
-  //     if (y.metadata !== undefined) {
-  //       y.metadata.namespace = traefikNamespace.metadata.name; // eslint-disable-line
-  //     }
-  //     if (y.apiVersion === 'extensions/v1beta1' && y.kind == 'Ingress') {
-  //       y.apiVersion = 'networking.k8s.io/v1beta1';
-  //     }
-  //     // if (y.kind === 'ConfigMap') {
-  //     //   // Staging => prod hack
-  //     //   y.data['traefik.toml'] = y.data['traefik.toml'].replace('https://acme-staging-v02.api.letsencrypt.org/directory', 'https://acme-v02.api.letsencrypt.org/directory')
-  //     // }
-  //   }],
-  // }, defaultComponentOpts);
-
-
   const externalDnsNamespace = new k8s.core.v1.Namespace('external-dns', {
     metadata: { name: 'external-dns' },
   }, defaultComponentOpts);
@@ -255,11 +130,4 @@ export default async (): Promise<void> => {
   });
 
   const api = new API('brewed-here', {}, defaultOpts);
-
-  // const doProject = new doc.Project('brewed-here', {
-  //   name: 'brewed-here',
-  //   resources: [
-  //     pulumi.interpolate`do:domain:${domain.id}`
-  //   ],
-  // });
 }
