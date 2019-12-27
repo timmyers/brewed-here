@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View, Button } from 'react-native';
 import { Updates, ScreenOrientation } from 'expo';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
@@ -51,7 +51,14 @@ export default function App() {
           onRegionChangeComplete={(region => setMapRegion(region))}
         />
         <View style={styles.bottom} >
-          { updateAvailable && <Text>Update available!</Text> }
+          { updateAvailable && 
+            <Button 
+              title="update"
+              onPress={async () => {
+                await Updates.reload();
+              }}
+            />
+          }
           <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
         </View>
       </View>
