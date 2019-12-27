@@ -26,5 +26,4 @@ RUN curl -s $HELM_URL -o helm.tar.gz \
     && mv ./helm/linux-amd64/tiller /usr/bin
 
 COPY entrypoint.sh /entrypoint.sh
-COPY appEntrypoint.sh /appEntrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

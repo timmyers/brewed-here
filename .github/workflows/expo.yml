@@ -8,10 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Expo
-        uses: ./.github/actions/pulumi
+      - name: Expo Publish
+        uses: ./.github/actions/expo
         with:
-          entrypoint: /appEntrypoint.sh
+          entrypoint: /publish.sh
         env:
-          EXPO_CLI_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
+          EXPO_CLI_USERNAME: timmyers
           EXPO_CLI_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
+  build:
+    if: github.ref == 'master'
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Turtle Build
+        uses: ./.github/actions/expo
+        with:
+          entrypoint: /build.sh
+        env:
+          TURTLE_VERSION: 0.13.6
+          PLATFORM: android
+          EXPO_USERNAME: timmyers
+          EXPO_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
