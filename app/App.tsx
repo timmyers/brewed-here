@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import { Updates } from 'expo';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
@@ -25,6 +26,14 @@ const filterBreweries = (breweries: any[], region: Region) => {
 export default function App() {
   const breweries = useBreweries();
   const [mapRegion, setMapRegion] = useMapRegion();
+  const [updateAvailable, setUpdateIsAvailable] = useState(false);
+
+  useEffect(() => {
+    (async () => {
+      const result = await Updates.checkForUpdateAsync();
+      setUpdateIsAvailable(result.isAvailable);
+    })()
+  }, [])
 
   return (
     <StoreProvider>
@@ -35,7 +44,7 @@ export default function App() {
           onRegionChangeComplete={(region => setMapRegion(region))}
         />
         <View style={styles.bottom} >
-          <Text>Hello</Text>
+          { updateAvailable && <Text>Update available!</Text> }
           <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
         </View>
       </View>

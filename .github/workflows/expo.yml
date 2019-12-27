@@ -3,7 +3,7 @@ on:
   - push
 jobs:
   publish:
-    if: github.ref != 'master'
+    if: github.ref == 'master'
     name: Publish
     runs-on: ubuntu-latest
     steps:

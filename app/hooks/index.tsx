@@ -8,7 +8,6 @@ const defaultState = {
 };
 
 function reducer(state = defaultState, action: any = {}) {
-  console.log('REDUCER', action.type)
   switch (action.type) {
     case 'SET_ALL_VISITED':
       return { ...state, visited: action.visited };
