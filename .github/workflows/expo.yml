@@ -28,9 +28,9 @@ jobs:
       - name: Determine Expo SDK version for this project
         working-directory: ./app
         run: cat app.json | jq '.expo.sdkVersion' -r > /tmp/expo-sdk-version
-      - name: Add yarn binaries path to $PATH
-        working-directory: ./app
-        run: echo 'export PATH=~/.yarn/bin:$PATH' >> $BASH_ENV
+      # - name: Add yarn binaries path to $PATH
+      #   working-directory: ./app
+      #   run: echo 'export PATH=~/.yarn/bin:$PATH' >> $BASH_ENV
       - name: Installing gulp-cli & turtle-cli
         working-directory: ./app
         run: yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
