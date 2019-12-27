@@ -20,7 +20,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ./.github/actions/expo
-      entrypoint: /bin/bash
       env:
         TURTLE_VERSION: 0.13.6
         PLATFORM: android
