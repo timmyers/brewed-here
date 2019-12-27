@@ -113,6 +113,26 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
+"@pulumi/pulumi@1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.7.1.tgz#7edb4c980c351c9f9b9e15e8e50746b2f9b2e43a"
+  integrity sha512-kyJ7zs9FlgLEVygeNbOv361T6LFsBow2ZihlMAcgsxzNxsP90wBiOGqsliyymznX03A6cHt4llTqSIH4ONeXKw==
+  dependencies:
+    "@pulumi/query" "^0.3.0"
+    deasync "^0.1.15"
+    google-protobuf "^3.5.0"
+    grpc "1.24.2"
+    minimist "^1.2.0"
+    normalize-package-data "^2.4.0"
+    protobufjs "^6.8.6"
+    read-package-tree "^5.3.1"
+    require-from-string "^2.0.1"
+    semver "^6.1.0"
+    source-map-support "^0.4.16"
+    ts-node "^7.0.0"
+    typescript "=3.6.3"
+    upath "^1.1.0"
+
 "@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.6.0", "@pulumi/pulumi@^1.6.1":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.7.0.tgz#dc6d600c0074c312d863632d0c3a2d13646f1b72"
@@ -131,26 +151,6 @@
     source-map-support "^0.4.16"
     ts-node "^7.0.0"
     typescript "=3.6.3"
-    upath "^1.1.0"
-
-"@pulumi/pulumi@^1.8.1":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.8.1.tgz#02d1a2b98e1c873792868d378360a569454b6c01"
-  integrity sha512-YECXh3TRCl21QYpvUrzGDGBVqZBr3V053x1chXnt/7+FgwxM5M1cpH3T7kQX44+z7crvIqvQ7FbngNpgCHKa1Q==
-  dependencies:
-    "@pulumi/query" "^0.3.0"
-    deasync "^0.1.15"
-    google-protobuf "^3.5.0"
-    grpc "1.24.2"
-    minimist "^1.2.0"
-    normalize-package-data "^2.4.0"
-    protobufjs "^6.8.6"
-    read-package-tree "^5.3.1"
-    require-from-string "^2.0.1"
-    semver "^6.1.0"
-    source-map-support "^0.4.16"
-    ts-node "^8.5.4"
-    typescript "~3.7.3"
     upath "^1.1.0"
 
 "@pulumi/pulumi@latest":
@@ -1574,7 +1574,7 @@ typescript@^3.7.3:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
   integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
 
-typescript@^3.7.4, typescript@~3.7.3:
+typescript@^3.7.4:
   version "3.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
   integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
