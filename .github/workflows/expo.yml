@@ -13,7 +13,7 @@ jobs:
         with:
           entrypoint: /publish.sh
         env:
-          EXPO_CLI_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
+          EXPO_CLI_USERNAME: timmyers
           EXPO_CLI_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
   build:
     # if: github.ref == 'master'
@@ -24,11 +24,11 @@ jobs:
       - name: Turtle Build
         uses: ./.github/actions/expo
         with:
-          entrypoint: /entrypoint.sh
+          entrypoint: /build.sh
         env:
           TURTLE_VERSION: 0.13.6
           PLATFORM: android
-          EXPO_USERNAME: ${{ secrets.EXPO_CLI_USERNAME }}
+          EXPO_USERNAME: timmyers
           EXPO_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
   # build:
   #   name: build
