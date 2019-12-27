@@ -33,7 +33,7 @@ jobs:
         run: echo 'export PATH=~/.yarn/bin:$PATH' >> $BASH_ENV
       - name: Installing gulp-cli & turtle-cli
         working-directory: ./app
-        command: yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
+        run: yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
       - name: Setting up environment for Turtle
         working-directory: ./app
-        command: turtle setup:$PLATFORM --sdk-version `cat /tmp/expo-sdk-version`
+        run: turtle setup:$PLATFORM --sdk-version `cat /tmp/expo-sdk-version`
