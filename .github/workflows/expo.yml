@@ -18,12 +18,13 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    container:
+      image: docker://dsokal/expo-turtle-android
+      env:
+        TURTLE_VERSION: 0.13.6
+        PLATFORM: android
     steps:
       - uses: actions/checkout@v1
       - name: Determine Expo SDK version for this project
-        container: docker://dsokal/expo-turtle-android
         working_directory: ./app
-        env:
-          TURTLE_VERSION: 0.13.6
-          PLATFORM: android
         run: cat app.json | jq '.expo.sdkVersion' -r > /tmp/expo-sdk-version
