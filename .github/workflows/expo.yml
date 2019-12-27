@@ -19,7 +19,7 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - uses: dsokal/expo-turtle-android
+      - uses: docker://dsokal/expo-turtle-android
         env:
           TURTLE_VERSION: 0.13.6
           PLATFOR: android
