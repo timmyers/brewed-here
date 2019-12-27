@@ -3,7 +3,8 @@ import * as Location from 'expo-location';
 import * as Permissions from 'expo-permissions';
 import MapView, { Marker, Region } from 'react-native-maps';
 import { StyleSheet, Platform } from 'react-native';
-import { useMapRegion } from '../hooks';
+import { useMapRegion, useLoadBreweriesVisited } from '../hooks';
+import BreweryMapMarker from './BreweryMapMarker';
 
 interface PropTypes {
   breweries: any;
@@ -16,6 +17,7 @@ export default ({
   initialRegion,
   onRegionChangeComplete 
 }: PropTypes) => {
+  useLoadBreweriesVisited();
   const map = useRef(undefined);
   const [mapReady, setMapReady] = useState(false)
   const [mapRegion, setMapRegion] = useMapRegion();
@@ -64,13 +66,7 @@ export default ({
       }}
     >
       { breweries.map((brewery) => (
-        <Marker
-          coordinate={{
-            latitude: brewery.lat,
-            longitude: brewery.lng,
-          }}
-          key={brewery.id}
-        />
+        <BreweryMapMarker brewery={brewery} key={brewery.id} />
       )) }
     </MapView>
   );
