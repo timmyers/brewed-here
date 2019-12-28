@@ -2933,5 +2933,19 @@
     "website": "https://stemciders.com/acreage-ciderhouse-eatery/",
     "locationName": "Acreage Lafayette",
     "id": "dd779ffd-0381-4394-8d07-3e735362363e"
+  },
+  {
+    "name": "FlyteCo Brewing",
+    "lat": 39.769476,
+    "lng": -105.044730,
+    "website": "https://flyteco.beer",
+    "id": "ced00027-8bf7-42ac-9575-03a6fffdbcaf"
+  },
+  {
+    "name": "The Empourium Brewing Company",
+    "lat": 39.774125,
+    "lng": -105.043819,
+    "website": "https://theempourium.com/",
+    "id": "bb284562-dbb9-4cf8-9a59-e9ee352e48a9"
   }
 ]
