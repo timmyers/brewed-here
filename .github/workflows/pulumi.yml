@@ -3,7 +3,7 @@ on:
   - push
 jobs:
   preview:
-    if: github.ref != 'master'
+    if: github.ref != 'refs/heads/master'
     name: Preview
     runs-on: ubuntu-latest
     steps:
@@ -17,7 +17,7 @@ jobs:
           DIGITALOCEAN_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
   update:
-    if: github.ref == 'master'
+    if: github.ref == 'refs/heads/master'
     name: Preview
     runs-on: ubuntu-latest
     steps:
