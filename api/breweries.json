@@ -460,6 +460,7 @@
     "lng": -104.806376,
     "googlePlaceId": "ChIJtc9m6i6PbIcRXS5AAcSPTTw",
     "website": "http://www.breweria.com/",
+    "closed": true,
     "id": "d6059d8c-fad6-4000-b9a4-91c253cfa749"
   },
   {
@@ -476,7 +477,15 @@
     "lng": -104.988016,
     "googlePlaceId": "ChIJ2R5cWn6AbIcRXACzJayFAIc",
     "website": "http://thebrewonbroadway.com/",
+    "closed": true,
     "id": "7c384c35-217b-4d29-9f4c-fea8bad023e3"
+  },
+  {
+    "name": "Brewability Lab",
+    "lat": 39.654104,
+    "lng": -104.988016,
+    "website": "https://www.brew-ability.com/",
+    "id": "8141cd8b-4f7b-436c-8b8c-6bad75acf0c3"
   },
   {
     "name": "Saint Patrick's Brewing Company",
@@ -2947,5 +2956,40 @@
     "lng": -105.043819,
     "website": "https://theempourium.com/",
     "id": "bb284562-dbb9-4cf8-9a59-e9ee352e48a9"
+  },
+  {
+    "name": "Primitive Beer",
+    "lat": 40.134755, 
+    "lng": -105.103790,
+    "website": "https://primitive.beer/",
+    "id": "9f898099-d805-493e-86be-ee22ed3264d8"
+  },
+  {
+    "name": "The Grateful Gnome Sandwich Shoppe & Brewery",
+    "lat": 39.776514,
+    "lng": -105.043256,
+    "website": "https://www.thegratefulgnome.com/",
+    "id": "21819599-0516-41af-b319-7aeadb4f4c96"
+  },
+  {
+    "name": "Novel Strand Brewing Company",
+    "lat": 39.718559,
+    "lng": -104.992317,
+    "website": "https://www.novelstrand.com",
+    "id": "dd54cd07-59f4-447c-9011-8c8ba017eb14"
+  },
+  {
+    "name": "Dos Luces Brewery",
+    "lat": 39.694055,
+    "lng": -104.987289,
+    "website": "https://dosluces.com/",
+    "id": "d3caddef-00f7-4d71-bce5-6abc22bf9928"
+  },
+  {
+    "name": "Cerveceria Colorado",
+    "lat": 39.758041,
+    "lng": -105.007550,
+    "website": "https://www.cerveceriacolorado.com/",
+    "id": "8c86f012-0209-4e79-8b99-e6564fd5b296"
   }
 ]

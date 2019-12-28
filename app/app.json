@@ -29,7 +29,10 @@
     },
     "android": {
       "package": "co.brewedhere.brewedhere",
-      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
     "githubUrl": "https://github.com/timmyers/brewed-here",
     "description": ""
