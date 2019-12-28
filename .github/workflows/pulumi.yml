@@ -18,7 +18,7 @@ jobs:
           DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
   update:
     if: github.ref == 'refs/heads/master'
-    name: Preview
+    name: Update
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
