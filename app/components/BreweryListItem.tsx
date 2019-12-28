@@ -17,6 +17,11 @@ export default ({ brewery }: PropTypes) => {
       <Text style={styles.breweryTitle}>
         { brewery.name }
       </Text>
+      { brewery.locationName && 
+        <Text style={styles.breweryLocation}>
+          { brewery.locationName }
+        </Text>
+      }
       <View style={styles.visitedHolder}>
         <Text style={styles.visitedText}>Visited</Text>
         <Switch
@@ -44,6 +49,9 @@ const styles = StyleSheet.create({
   },
   breweryTitle: {
     fontSize: 18,
+  },
+  breweryLocation: {
+    fontSize: 13,
   },
   visitedHolder: {
     flexDirection: 'row',

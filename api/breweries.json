@@ -3026,5 +3026,12 @@
     "lng": -105.007550,
     "website": "https://www.cerveceriacolorado.com/",
     "id": "8c86f012-0209-4e79-8b99-e6564fd5b296"
+  },
+  {
+    "name": "Chrysalis Barrel Aged Beer",
+    "lat": 38.865463,
+    "lng": -107.597581,
+    "website": "https://chrysalisbeer.com/",
+    "id": "b2c5d6bf-3609-4541-aa47-802edfd7f295"
   }
 ]

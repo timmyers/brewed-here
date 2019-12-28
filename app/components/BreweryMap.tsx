@@ -37,7 +37,7 @@ export default ({
       showsTraffic={false}
       showsIndoors={false}
       showsUserLocation={true}
-      showsMyLocationButton={true}
+      showsMyLocationButton={false}
       customMapStyle={[{
         featureType: "poi",
         elementType: "labels",
