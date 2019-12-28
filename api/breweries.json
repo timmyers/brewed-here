@@ -20,6 +20,7 @@
     "name": "Beryl's Beer Company",
     "lat": 39.76471,
     "lng": -104.980229,
+    "closed": true,
     "googlePlaceId": "ChIJkRwTBRx5bIcRd73MJLxiZZk",
     "website": "http://berylsbeerco.com/",
     "id": "ece3751f-196a-4d44-b86b-f92177a54f3e"
@@ -199,6 +200,7 @@
     "name": "Lost Highway Brewing Company",
     "lat": 39.739833,
     "lng": -104.980403,
+    "closed": true,
     "googlePlaceId": "ChIJ-UWVWit5bIcRmcUi1_hphW0",
     "website": "http://www.losthighwaybrewing.com/",
     "id": "a891bbb3-e4c8-437d-97b0-26273c872019"
@@ -320,6 +322,7 @@
     "name": "FERMÆNTRA Brewery",
     "lat": 39.678707,
     "lng": -104.967046,
+    "closed": true,
     "googlePlaceId": "ChIJo7jkOz9-bIcRgVkD3wQr8bo",
     "website": "http://www.fermaentra.com/",
     "id": "786514c2-8ad5-4dfe-96a6-5754fe6a4d39"
@@ -541,6 +544,7 @@
     "name": "38 State Brewing Company",
     "lat": 39.568965,
     "lng": -104.989613,
+    "closed": true,
     "googlePlaceId": "ChIJn8bjfSyCbIcR2LogONWiN_4",
     "website": "http://www.38statebrew.com/",
     "id": "3db776b9-8af0-4748-8d50-17f4272e5043"
@@ -637,6 +641,7 @@
     "name": "CAUTION: Brewing Company",
     "lat": 39.698131,
     "lng": -105.082399,
+    "closed": true,
     "googlePlaceId": "ChIJSQhhVRyBa4cRkMFTzKFwMk4",
     "website": "http://www.cautionbrewingco.com/",
     "id": "21188173-9fb0-4a9e-a4de-78d39b2dc52f"
@@ -831,6 +836,7 @@
     "name": "U Turn BBQ",
     "lat": 40.003452,
     "lng": -105.101617,
+    "closed": true,
     "googlePlaceId": "ChIJq6qeR_X0a4cRFEGd2IDxX6U",
     "website": "http://uturnbbq.com/",
     "id": "552e132e-8e17-462f-a740-6d6d7cd45e32"
@@ -861,9 +867,11 @@
     "id": "26ddb1fb-0eb1-45c1-8d96-d42ff76e16ff"
   },
   {
-    "name": "FATE Brewing Company - Boulder",
+    "name": "FATE Brewing Company",
+    "locationName": "Boulder",
     "lat": 40.015096,
     "lng": -105.245734,
+    "closed": true,
     "googlePlaceId": "ChIJkzs51sLta4cReynXvDD7kss",
     "website": "http://www.fatebrewingcompany.com/",
     "id": "fd9fe79b-5f75-4d1d-912a-3dcfdad88c74"
@@ -1003,6 +1011,7 @@
     "name": "Vindication Brewing",
     "lat": 40.076828,
     "lng": -105.192969,
+    "closed": true,
     "googlePlaceId": "ChIJd-5kzUvwa4cRTNzBxl3q840",
     "website": "http://vindicationbrewing.com/",
     "id": "59ddf1c1-4b82-4594-83c8-a08e710f25eb"
@@ -1019,6 +1028,7 @@
     "name": "Powder Keg Brewing Company",
     "lat": 40.103378,
     "lng": -105.172881,
+    "closed": true,
     "googlePlaceId": "ChIJQRWsg2Lwa4cRU9JnKgzWIbg",
     "website": "http://www.powderkegbrewingcompany.com/",
     "id": "46ac6750-39a3-42d9-a092-391dbf332a40"
@@ -1171,6 +1181,7 @@
     "name": "Great Storm Brewing",
     "lat": 38.890442,
     "lng": -104.81817999999998,
+    "closed": true,
     "googlePlaceId": "ChIJG0dZ8b5PE4cRdFRrfmESXNU",
     "website": "http://www.greatstormbrewing.com/",
     "id": "97e4c43e-4e29-4b10-9b4b-ca58906d41c1"
@@ -1242,11 +1253,20 @@
   },
   {
     "name": "Odell Brewing Company",
+    "locationName": "Fort Collins",
     "lat": 40.58946739999999,
     "lng": -105.06318190000002,
     "googlePlaceId": "ChIJGRU_s-xKaYcRJNVJw2tch2Q",
-    "website": "http://www.odellbrewing.com/",
+    "website": "https://www.odellbrewing.com/taproom/",
     "id": "9432a3bc-e55c-4c8e-9aff-c9657408f97c"
+  },
+  {
+    "name": "Odell Brewing Company",
+    "locationName": "Denver",
+    "lat": 39.762153,
+    "lng": -104.980903,
+    "website": "https://www.odellbrewing.com/taproom-denver/",
+    "id": "92a0b7b6-6931-4680-8de6-4ea4dc2418e0"
   },
   {
     "name": "Wild Woods Brewery",
@@ -1852,6 +1872,7 @@
     "name": "Dodgeton Creek Brewing Company",
     "lat": 37.2180957,
     "lng": -104.49036460000002,
+    "closed": true,
     "googlePlaceId": "ChIJ9bMmhdwaEYcRWc-FEiiARO0",
     "website": "http://www.dodgetoncreek.com/",
     "id": "3f8bdde3-59cd-4f91-884f-7f69222f92a5"
@@ -1909,6 +1930,7 @@
     "lat": 37.27057569999999,
     "lng": -107.88236080000001,
     "googlePlaceId": "ChIJkRBFlpgCPIcRk6WAic9sHCU",
+    "closed": true,
     "website": "http://brewpubkitchen.com/",
     "id": "31ecf051-488d-4877-995d-baa69c5a2578"
   },
@@ -2045,6 +2067,7 @@
     "name": "Nighthawk Brewery",
     "lat": 39.920921,
     "lng": -105.101066,
+    "closed": true,
     "googlePlaceId": "ChIJfUnjl5-La4cRGE9S5LZeI1E",
     "website": "http://www.nighthawkbrewery.com/",
     "id": "e093aeff-67d3-4dc3-872e-7eb69ecb7899"
@@ -2269,6 +2292,7 @@
     "name": "Ute Pass Brewing Company",
     "lat": 38.9944728,
     "lng": -105.05133109999997,
+    "closed": true,
     "googlePlaceId": "ChIJTe4goLaqFIcRv-tXLRB29Cg",
     "website": "http://www.utepassbrewingcompany.com/",
     "id": "032e7d03-2457-4e60-8da7-7ae8e17fd50a"
@@ -2421,9 +2445,17 @@
     "name": "Revolution Brewing",
     "lat": 38.869515,
     "lng": -107.59750700000001,
+    "closed": true,
     "googlePlaceId": "ChIJZbBeqKKWQIcR7RnDCSFlAes",
     "website": "http://www.revolution-brewing.com/",
     "id": "1c823bb2-d13c-425d-b73d-c461d4704cb9"
+  },
+  {
+    "name": "Paonia United Brewing Company",
+    "lat": 38.869515,
+    "lng": -107.597507,
+    "website": "https://paoniaunitedbrew.com/",
+    "id": "a4094f39-b57d-4e08-bae1-9a358281a8c7"
   },
   {
     "name": "4B's Brewery",
@@ -2686,9 +2718,11 @@
     "id": "d86dff00-f515-4bda-ab39-33d0df891b9c"
   },
   {
-    "name": "FATE Brewing Company - Lafayette",
+    "name": "FATE Brewing Company",
+    "locationName": "Lafayette",
     "lat": 39.9858225,
     "lng": -105.094558,
+    "closed": true,
     "googlePlaceId": "ChIJkzs51sLta4cReynXvDD7kss",
     "website": "http://www.fatebrewingcompany.com/",
     "id": "80928f01-c217-486b-87d4-8d6ba27de6e3"
@@ -2755,6 +2789,7 @@
     "name": "FanDraught Sports Brewery",
     "lat": 39.5521046,
     "lng": -104.77350130000002,
+    "closed": true,
     "googlePlaceId": "ChIJM5CLRWiObIcRdZLD2nbH_Yc",
     "website": "https://www.fandraught.com/",
     "id": "028fc423-e420-47de-b7a7-4cd883ff05e9"

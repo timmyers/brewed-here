@@ -44,8 +44,12 @@ export const useBreweries = () => {
   useEffect(() => {
     (async () => {
       try {
-        const breweries = await axios.get('https://api.brewedhere.co');
-        setBreweries(breweries.data);
+        const ret = await axios.get('https://api.brewedhere.co');
+        const breweries = ret.data as any[];
+        const openBreweries = breweries.filter((brewery) => {
+          return brewery.closed === undefined || brewery.closed == false;
+        });
+        setBreweries(openBreweries);
       } catch (err) {
         console.log(err);
       }
