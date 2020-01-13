@@ -10,13 +10,13 @@
   "dependencies": {
     "@types/koa": "^2.11.0",
     "koa": "^2.11.0",
-    "ts-node": "^8.6.1",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.4",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@types/node": "^13.1.6",
-    "ts-node": "^8.6.1",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.3"
   }
 }
