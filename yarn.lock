@@ -105,10 +105,10 @@
     shell-quote "^1.6.1"
     tmp "^0.0.33"
 
-"@pulumi/kubernetesx@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetesx/-/kubernetesx-0.1.1.tgz#9b51c63a7740d9df390181461e40f8135f4bff74"
-  integrity sha512-FsathIBt3YQnubFESFzYHsMh5uVgZEVDkzqu8sLvQjqDwHIuVNXelsuf/2NUsRrUFle7IMzgumu35N4llyObqw==
+"@pulumi/kubernetesx@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@pulumi/kubernetesx/-/kubernetesx-0.1.2.tgz#493e186d3b88521234e167defb1482a43a0bd8f9"
+  integrity sha512-yWzNZJy4IsgCd3LbRyNIWZaxi+RyJlz5CLxY51JsPN2aDLzetSBQZVHEYP6H5qexWAJ3+NeaYiJVAdR1N6POEg==
   dependencies:
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
