@@ -55,10 +55,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@pulumi/digitalocean@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/digitalocean/-/digitalocean-1.5.0.tgz#05c1ad7839ddc3c584a2628c0dd0cc119a39143e"
-  integrity sha512-Hc2JmE38Xp5bfc6OHiNwPONi7Vih9tewKDcU5saTN/YtjumcfSErg5W0+QDxACD+Zm28uT2QmNAyUbCYNchNOQ==
+"@pulumi/digitalocean@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/digitalocean/-/digitalocean-1.6.0.tgz#fea0d3a9f5fcfcaf58c4df6422bbc96ab4e9bd42"
+  integrity sha512-kcegMCxCJEK4oeIv6l8VgNFdsVDUkVsqBdm5V39Vd6C0rlp+RgNzZJbRXmVi9PvS5E2i/4h8TvhfHvpDTP0Axg==
   dependencies:
     "@pulumi/pulumi" "^1.0.0"
     builtin-modules "3.0.0"
