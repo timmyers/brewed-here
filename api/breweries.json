@@ -2461,6 +2461,7 @@
     "name": "4B's Brewery",
     "lat": 38.9005,
     "lng": -107.92599999999999,
+    "closed": true,
     "googlePlaceId": "ChIJtaP5BCO2QIcRyKLBMXnzDkU",
     "website": "http://4bsbrewery.com/",
     "id": "9a128e82-d89b-4af8-8fe8-7b6640f9d26f"

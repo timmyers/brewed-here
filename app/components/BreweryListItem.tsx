@@ -27,7 +27,6 @@ export default ({ brewery }: PropTypes) => {
         <Switch
           value={breweryVisited}
           onValueChange={async (value) => {
-            console.log(`${brewery.name} visited`)
             await setBreweryVisited(value);
           }}
         />
