@@ -26,7 +26,7 @@ jobs:
         with:
           entrypoint: /build.sh
         env:
-          TURTLE_VERSION: 0.13.6
+          TURTLE_VERSION: 0.13.9
           PLATFORM: android
           EXPO_USERNAME: timmyers
           EXPO_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
