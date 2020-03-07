@@ -30,3 +30,8 @@ jobs:
           PLATFORM: android
           EXPO_USERNAME: timmyers
           EXPO_PASSWORD: ${{ secrets.EXPO_CLI_PASSWORD }}
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: android
+          path: app/expo-project.aab
