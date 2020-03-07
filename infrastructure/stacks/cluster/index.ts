@@ -4,6 +4,7 @@ import * as pulumi from '@pulumi/pulumi';
 import * as k8s from '@pulumi/kubernetes';
 import * as doc from '@pulumi/digitalocean';
 import API from './api';
+import AppStorage from './AppStorage';
 
 export default async (): Promise<void> => {
   const cluster = new doc.KubernetesCluster('do1', {
@@ -130,4 +131,5 @@ export default async (): Promise<void> => {
   });
 
   const api = new API('brewed-here', {}, defaultOpts);
+  const appStorage = new AppStorage('brewed-here', {}, defaultOpts);
 }
