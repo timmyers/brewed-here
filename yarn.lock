@@ -109,7 +109,27 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
-"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.11.0", "@pulumi/pulumi@^1.12.0", "@pulumi/pulumi@^1.6.1", "@pulumi/pulumi@latest":
+"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.11.0", "@pulumi/pulumi@^1.12.1", "@pulumi/pulumi@^1.6.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.12.1.tgz#a4c8cf125bdf0f1137b986e672fadea586b2c692"
+  integrity sha512-hQDcTgP/CTEMvYprVRj8Flq4cGSm2JimtJGyG05/5c5ijS+ePdsNnLOWmA7DSPmBbAnFBmTbY+VHQZmHbYW8Nw==
+  dependencies:
+    "@pulumi/query" "^0.3.0"
+    deasync "^0.1.15"
+    google-protobuf "^3.5.0"
+    grpc "1.24.2"
+    minimist "^1.2.0"
+    normalize-package-data "^2.4.0"
+    protobufjs "^6.8.6"
+    read-package-tree "^5.3.1"
+    require-from-string "^2.0.1"
+    semver "^6.1.0"
+    source-map-support "^0.4.16"
+    ts-node "^7.0.1"
+    typescript "~3.7.3"
+    upath "^1.1.0"
+
+"@pulumi/pulumi@latest":
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.12.0.tgz#7dff6771192cf20e8b282c0c23a649eb5e659632"
   integrity sha512-EW/UNLFEVXspzDQnxPMCrXNaZ0gb2eHtYekSlBosXLJdWAGKPAy/a7IvVEA3E91f01Chi1JnUjGV8+cBDuxefw==
