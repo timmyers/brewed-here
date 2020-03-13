@@ -9,7 +9,7 @@
     "@semantic-release/release-notes-generator",
     "semantic-release-expo",
     ["@semantic-release/exec", {
-      "publishCmd": "./publish.sh"
+      "publishCmd": "/publish.sh"
     }],
     ["@semantic-release/exec", {
       "publishCmd": "node buildAndroid.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'"
