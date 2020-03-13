@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
-  "workspaces": ["infrastructure", "api"]
+  "workspaces": [
+    "infrastructure",
+    "api"
+  ],
+  "devDependencies": {
+    "semantic-release": "^17.0.4"
+  }
 }
