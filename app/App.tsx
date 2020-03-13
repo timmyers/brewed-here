@@ -6,8 +6,7 @@ import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
 import MyLocationButton from './components/MyLocationButton';
 import { StoreProvider, useBreweries, useMapRegion } from './hooks';
-
-import './db';
+import { connect } from './db';
 
 const filterBreweries = (breweries: any[], region: Region) => {
   const latDif = region.latitudeDelta / 2;
@@ -30,6 +29,8 @@ export default function App() {
   const [updateAvailable, setUpdateIsAvailable] = useState(false);
 
   useEffect(() => {
+    connect();
+
     (async () => {
       try {
         await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.ALL_BUT_UPSIDE_DOWN);

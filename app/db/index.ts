@@ -1,27 +1,33 @@
 import * as SQLite from 'expo-sqlite';
 (window as any).Expo = Object.freeze({ ...(window as any).Expo, SQLite });
-import { createConnection, getRepository } from 'typeorm/browser'
+import { createConnection, Connection } from 'typeorm/browser'
 import { Visit } from './entities/visits';
 
-const dbConn = createConnection({
-  database: 'db',
-  entities: [
-    Visit,
-  ],
-  synchronize: true,
-  type: 'expo',
-  logging: false,
-});
+let dbConn: Promise<Connection>;
 
-(async () => {
-  try {
-    const db = await dbConn;
 
-    const visitRepository = db.getRepository(Visit);
-  } catch (err) {
-    console.log(err)
-  }
-})()
+export const connect = () => {
+  dbConn = createConnection({
+    database: 'db',
+    driver: require('expo-sqlite'),
+    entities: [
+      Visit,
+    ],
+    synchronize: true,
+    type: 'expo',
+    logging: false,
+  });
+}
+
+// (async () => {
+//   try {
+//     const db = await dbConn;
+
+//     const visitRepository = db.getRepository(Visit);
+//   } catch (err) {
+//     console.log(err)
+//   }
+// })()
 
 export const getAllVisits = async () => {
   try {
