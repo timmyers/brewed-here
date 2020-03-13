@@ -23,9 +23,7 @@ stdin.on('end', async () => {
   })
 
   if (doBuild) {
-    await execa('/publish.sh', {
-      shell: true,
-    })
+    await execa('/publish.sh', { shell: true })
   }
 
   process.exit(0)
