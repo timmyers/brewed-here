@@ -8,6 +8,7 @@
     "api"
   ],
   "devDependencies": {
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^17.0.4",
+    "semantic-release-expo": "^2.2.3"
   }
 }

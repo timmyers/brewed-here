@@ -1,8 +1,13 @@
 {
   "branches": "master",
+  "prepare": [{
+    "path": "semantic-release-expo",
+    "manifests": ["app/app.json"]
+  }],
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
+    "semantic-release-expo",
     ["@semantic-release/github", {
       "released": ["published"]
     }]
