@@ -4,7 +4,7 @@ import { Updates, ScreenOrientation } from 'expo';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
-import MyLocationButton from './components/MyLocationButton';
+// import MyLocationButton from './components/MyLocationButton';
 import { StoreProvider, useBreweries, useMapRegion } from './hooks';
 import { connect } from './db';
 
