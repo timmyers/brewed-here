@@ -1,5 +1,6 @@
-
 FROM node:12.13.1
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
   openjdk-8-jdk=8u242-b08-1~deb9u1 \
@@ -13,6 +14,10 @@ RUN apt-get update && apt-get -y --no-install-recommends install \
 RUN curl -sL -o s3cmd.tar.gz https://github.com/s3tools/s3cmd/releases/download/v2.0.2/s3cmd-2.0.2.tar.gz \
     && tar -xf s3cmd.tar.gz \
     && cp -r s3cmd-2.0.2/s3cmd s3cmd-2.0.2/S3 /usr/local/bin
+  
+# Install doctl
+RUN curl -sL https://github.com/digitalocean/doctl/releases/download/v1.38.0/doctl-1.38.0-linux-amd64.tar.gz | tar -xzv \
+    && mv doctl /usr/local/bin
 
 COPY build.sh /build.sh
 COPY publish.sh /publish.sh
