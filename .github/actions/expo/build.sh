@@ -7,8 +7,10 @@ yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
 turtle setup:$PLATFORM --sdk-version `cat /tmp/expo-sdk-version`
 turtle build:android \
   --type app-bundle \
-  --public-url https://expo.brewedhere.co/android-index.json 
-  -o ./expo-project.aab
+  --build-dir ./build \
+  --public-url https://expo.brewedhere.co/android-index.json \
+  -o brewed-here.aab
+ls && ls ./buil
 
 # yarn global add expo-cli
 # yarn
