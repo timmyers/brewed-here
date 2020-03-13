@@ -1,6 +1,7 @@
-const stdin = process.stdin,
-    stdout = process.stdout,
-    inputChunks = [];
+const execa = require('execa');
+
+const stdin = process.stdin;
+const inputChunks = [];
 
 stdin.resume();
 stdin.setEncoding('utf8');
@@ -9,17 +10,23 @@ stdin.on('data', function (chunk) {
   inputChunks.push(chunk);
 });
 
-stdin.on('end', function () {
+stdin.on('end', async () => {
   const inputJSON = inputChunks.join();
   const parsedData = JSON.parse(inputJSON);
 
+  let doBuild = false
   parsedData.forEach(subject => {
-    if (subject.indexOf('rebuild-app') != -1) {
-      console.log(subject)
+    if (subject.indexOf('build-app') != -1) {
+      process.stderr.write(`Found build-app commit: ${subject}\n`)
+      doBuild = true
     }
   })
 
-  console.log()
+  if (doBuild) {
+    await execa('/publish.sh', {
+      shell: true,
+    })
+  }
 
   process.exit(0)
 });

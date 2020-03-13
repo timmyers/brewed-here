@@ -21,4 +21,5 @@ RUN curl -sL https://github.com/digitalocean/doctl/releases/download/v1.38.0/doc
 
 COPY build.sh /build.sh
 COPY publish.sh /publish.sh
+COPY build-entrypoint.sh /build-entrypoint.sh
 ENTRYPOINT ["/bin/bash"]

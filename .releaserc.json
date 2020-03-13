@@ -12,7 +12,7 @@
       "publishCmd": "./publish.sh"
     }],
     ["@semantic-release/exec", {
-      "generateNotesCmd": "node buildAndroid.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'"
+      "publishCmd": "node buildAndroid.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'"
     }],
     ["@semantic-release/github", {
       "released": ["published"]

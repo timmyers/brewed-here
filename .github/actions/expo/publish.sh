@@ -1,11 +1,9 @@
-#!/bin/sh -l
+#!/bin/sh -e
 set -ex
 
 cd app
 yarn global add expo-cli
 yarn
-
-yarn semantic-release --dry-run
 
 sed -i "s/ANDROID_MAPS_API_KEYS/$ANDROID_MAPS_API_KEYS/g" app.json
 expo export --public-url https://expo.brewedhere.co
