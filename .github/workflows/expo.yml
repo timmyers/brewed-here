@@ -18,7 +18,7 @@ jobs:
   #         SPACES_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_ACCESS_KEY }}
   #         ANDROID_MAPS_API_KEYS: ${{ secrets.ANDROID_MAPS_API_KEYS }}
   build:
-    needs: publish
+    # needs: publish
     if: github.ref == 'refs/heads/master'
     name: Build
     runs-on: ubuntu-latest
