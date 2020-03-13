@@ -26,6 +26,7 @@ jobs:
           EXPO_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.EXPO_ANDROID_KEYSTORE_PASSWORD }}
       - name: Upload artifact
         uses: actions/upload-artifact@v1
+        if: env.TURTLE_BUILD == "true"
         with:
-          name: android
+          name: brewed-here.aab
           path: app/brewed-here.aab

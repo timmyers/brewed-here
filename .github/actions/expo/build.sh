@@ -17,3 +17,5 @@ turtle build:android \
   --type app-bundle \
   --public-url https://expo.brewedhere.co/android-index.json \
   -o brewed-here.aab
+
+export TURTLE_BUILD=true
