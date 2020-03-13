@@ -5,18 +5,20 @@ import { Visit } from './entities/visits';
 
 let dbConn: Promise<Connection>;
 
-
 export const connect = () => {
-  dbConn = createConnection({
-    database: 'db',
-    driver: require('expo-sqlite'),
-    entities: [
-      Visit,
-    ],
-    synchronize: true,
-    type: 'expo',
-    logging: false,
-  });
+  if (dbConn == undefined) {
+    console.log('connect')
+    dbConn = createConnection({
+      database: 'db',
+      driver: require('expo-sqlite'),
+      entities: [
+        Visit,
+      ],
+      synchronize: true,
+      type: 'expo',
+      logging: false,
+    });
+  }
 }
 
 // (async () => {
@@ -30,6 +32,7 @@ export const connect = () => {
 // })()
 
 export const getAllVisits = async () => {
+  console.log('getAllVisits')
   try {
     const db = await dbConn;
 

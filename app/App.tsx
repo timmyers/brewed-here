@@ -24,13 +24,9 @@ const filterBreweries = (breweries: any[], region: Region) => {
 }
 
 export default function App() {
-  const breweries = useBreweries();
-  const [mapRegion, setMapRegion] = useMapRegion();
-  const [updateAvailable, setUpdateIsAvailable] = useState(false);
+  connect();
 
   useEffect(() => {
-    connect();
-
     (async () => {
       try {
         await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.ALL_BUT_UPSIDE_DOWN);
@@ -39,10 +35,15 @@ export default function App() {
       }
       if (!__DEV__) {
         const result = await Updates.checkForUpdateAsync();
+        console.log(result)
         setUpdateIsAvailable(result.isAvailable);
       }
     })()
   }, [])
+
+  const breweries = useBreweries();
+  const [mapRegion, setMapRegion] = useMapRegion();
+  const [updateAvailable, setUpdateIsAvailable] = useState(false);
 
   return (
     <StoreProvider>
