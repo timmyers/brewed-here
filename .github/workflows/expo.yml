@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: android
-          path: app/expo-project.aab
+          path: app/brewed-here.aab
