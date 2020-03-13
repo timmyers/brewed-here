@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "0.0.2",
+    "version": "0.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -33,7 +33,7 @@
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
       ],
-      "versionCode": 2
+      "versionCode": 3
     },
     "githubUrl": "https://github.com/timmyers/brewed-here",
     "description": ""
