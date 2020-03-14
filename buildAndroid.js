@@ -3,6 +3,8 @@ const execa = require('execa');
 const stdin = process.stdin;
 const inputChunks = [];
 
+console.log(process.ENV)
+
 stdin.resume();
 stdin.setEncoding('utf8');
 
