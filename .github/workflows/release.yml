@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Semantic Release
-        uses: timmyers/brewed-here-expo:sdk36
+        uses: docker://timmyers/brewed-here-expo:sdk36
         # uses: ./.github/actions/expo
         with:
           entrypoint: /build-entrypoint.sh
