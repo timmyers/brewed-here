@@ -10,7 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Semantic Release
-        uses: ./.github/actions/expo
+        uses: timmyers/brewed-here-expo:sdk36
+        # uses: ./.github/actions/expo
         with:
           entrypoint: /build-entrypoint.sh
         env:
