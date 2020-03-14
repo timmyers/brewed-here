@@ -6,10 +6,11 @@ cat app.json | jq '.expo.sdkVersion' -r > /tmp/expo-sdk-version
 yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
 turtle setup:$PLATFORM --sdk-version `cat /tmp/expo-sdk-version`
 
-pwd && ls && cat app.json
-
 echo $EXPO_ANDROID_KEYSTORE_BASE64 > expo-project.jks.base64
 base64 --decode expo-project.jks.base64 > expo-project.jks
+
+pwd && ls -al && cat app.json
+env
 
 turtle build:android \
   --keystore-path ./expo-project.jks \
