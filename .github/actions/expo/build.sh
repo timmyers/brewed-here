@@ -11,15 +11,6 @@ base64 --decode expo-project.jks.base64 > expo-project.jks
 
 sed -i "s/ANDROID_MAPS_API_KEYS/$ANDROID_MAPS_API_KEYS/g" app.json
 
-chown root:root ./app.json
-ls -al .
-cat app.json
-
-turtle build:android \
-  --keystore-path ./expo-project.jks \
-  --keystore-alias $EXPO_ANDROID_KEYSTORE_ALIAS \
-  --type app-bundle \
-  --public-url https://expo.brewedhere.co/android-index.json \
-  -o brewed-here.aab .
+turtle build:android --keystore-path=./expo-project.jks --keystore-alias=$EXPO_ANDROID_KEYSTORE_ALIAS --type=app-bundle --public-url=https://expo.brewedhere.co/android-index.json --output=brewed-here.aab .
 
 export TURTLE_BUILD=true
