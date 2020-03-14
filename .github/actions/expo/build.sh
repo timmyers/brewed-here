@@ -12,6 +12,7 @@ base64 --decode expo-project.jks.base64 > expo-project.jks
 
 sed -i "s/ANDROID_MAPS_API_KEYS/$ANDROID_MAPS_API_KEYS/g" app.json
 
+chown root:root ./app.json
 ls -al .
 cat app.json
 
