@@ -16,11 +16,10 @@ ls -al .
 cat app.json
 
 turtle build:android \
-  --config ./app.json \
   --keystore-path ./expo-project.jks \
   --keystore-alias $EXPO_ANDROID_KEYSTORE_ALIAS \
   --type app-bundle \
   --public-url https://expo.brewedhere.co/android-index.json \
-  -o brewed-here.aab
+  -o brewed-here.aab .
 
 export TURTLE_BUILD=true
