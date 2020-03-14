@@ -9,7 +9,7 @@
       "android",
       "web"
     ],
-    "version": "0.0.0",
+    "version": "1.0.9",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -25,7 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "co.brewedhere.brewedhere"
+      "bundleIdentifier": "co.brewedhere.brewedhere",
+      "buildNumber": "1.0.9"
     },
     "android": {
       "package": "co.brewedhere.brewedhere",
@@ -33,7 +34,7 @@
         "ACCESS_COARSE_LOCATION",
         "ACCESS_FINE_LOCATION"
       ],
-      "versionCode": 0,
+      "versionCode": 360010009,
       "config": {
         "googleMaps": {
           "apiKey": "ANDROID_MAPS_API_KEYS"
