@@ -9,9 +9,12 @@ turtle setup:$PLATFORM --sdk-version `cat /tmp/expo-sdk-version`
 echo $EXPO_ANDROID_KEYSTORE_BASE64 > expo-project.jks.base64
 base64 --decode expo-project.jks.base64 > expo-project.jks
 
-pwd && ls -al && cat app.json
-env
+sed -i "s/ANDROID_MAPS_API_KEYS/$ANDROID_MAPS_API_KEYS/g" app.json
 
+ls -al .
+whoami
+id
+turtle build:android --help
 turtle build:android \
   --keystore-path ./expo-project.jks \
   --keystore-alias $EXPO_ANDROID_KEYSTORE_ALIAS \
