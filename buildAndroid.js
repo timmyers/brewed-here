@@ -23,7 +23,7 @@ stdin.on('end', async () => {
   })
 
   if (doBuild) {
-    await execa('/build.sh', { shell: true })
+    await execa('/build.sh')
   }
 
   process.exit(0)
