@@ -71,6 +71,7 @@ stdin.on('end', async () => {
       })
 
       const commit = await uploader.edits.commit({
+        packageName: 'co.brewedhere.brewedhere',
         editId: edit.data.id,
       })
 
@@ -81,7 +82,6 @@ stdin.on('end', async () => {
 
   process.exit(0)
 });
-
 
 // (async () => {
 //   try {
@@ -125,6 +125,7 @@ stdin.on('end', async () => {
 //       })
 
 //       const commit = await uploader.edits.commit({
+//         ackageName: 'co.brewedhere.brewedhere',
 //         editId: edit.data.id,
 //       })
 
