@@ -1,4 +1,6 @@
 const execa = require('execa');
+const core = require('@actions/core');
+
 const { google } = require('googleapis')
 const fs = require('fs');
 
@@ -24,7 +26,8 @@ stdin.on('end', async () => {
     }
   })
 
-  await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
+  core.exportVariable('BUILD_APPS', 'true')
+  // await execa('echo', ['"::set-env name=BUILD_APPS::true"'], { stdio: 'inherit' })
   // if (doBuild) {
     // await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
   // }
