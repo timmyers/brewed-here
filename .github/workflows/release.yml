@@ -41,7 +41,28 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           ANDROID_UPLOAD_KEY_BASE64: ${{ secrets.ANDROID_UPLOAD_KEY_BASE64 }}
           TURTLE_VERSION: 0.13.10
-          PLATFORM: android
           EXPO_ANDROID_KEYSTORE_BASE64: ${{ secrets.EXPO_ANDROID_KEYSTORE_BASE64 }}
           EXPO_ANDROID_KEYSTORE_ALIAS: ${{ secrets.EXPO_ANDROID_KEYSTORE_ALIAS }}
           EXPO_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.EXPO_ANDROID_KEYSTORE_PASSWORD }}
+  publish-ios:
+    if: github.ref == 'refs/heads/master'
+    needs: release
+    name: Publish iOS
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Download BUILD_APPS artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: BUILD_APPS
+      - name: Read file and set output parameter
+        id: set_output
+        run: echo "::set-output name=BUILD_APPS::$(<BUILD_APPS/buildApps)"
+      - name: Publish iOS
+        if: steps.set_output.outputs.BUILD_APPS == 'true'
+        uses: ./.github/actions/expo
+        with:
+          entrypoint: /buildIOS.sh
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TURTLE_VERSION: 0.13.10
