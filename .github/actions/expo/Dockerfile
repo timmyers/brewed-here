@@ -23,12 +23,6 @@ RUN curl -sL -o s3cmd.tar.gz https://github.com/s3tools/s3cmd/releases/download/
 RUN curl -sL https://github.com/digitalocean/doctl/releases/download/v1.38.0/doctl-1.38.0-linux-amd64.tar.gz | tar -xzv \
     && mv doctl /usr/local/bin
 
-# Turtle
-# RUN yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
-# RUN turtle setup:$PLATFORM
-# RUN turtle setup:$PLATFORM --sdk-version $SDK_VERSION
+COPY . /
 
-COPY build.sh /build.sh
-COPY publish.sh /publish.sh
-COPY build-entrypoint.sh /build-entrypoint.sh
 ENTRYPOINT ["/bin/bash"]

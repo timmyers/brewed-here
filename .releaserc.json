@@ -12,7 +12,7 @@
       "publishCmd": "/publish.sh"
     }],
     ["@semantic-release/exec", {
-      "publishCmd": "node buildAndroid.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'",
+      "publishCmd": "node /checkBuildApps.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'",
       "shell": "/bin/bash"
     }],
     ["@semantic-release/github", {
