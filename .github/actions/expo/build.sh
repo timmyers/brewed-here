@@ -12,4 +12,4 @@ yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
 turtle setup:$PLATFORM
 turtle build:android --keystore-path=./expo-project.jks --keystore-alias=$EXPO_ANDROID_KEYSTORE_ALIAS --public-url=https://expo.brewedhere.co/android-index.json --type=app-bundle --output=brewed-here.aab --config $GITHUB_WORKSPACE/app/app.json
 
-export TURTLE_BUILD=true
+echo ::set-env name=TURTLE_BUILD::true

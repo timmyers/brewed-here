@@ -2,9 +2,9 @@ FROM node:12.13.1
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
-ARG TURTLE_VERSION=0.13.10
-ARG PLATFORM=android
-ARG SDK_VERSION=36.0.0
+# ARG TURTLE_VERSION=0.13.10
+# ARG PLATFORM=android
+# ARG SDK_VERSION=36.0.0
 
 RUN apt-get update && apt-get -y --no-install-recommends install \
   openjdk-8-jdk=8u242-b08-1~deb9u1 \
