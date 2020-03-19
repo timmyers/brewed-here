@@ -24,9 +24,10 @@ stdin.on('end', async () => {
     }
   })
 
-  if (doBuild) {
-    await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
-  }
+  await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
+  // if (doBuild) {
+    // await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
+  // }
 
   process.exit(0)
 });
