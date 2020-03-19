@@ -26,19 +26,3 @@ jobs:
           EXPO_ANDROID_KEYSTORE_ALIAS: ${{ secrets.EXPO_ANDROID_KEYSTORE_ALIAS }}
           EXPO_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.EXPO_ANDROID_KEYSTORE_PASSWORD }}
           EXPO_ANDROID_KEY_PASSWORD: ${{ secrets.EXPO_ANDROID_KEY_PASSWORD }}
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        if: env.TURTLE_BUILD == true
-        with:
-          name: brewed-here.aab
-          path: brewed-here.aab
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: brewed-here.aab.bak
-          path: brewed-here.aab
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: brewed-here.aab.bak2
-          path: app/brewed-here.aab
