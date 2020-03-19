@@ -1,8 +1,6 @@
-const execa = require('execa');
 const core = require('@actions/core');
 const artifact = require('@actions/artifact');
 
-const { google } = require('googleapis')
 const fs = require('fs');
 
 const stdin = process.stdin;
@@ -28,7 +26,7 @@ stdin.on('end', async () => {
   })
 
   const artifactClient = artifact.create();
-  fs.writeFileSync('./buildApps.json', doBuild ? 'true' : 'false')
+  fs.writeFileSync('./buildApps', doBuild ? 'true' : 'false')
   await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps'], '.')
 
   if (doBuild) {
