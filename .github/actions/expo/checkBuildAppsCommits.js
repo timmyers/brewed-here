@@ -28,11 +28,8 @@ stdin.on('end', async () => {
   })
 
   const artifactClient = artifact.create();
-  fs.writeFileSync('./buildApps.json', JSON.stringify({
-    buildApps: doBuild,
-  }))
-
-  await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps.json'], '.')
+  fs.writeFileSync('./buildApps.json', doBuild ? 'true' : 'false')
+  await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps'], '.')
 
   if (doBuild) {
     core.exportVariable('BUILD_APPS', 'true')

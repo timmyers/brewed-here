@@ -18,13 +18,6 @@ jobs:
           SPACES_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY_ID }}
           SPACES_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_ACCESS_KEY }}
           ANDROID_MAPS_API_KEYS: ${{ secrets.ANDROID_MAPS_API_KEYS }}
-          ANDROID_UPLOAD_KEY_BASE64: ${{ secrets.ANDROID_UPLOAD_KEY_BASE64 }}
-          TURTLE_VERSION: 0.13.10
-          PLATFORM: android
-          EXPO_ANDROID_KEYSTORE_BASE64: ${{ secrets.EXPO_ANDROID_KEYSTORE_BASE64 }}
-          EXPO_ANDROID_KEYSTORE_ALIAS: ${{ secrets.EXPO_ANDROID_KEYSTORE_ALIAS }}
-          EXPO_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.EXPO_ANDROID_KEYSTORE_PASSWORD }}
-          EXPO_ANDROID_KEY_PASSWORD: ${{ secrets.EXPO_ANDROID_KEY_PASSWORD }}
   publish-android:
     if: github.ref == 'refs/heads/master'
     needs: release
@@ -32,16 +25,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
+      - name: Download BUILD_APPS artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: BUILD_APPS
+      - name: Read file and set output parameter
+        id: set_output
+        run: echo "::set-output name=BUILD_APPS::$(<BUILD_APPS/buildApps)"
       - name: Publish Android
+        if: steps.set_output.outputs.BUILD_APPS == 'true'
         uses: ./.github/actions/expo
         with:
           entrypoint: /buildAndroid.sh
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          DIGITALOCEAN_ACCESS_TOKEN: ${{ secrets.DIGITALOCEAN_TOKEN }}
-          SPACES_ACCESS_KEY_ID: ${{ secrets.SPACES_ACCESS_KEY_ID }}
-          SPACES_SECRET_ACCESS_KEY: ${{ secrets.SPACES_SECRET_ACCESS_KEY }}
-          ANDROID_MAPS_API_KEYS: ${{ secrets.ANDROID_MAPS_API_KEYS }}
           ANDROID_UPLOAD_KEY_BASE64: ${{ secrets.ANDROID_UPLOAD_KEY_BASE64 }}
           TURTLE_VERSION: 0.13.10
           PLATFORM: android

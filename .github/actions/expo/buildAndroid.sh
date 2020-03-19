@@ -1,16 +1,7 @@
 #!/bin/bash
-set -x
+set -ex
 
 yarn
-cp /shouldBuildApps.js .
-node shouldBuildApps.js
-
-if [ $? -eq 1 ]
-then
-  ls -al .
-  ls -al BUILD_APPS
-  exit 0
-fi
 
 cd app
 
