@@ -24,8 +24,8 @@ RUN curl -sL https://github.com/digitalocean/doctl/releases/download/v1.38.0/doc
     && mv doctl /usr/local/bin
 
 # Turtle
-RUN yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
-RUN turtle setup:$PLATFORM
+# RUN yarn global add gulp-cli turtle-cli@$TURTLE_VERSION
+# RUN turtle setup:$PLATFORM
 # RUN turtle setup:$PLATFORM --sdk-version $SDK_VERSION
 
 COPY build.sh /build.sh
