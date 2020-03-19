@@ -7,6 +7,8 @@ node shouldBuildApps.js
 
 if [ $? -eq 1 ]
 then
+  ls -al .
+  ls -al BUILD_APPS
   exit 0
 fi
 
