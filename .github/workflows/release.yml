@@ -44,6 +44,7 @@ jobs:
           EXPO_ANDROID_KEYSTORE_BASE64: ${{ secrets.EXPO_ANDROID_KEYSTORE_BASE64 }}
           EXPO_ANDROID_KEYSTORE_ALIAS: ${{ secrets.EXPO_ANDROID_KEYSTORE_ALIAS }}
           EXPO_ANDROID_KEYSTORE_PASSWORD: ${{ secrets.EXPO_ANDROID_KEYSTORE_PASSWORD }}
+          EXPO_ANDROID_KEY_PASSWORD: ${{ secrets.EXPO_ANDROID_KEY_PASSWORD }}
   publish-ios:
     if: github.ref == 'refs/heads/master'
     needs: release
@@ -68,4 +69,4 @@ jobs:
           cd app
           yarn global add turtle-cli@$TURTLE_VERSION
           turtle setup:ios
-          turtle build:ios
+          turtle build:ios --public-url=https://expo.brewedhere.co/ios-index.json --type=simulator
