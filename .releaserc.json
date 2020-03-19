@@ -9,10 +9,7 @@
     "@semantic-release/release-notes-generator",
     "semantic-release-expo",
     ["@semantic-release/exec", {
-      "publishCmd": "/publish.sh"
-    }],
-    ["@semantic-release/exec", {
-      "publishCmd": "node /checkBuildApps.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'",
+      "publishCmd": "cp /checkBuildApps.js . && node checkBuildApps.js <<< '${JSON.stringify(_.map(commits, commit => commit.subject)).replace(/'/g, '')}'",
       "shell": "/bin/bash"
     }],
     ["@semantic-release/github", {
