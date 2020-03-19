@@ -23,7 +23,8 @@ stdin.on('end', async () => {
   })
 
   if (doBuild) {
-    await execa('/build.sh', { stdio: 'inherit' })
+    const { exitCode } = await execa('/build.sh', { stdio: 'inherit' })
+    process.exit(exitCode);
   }
 
   process.exit(0)

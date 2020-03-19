@@ -30,4 +30,14 @@ jobs:
         if: env.TURTLE_BUILD == true
         with:
           name: brewed-here.aab
+          path: brewed-here.aab
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: brewed-here.aab.bak
+          path: brewed-here.aab
+      - name: Upload artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: brewed-here.aab.bak2
           path: app/brewed-here.aab
