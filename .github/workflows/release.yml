@@ -60,9 +60,12 @@ jobs:
         run: echo "::set-output name=BUILD_APPS::$(<BUILD_APPS/buildApps)"
       - name: Publish iOS
         if: steps.set_output.outputs.BUILD_APPS == 'true'
-        uses: ./.github/actions/expo
-        with:
-          entrypoint: /buildIOS.sh
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TURTLE_VERSION: 0.13.10
+        run: |
+          yarn
+          cd app
+          yarn global add turtle-cli@$TURTLE_VERSION
+          turtle setup:ios
+          turtle build:ios
