@@ -27,6 +27,7 @@ jobs:
           EXPO_ANDROID_KEY_PASSWORD: ${{ secrets.EXPO_ANDROID_KEY_PASSWORD }}
   publish-android:
     if: github.ref == 'refs/heads/master'
+    needs: release
     name: Publish Android
     runs-on: ubuntu-latest
     steps:

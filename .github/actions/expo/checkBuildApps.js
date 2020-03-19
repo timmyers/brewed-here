@@ -32,7 +32,7 @@ stdin.on('end', async () => {
     buildApps: doBuild,
   }))
 
-  await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps.json', '.'])
+  await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps.json'], '.')
 
   if (doBuild) {
     core.exportVariable('BUILD_APPS', 'true')
