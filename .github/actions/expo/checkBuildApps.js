@@ -1,5 +1,6 @@
 const execa = require('execa');
 const core = require('@actions/core');
+const artifact = require('@actions/artifact');
 
 const { google } = require('googleapis')
 const fs = require('fs');
@@ -26,11 +27,17 @@ stdin.on('end', async () => {
     }
   })
 
-  core.exportVariable('BUILD_APPS', 'true')
-  // await execa('echo', ['"::set-env name=BUILD_APPS::true"'], { stdio: 'inherit' })
-  // if (doBuild) {
-    // await execa('echo "::set-env name=BUILD_APPS::true"', { stdio: 'inherit' })
-  // }
+  const artifactClient = artifact.create();
+  fs.writeFileSync('./buildApps.json', JSON.stringify({
+    buildApps: doBuild,
+  }))
+
+  await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps.json', '.'])
+
+  if (doBuild) {
+    core.exportVariable('BUILD_APPS', 'true')
+    core.setOutput('buildApps', 'true')
+  }
 
   process.exit(0)
 });
