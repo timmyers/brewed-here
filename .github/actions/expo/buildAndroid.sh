@@ -2,7 +2,6 @@
 set -ex
 
 yarn
-
 cd app
 
 echo $EXPO_ANDROID_KEYSTORE_BASE64 > expo-project.jks.base64
