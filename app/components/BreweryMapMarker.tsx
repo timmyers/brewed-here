@@ -1,5 +1,6 @@
 import React from 'react';
 import { Marker } from 'react-native-maps';
+import { Image } from 'react-native'
 import { useBreweryVisited } from '../hooks';
 
 interface PropTypes {
@@ -17,7 +18,11 @@ export default ({
         latitude: brewery.lat,
         longitude: brewery.lng,
       }}
-      image={breweryVisited ? require('../assets/MarkerFilled.png') : require('../assets/MarkerUnfilled.png')}
-    />
+    >
+      <Image 
+        source={breweryVisited ? require('../assets/MarkerFilled.png') : require('../assets/MarkerUnfilled.png')}
+        style={{width:32, height:50}}
+      />
+    </Marker>
   );
 }
