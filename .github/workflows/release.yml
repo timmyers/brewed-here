@@ -69,4 +69,9 @@ jobs:
           cd app
           yarn global add turtle-cli@$TURTLE_VERSION
           turtle setup:ios
-          turtle build:ios --public-url=https://expo.brewedhere.co/ios-index.json --type=simulator
+          turtle build:ios --public-url=https://expo.brewedhere.co/ios-index.json --type=simulator --output=brewed-here.tar.gz
+      - name: Upload ios artifact
+        uses: actions/upload-artifact@v1
+        with:
+          name: ios-archive
+          path: brewed-here.tar.gz
