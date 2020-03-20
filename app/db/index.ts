@@ -7,7 +7,6 @@ let dbConn: Promise<Connection>;
 
 export const connect = () => {
   if (dbConn == undefined) {
-    console.log('connect')
     dbConn = createConnection({
       database: 'db',
       driver: require('expo-sqlite'),
@@ -32,7 +31,6 @@ export const connect = () => {
 // })()
 
 export const getAllVisits = async () => {
-  console.log('getAllVisits')
   try {
     const db = await dbConn;
 

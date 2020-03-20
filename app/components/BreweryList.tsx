@@ -1,9 +1,13 @@
-import React, { useRef } from 'react';
-import { StyleSheet, FlatList, SafeAreaView } from 'react-native';
+import React, { useRef, useState } from 'react';
+import { StyleSheet, FlatList, SafeAreaView, Dimensions } from 'react-native';
 import BreweryListItem from './BreweryListItem';
 
 export default ({ breweries }) => {
   const flatList = useRef(undefined);
+  const [refresh, setRefresh] = useState(true)
+
+  const renderItem = ({ item }) => <BreweryListItem brewery={item} />;
+  const itemWidth = Dimensions.get('window').width * .8;
 
   return (
     <SafeAreaView style={styles.holder}>
@@ -11,13 +15,18 @@ export default ({ breweries }) => {
         ref={flatList}
         style={{ height: '100%' }}
         data={breweries}
-        renderItem={({ item }) => <BreweryListItem brewery={item} />}
+        renderItem={renderItem}
         keyExtractor={(item: any) => item.id}
         horizontal={true}
         showsHorizontalScrollIndicator={false}
-        onContentSizeChange={() => {
-          flatList.current.scrollToOffset(0)
+        getItemLayout={(data, index) => (
+          { length: itemWidth, offset: itemWidth * index, index }
+        )}
+        // Hack to not end up scrolled past end on Android
+        onContentSizeChange={(size) => {
+          setRefresh(!refresh)
         }}
+        extraData={refresh}
       />
     </SafeAreaView>
   )

@@ -71,6 +71,7 @@ jobs:
           turtle setup:ios
           turtle build:ios --public-url=https://expo.brewedhere.co/ios-index.json --type=simulator --output=brewed-here.tar.gz
       - name: Upload ios artifact
+        if: steps.set_output.outputs.BUILD_APPS == 'true'
         uses: actions/upload-artifact@v1
         with:
           name: ios-archive
