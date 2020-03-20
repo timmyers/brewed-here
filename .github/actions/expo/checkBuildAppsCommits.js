@@ -26,8 +26,8 @@ stdin.on('end', async () => {
   })
 
   const artifactClient = artifact.create();
-  // fs.writeFileSync('./buildApps', doBuild ? 'true' : 'false')
-  fs.writeFileSync('./buildApps', 'true')
+  fs.writeFileSync('./buildApps', doBuild ? 'true' : 'false')
+  // fs.writeFileSync('./buildApps', 'true')
   await artifactClient.uploadArtifact('BUILD_APPS', ['buildApps'], '.')
 
   if (doBuild) {
