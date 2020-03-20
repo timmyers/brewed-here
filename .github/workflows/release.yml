@@ -74,4 +74,4 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: ios-archive
-          path: brewed-here.tar.gz
+          path: app/brewed-here.tar.gz
