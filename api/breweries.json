@@ -1272,6 +1272,7 @@
     "name": "Wild Woods Brewery",
     "lat": 40.016127,
     "lng": -105.225937,
+    "closed": true,
     "googlePlaceId": "ChIJBz2t0fDta4cRMQsXC8TbM3I",
     "website": "http://www.wildwoodsbrewery.com/",
     "id": "05b87cc1-1d8a-4cdd-8fdd-df12ae1848e2"
@@ -3034,5 +3035,55 @@
     "lng": -107.597581,
     "website": "https://chrysalisbeer.com/",
     "id": "b2c5d6bf-3609-4541-aa47-802edfd7f295"
+  },
+  {
+    "name": "Liberati Restaurant and Brewery",
+    "lat": 39.754383,
+    "lng": -104.984283,
+    "closed": true,
+    "website": "https://www.liberatidenver.com/",
+    "id": "40fcbe92-2e26-47b3-ac90-300021db7333"
+  },
+  {
+    "name": "Uhl's Brewing",
+    "lat": 40.016127,
+    "lng": -105.225937,
+    "website": "http://uhlsbrewing.com/",
+    "id": "6bb411a2-2d9b-482b-aa53-a01fa9f9d29a"
+  },
+  {
+    "name": "Ska Street Brewstillery",
+    "lat": 40.015010,
+    "lng": -105.245548,
+    "website": "http://skastreet.com/",
+    "id": "a203d319-46da-4aeb-8f83-c4706d96edfc"
+  },
+  {
+    "name": "Sheaf & Kettle Brewing",
+    "lat": 40.527906,
+    "lng": -104.711548,
+    "website": "https://www.sheafandkettle.com/",
+    "id": "4a178311-dc34-4abf-8896-10d75b9270bc"
+  },
+  {
+    "name": "Ball Brewing",
+    "lat": 39.470439,
+    "lng": -107.268463,
+    "website": "https://www.ballbrewing.com/",
+    "id": "95bfe037-3673-4460-9e89-a47510960862"
+  },
+  {
+    "name": "Outworld Brewing",
+    "lat": 40.159951,
+    "lng": -105.022621,
+    "website": "https://www.outworldbrewing.com/",
+    "id": "e7ba1866-0de8-488b-a6a7-646e49f4384e"
+  },
+  {
+    "name": "Barquentine Brewing Company",
+    "lat": 39.748618,
+    "lng": -105.056991,
+    "website": "https://www.barquentinebrewing.com/",
+    "id": "8281cab8-0c37-4965-beb5-68e07efb72bb"
   }
 ]
