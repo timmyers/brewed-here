@@ -68,6 +68,7 @@ jobs:
           EXPO_IOS_TEAM_ID: ${{ secrets.EXPO_IOS_TEAM_ID }}
           EXPO_IOS_DIST_BASE64: ${{ secrets.EXPO_IOS_DIST_BASE64 }}
           EXPO_IOS_PROVISION_BASE64: ${{ secrets.EXPO_IOS_PROVISION_BASE64 }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
         run: |
           yarn
           cd app
@@ -82,8 +83,15 @@ jobs:
             --dist-p12-path=dist.p12 \
             --provisioning-profile-path=app.mobileprovision \
             --output=brewed-here.tar.gz
-          xcrun altool --validate-app -f brewed-here.tar.gz \
+          xcrun altool --validate-app \
+            -f brewed-here.tar.gz \
             -t ios \
+            -u tim.raptorrunner@gmail.com \
+            -p @env:APPLE_PASSWORD
+          xcrun altool --notarize-app \
+            -f brewed-here.tar.gz \
+            -t ios \
+            --primary-bundle-id co.brewedhere.brewedhere \
             -u tim.raptorrunner@gmail.com \
             -p @env:APPLE_PASSWORD
       - name: Upload ios artifact
