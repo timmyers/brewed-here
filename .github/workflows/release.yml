@@ -82,13 +82,13 @@ jobs:
             --team-id=$EXPO_IOS_TEAM_ID \
             --dist-p12-path=dist.p12 \
             --provisioning-profile-path=app.mobileprovision \
-            --output=brewed-here.tar.gz
+            --output=brewed-here.ipa
       - name: Upload ios artifact
         if: steps.set_output.outputs.BUILD_APPS == 'true'
         uses: actions/upload-artifact@v1
         with:
           name: ios-archive
-          path: app/brewed-here.tar.gz
+          path: app/brewed-here.ipa
       - name: Publish iOS Upload
         if: steps.set_output.outputs.BUILD_APPS == 'true'
         env:
@@ -102,12 +102,12 @@ jobs:
         run: |
           cd app
           xcrun altool --validate-app \
-            --file brewed-here.tar.gz \
+            --file brewed-here.ipa \
             --type ios \
             --username tim.raptorrunner@gmail.com \
             --password @env:APPLE_PASSWORD
           xcrun altool --notarize-app \
-            --file brewed-here.tar.gz \
+            --file brewed-here.ipa \
             --type ios \
             --primary-bundle-id co.brewedhere.brewedhere \
             --username tim.raptorrunner@gmail.com \
