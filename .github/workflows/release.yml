@@ -83,6 +83,24 @@ jobs:
             --dist-p12-path=dist.p12 \
             --provisioning-profile-path=app.mobileprovision \
             --output=brewed-here.tar.gz
+      - name: Upload ios artifact
+        if: steps.set_output.outputs.BUILD_APPS == 'true'
+        uses: actions/upload-artifact@v1
+        with:
+          name: ios-archive
+          path: app/brewed-here.tar.gz
+      - name: Publish iOS Upload
+        if: steps.set_output.outputs.BUILD_APPS == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          TURTLE_VERSION: 0.13.10
+          EXPO_IOS_DIST_P12_PASSWORD: ${{ secrets.EXPO_IOS_DIST_P12_PASSWORD }}
+          EXPO_IOS_TEAM_ID: ${{ secrets.EXPO_IOS_TEAM_ID }}
+          EXPO_IOS_DIST_BASE64: ${{ secrets.EXPO_IOS_DIST_BASE64 }}
+          EXPO_IOS_PROVISION_BASE64: ${{ secrets.EXPO_IOS_PROVISION_BASE64 }}
+          APPLE_PASSWORD: ${{ secrets.APPLE_PASSWORD }}
+        run: |
+          cd app
           xcrun altool --validate-app \
             -f brewed-here.tar.gz \
             -t ios \
@@ -94,9 +112,3 @@ jobs:
             --primary-bundle-id co.brewedhere.brewedhere \
             -u tim.raptorrunner@gmail.com \
             -p @env:APPLE_PASSWORD
-      - name: Upload ios artifact
-        if: steps.set_output.outputs.BUILD_APPS == 'true'
-        uses: actions/upload-artifact@v1
-        with:
-          name: ios-archive
-          path: app/brewed-here.tar.gz
