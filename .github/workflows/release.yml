@@ -64,12 +64,29 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           TURTLE_VERSION: 0.13.10
+          EXPO_IOS_DIST_P12_PASSWORD: ${{ secrets.EXPO_IOS_DIST_P12_PASSWORD }}
+          EXPO_IOS_TEAM_ID: ${{ secrets.EXPO_IOS_TEAM_ID }}
+          EXPO_IOS_PUSH_KEY_ID: ${{ secrets.EXPO_IOS_PUSH_KEY_ID }}
+          EXPO_IOS_DIST_BASE64: ${{ secrets.EXPO_IOS_DIST_BASE64 }}
+          EXPO_IOS_PUSH_BASE64: ${{ secrets.EXPO_IOS_PUSH_BASE64 }}
+          EXPO_IOS_PROVISION_BASE64: ${{ secrets.EXPO_IOS_PROVISION_BASE64 }}
         run: |
           yarn
           cd app
+          echo $EXPO_IOS_DIST_BASE64 > dist.p12.base64 && base64 --decode dist.p12.base64 > dist.p12
+          echo $EXPO_IOS_PUSH_BASE64 > push.p8.base64 && base64 --decode push.p8.base64 > push.p8
+          echo $EXPO_IOS_PROVISION_BASE64 > app.mobileprovision.base64 && base64 --decode app.mobileprovision.base64 > app.mobileprovision
           yarn global add turtle-cli@$TURTLE_VERSION
           turtle setup:ios
-          turtle build:ios --public-url=https://expo.brewedhere.co/ios-index.json --type=simulator --output=brewed-here.tar.gz
+          turtle build:ios \
+            --public-url=https://expo.brewedhere.co/ios-index.json \
+            --type=archive \
+            --team-id=$EXPO_IOS_TEAM_ID \
+            --push-id=$EXPO_IOS_PUSH_KEY_ID \
+            --dist-p12-path=dist.p12 \
+            --push-p8-path=push.p8 \
+            --provisioning-profile-path=app.mobileprovision \
+            --output=brewed-here.tar.gz
       - name: Upload ios artifact
         if: steps.set_output.outputs.BUILD_APPS == 'true'
         uses: actions/upload-artifact@v1
