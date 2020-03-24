@@ -102,13 +102,13 @@ jobs:
         run: |
           cd app
           xcrun altool --validate-app \
-            -f brewed-here.tar.gz \
-            -t ios \
-            -u tim.raptorrunner@gmail.com \
-            -p @env:APPLE_PASSWORD
+            --file brewed-here.tar.gz \
+            --type ios \
+            --username tim.raptorrunner@gmail.com \
+            --password @env:APPLE_PASSWORD
           xcrun altool --notarize-app \
-            -f brewed-here.tar.gz \
-            -t ios \
+            --file brewed-here.tar.gz \
+            --type ios \
             --primary-bundle-id co.brewedhere.brewedhere \
-            -u tim.raptorrunner@gmail.com \
-            -p @env:APPLE_PASSWORD
+            --username tim.raptorrunner@gmail.com \
+            --password @env:APPLE_PASSWORD
