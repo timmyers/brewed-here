@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@pulumi/digitalocean": "^1.8.0",
-    "@pulumi/docker": "^1.4.0",
+    "@pulumi/docker": "^1.5.0",
     "@pulumi/kubernetes": "^1.5.8",
     "@pulumi/kubernetesx": "^0.1.2",
     "@pulumi/pulumi": "^1.13.0",
