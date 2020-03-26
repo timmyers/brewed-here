@@ -19,16 +19,8 @@ export default async (): Promise<void> => {
     },
   });
 
-  // const certificate = new doc.Certificate('brewed-here', {
-  //   name: 'brewed-here',
-  //   domains: [
-  //     'traefik.brewedhere.co',
-  //   ],
-  //   type: doc.CertificateTypes.LetsEncrypt,
-  // });
-
-  const certificate2 = new doc.Certificate('brewed-here2', {
-    name: 'brewed-here2',
+  const certificate = new doc.Certificate('brewed-here-lb', {
+    name: 'brewed-here',
     domains: [
       'api.brewedhere.co',
       'brewedhere.co',
@@ -75,7 +67,7 @@ export default async (): Promise<void> => {
           annotations: {
             'service.beta.kubernetes.io/do-loadbalancer-protocol': 'https',
             'service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https': 'true',
-            'service.beta.kubernetes.io/do-loadbalancer-certificate-id': certificate2.id,
+            'service.beta.kubernetes.io/do-loadbalancer-certificate-id': certificate.id,
           },
         },
         autoscaling: {
@@ -132,6 +124,6 @@ export default async (): Promise<void> => {
   });
 
   const api = new API('brewed-here', {}, defaultOpts);
-  const web = new Web('brewed-here', {}, defaultOpts);
+  const web = new Web('website', {}, defaultOpts);
   const appStorage = new AppStorage('brewed-here', {}, defaultOpts);
 }

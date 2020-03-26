@@ -34,7 +34,7 @@ class Web extends pulumi.ComponentResource {
 
     this.imageName = image.imageName;
 
-    const port = 8000;
+    const port = 3000;
 
     const pb = new kx.PodBuilder({
       containers: [{
