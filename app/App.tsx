@@ -45,6 +45,8 @@ export default function App() {
   const [mapRegion, setMapRegion] = useMapRegion();
   const [updateAvailable, setUpdateIsAvailable] = useState(false);
 
+  const breweriesInMap = filterBreweries(breweries, mapRegion);
+
   return (
     <StoreProvider>
       <View style={styles.container}>
@@ -62,7 +64,7 @@ export default function App() {
               }}
             />
           }
-          <BreweryList breweries={filterBreweries(breweries, mapRegion)} />
+          <BreweryList breweries={breweriesInMap} />
         </View>
       </View>
       {/* <MyLocationButton /> */}
