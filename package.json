@@ -5,7 +5,8 @@
   "private": true,
   "workspaces": [
     "infrastructure",
-    "api"
+    "api",
+    "web"
   ],
   "devDependencies": {
     "@actions/artifact": "^0.2.0",

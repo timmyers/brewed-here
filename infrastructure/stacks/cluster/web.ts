@@ -8,12 +8,12 @@ import * as kx from '@pulumi/kubernetesx';
 interface Args {
 }
 
-class API extends pulumi.ComponentResource {
+class Web extends pulumi.ComponentResource {
   public imageName: pulumi.Output<string>;
 
   public constructor(name: string, {
   }: Args, opts?: pulumi.ComponentResourceOptions) {
-    super('brewed-here:api', name, { }, opts);
+    super('brewed-here:web', name, { }, opts);
 
     const defaultOptions = { parent: this };
 
@@ -22,9 +22,9 @@ class API extends pulumi.ComponentResource {
       throw new Error('No docker hub password provided')
     }
 
-    const image = new docker.Image('timmyers/brewed-here-api', {
-      imageName: 'timmyers/brewed-here-api',
-      build: `${path.relative(process.cwd(), __dirname)}/../../../api`,
+    const image = new docker.Image('timmyers/brewed-here-web', {
+      imageName: 'timmyers/brewed-here-web',
+      build: `${path.relative(process.cwd(), __dirname)}/../../../web`,
       registry: {
         server: 'docker.io',
         username: 'timmyers',
@@ -70,7 +70,7 @@ class API extends pulumi.ComponentResource {
       },
       spec: {
         rules: [{
-          host: 'api.brewedhere.co',
+          host: 'brewedhere.co',
           http: {
             paths: [{
               backend: {
@@ -89,4 +89,4 @@ class API extends pulumi.ComponentResource {
   }
 }
 
-export default API;
+export default Web;

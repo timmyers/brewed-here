@@ -1,7 +1,7 @@
 FROM node:13-alpine AS build
 
-# Set working directory to App dir
-WORKDIR /app
+# Set working directory
+WORKDIR /web
 
 # Copy project files
 COPY . .
@@ -10,5 +10,5 @@ COPY . .
 RUN yarn install
 RUN yarn build
 
-CMD [ "yarn", "start" ]
+CMD [ "node", "dist/index.js" ]
 

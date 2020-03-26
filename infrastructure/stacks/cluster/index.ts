@@ -1,9 +1,9 @@
 import K8sMetricsServer from '@timmyers/pulumi-k8s-metrics-server';
-import * as fs from 'fs';
 import * as pulumi from '@pulumi/pulumi';
 import * as k8s from '@pulumi/kubernetes';
 import * as doc from '@pulumi/digitalocean';
 import API from './api';
+import Web from './web';
 import AppStorage from './appStorage';
 
 export default async (): Promise<void> => {
@@ -31,6 +31,7 @@ export default async (): Promise<void> => {
     name: 'brewed-here2',
     domains: [
       'api.brewedhere.co',
+      'brewedhere.co',
     ],
     type: doc.CertificateTypes.LetsEncrypt,
   });
@@ -131,5 +132,6 @@ export default async (): Promise<void> => {
   });
 
   const api = new API('brewed-here', {}, defaultOpts);
+  const web = new Web('brewed-here', {}, defaultOpts);
   const appStorage = new AppStorage('brewed-here', {}, defaultOpts);
 }
