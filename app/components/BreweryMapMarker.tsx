@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Marker } from 'react-native-maps';
-import { Image } from 'react-native'
+import { Image, Platform } from 'react-native'
 import { useBreweryVisited } from '../hooks';
 
 interface PropTypes {
@@ -12,14 +12,16 @@ const BreweryMapMarker = ({
 }: PropTypes) => {
   const [breweryVisited, setBreweryVisited] = useBreweryVisited(brewery.id)
   const marker = useRef(undefined);
-  useEffect(() => {
-    marker.current.redraw()
-  }, [ breweryVisited ])
+  if (Platform.OS === 'android') {
+    useEffect(() => {
+      marker.current.redraw()
+    }, [ breweryVisited ])
+  }
 
   return (
     <Marker
       ref={marker}
-      tracksViewChanges={false}
+      tracksViewChanges={Platform.OS === 'ios'}
       coordinate={{
         latitude: brewery.lat,
         longitude: brewery.lng,

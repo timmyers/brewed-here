@@ -31,7 +31,6 @@ export default ({
   return (
     <MapView 
       ref={map}
-      // provider={"google"}
       style={styles.mapStyle}
       showsPointsOfInterest={false}
       showsTraffic={false}
