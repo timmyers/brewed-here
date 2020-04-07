@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import * as Location from 'expo-location';
 import * as Permissions from 'expo-permissions';
-import MapView, { Marker, Region } from 'react-native-maps';
+import MapView, { Region } from 'react-native-maps';
 import { StyleSheet, Platform } from 'react-native';
 import { useMapRegion, useLoadBreweriesVisited } from '../hooks';
 import BreweryMapMarker from './BreweryMapMarker';
@@ -48,19 +48,17 @@ export default ({
       onRegionChangeComplete={onRegionChangeComplete}
       onMapReady={async () => {
         setMapReady(true);
-        if (Platform.OS === 'android') {
-          let status = await Permissions.askAsync(Permissions.LOCATION);
-          if (status.status === 'granted') {
-            const location = await Location.getCurrentPositionAsync({});
+        let status = await Permissions.askAsync(Permissions.LOCATION);
+        if (status.status === 'granted') {
+          const location = await Location.getCurrentPositionAsync({});
 
-            const { latitude, longitude } = location.coords;
-            setMapRegion({
-              latitude,
-              longitude,
-              latitudeDelta: .02,
-              longitudeDelta: .02,
-            });
-          } 
+          const { latitude, longitude } = location.coords;
+          setMapRegion({
+            latitude,
+            longitude,
+            latitudeDelta: .02,
+            longitudeDelta: .02,
+          });
         }
       }}
     >

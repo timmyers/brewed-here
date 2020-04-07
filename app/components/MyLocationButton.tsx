@@ -14,21 +14,18 @@ export default ({ }: PropTypes) => {
     <TouchableOpacity 
       style={styles.holder}
       onPress={async () => {
-        console.log('MY LOCATION')
-        if (Platform.OS === 'android') {
-          let status = await Permissions.askAsync(Permissions.LOCATION);
-          if (status.status === 'granted') {
-            const location = await Location.getCurrentPositionAsync({});
+        let status = await Permissions.askAsync(Permissions.LOCATION);
+        if (status.status === 'granted') {
+          const location = await Location.getCurrentPositionAsync({});
 
-            const { latitude, longitude } = location.coords;
-            setMapRegion({
-              latitude,
-              longitude,
-              latitudeDelta: .02,
-              longitudeDelta: .02,
-            });
-          } 
-        }
+          const { latitude, longitude } = location.coords;
+          setMapRegion({
+            latitude,
+            longitude,
+            latitudeDelta: .02,
+            longitudeDelta: .02,
+          });
+        } 
       }}
     >
       <Image

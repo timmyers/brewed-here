@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, Button } from 'react-native';
-import { Updates, ScreenOrientation } from 'expo';
+import { Updates } from 'expo';
+import * as ScreenOrientation from 'expo-screen-orientation';
 import { Region } from 'react-native-maps';
 import BreweryMap from './components/BreweryMap';
 import BreweryList from './components/BreweryList';
@@ -29,7 +30,7 @@ export default function App() {
   useEffect(() => {
     (async () => {
       try {
-        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.ALL_BUT_UPSIDE_DOWN);
+        await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT_UP);
       } catch (err) {
         console.log(err);
       }
