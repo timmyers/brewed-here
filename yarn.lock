@@ -1152,12 +1152,12 @@
     read-package-tree "^5.2.1"
     resolve "^1.7.1"
 
-"@pulumi/docker@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-1.5.0.tgz#7c284e7246921c672ef4959a8a193895d9797042"
-  integrity sha512-/uqQWYOG1AyjAr1ycDAVtzOHcoKnQW7PnmZ5ex0vYal12ajWQ5aKuHLpPHO5jzgVmOAnTst4D/EeTqSanBcHvQ==
+"@pulumi/docker@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-2.0.0.tgz#6e43fe2f3050bbb3d6b32ef61c5314965cb96a9b"
+  integrity sha512-H5CEVwBJUkYeFlqmFddDs9HeaeTjswoPYknR6iqESrlGz0EPuL9JbNtzELSQTNnmzfH98gUm4NZtlRYP9NVc0w==
   dependencies:
-    "@pulumi/pulumi" "^1.0.0"
+    "@pulumi/pulumi" "^2.0.0"
     semver "^5.4.0"
 
 "@pulumi/kubernetes@^1.3.3":
@@ -1210,7 +1210,7 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
-"@pulumi/pulumi@^1.0.0", "@pulumi/pulumi@^1.11.0", "@pulumi/pulumi@^1.6.1":
+"@pulumi/pulumi@^1.11.0", "@pulumi/pulumi@^1.6.1":
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.14.0.tgz#c4bede1fead14abf3a89ced26a08b3dc0c80f4e0"
   integrity sha512-t+o1F8xRsAHK/N4sB17w6iTEob3GEqzih9mNqlB4JbiE//X4qzt8kag7Sf/bqD4jljlAVFooPSCzlvFKrFyKfg==
