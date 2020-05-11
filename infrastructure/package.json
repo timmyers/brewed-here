@@ -8,7 +8,7 @@
     "@pulumi/docker": "^2.0.0",
     "@pulumi/kubernetes": "^2.0.0",
     "@pulumi/kubernetesx": "^0.1.2",
-    "@pulumi/pulumi": "^2.0.0",
+    "@pulumi/pulumi": "^2.1.1",
     "@timmyers/pulumi-k8s-metrics-server": "^2.1.0"
   }
 }
