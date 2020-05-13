@@ -1230,10 +1230,10 @@
     typescript "~3.7.3"
     upath "^1.1.0"
 
-"@pulumi/pulumi@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-2.0.0.tgz#b328687e1c95adb772a1619320cbbbe2362d5773"
-  integrity sha512-aHaW4IZsNWUYRCZoGcl1oVuLSUxzs0GXcfs34at7CWBHdpki5lQFIiT65gX6WMJmpfx9bI7QevBVgp4xv7NWow==
+"@pulumi/pulumi@^2.0.0", "@pulumi/pulumi@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-2.2.0.tgz#43a6e5616f8b204dd43b8ef9bef03bc01c4675ac"
+  integrity sha512-bm+JSpeBCoqUHkLexFZNfIVMxntc4V5SbZkkmsUeSlNH8sRrSHldpPAlLZOpZOlvDp4ulSv9UMR1jMf1lyVjAQ==
   dependencies:
     "@grpc/grpc-js" "^0.6.15"
     "@pulumi/query" "^0.3.0"
