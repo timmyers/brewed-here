@@ -1152,10 +1152,10 @@
     read-package-tree "^5.2.1"
     resolve "^1.7.1"
 
-"@pulumi/docker@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-2.0.0.tgz#6e43fe2f3050bbb3d6b32ef61c5314965cb96a9b"
-  integrity sha512-H5CEVwBJUkYeFlqmFddDs9HeaeTjswoPYknR6iqESrlGz0EPuL9JbNtzELSQTNnmzfH98gUm4NZtlRYP9NVc0w==
+"@pulumi/docker@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@pulumi/docker/-/docker-2.2.2.tgz#903451b3c05c57d3181a3cf1237136b3a648f801"
+  integrity sha512-qI9KPK87LocNIKE4m2TlBVghNDxeXa6W4FQN64mK6FpMgH3CLGrJTWXJVS7M+vzXddQWP+mlPi7B2Z30CwCUYg==
   dependencies:
     "@pulumi/pulumi" "^2.0.0"
     semver "^5.4.0"
