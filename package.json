@@ -10,7 +10,7 @@
   ],
   "devDependencies": {
     "@actions/artifact": "^0.3.2",
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.2.4",
     "@semantic-release/exec": "^5.0.0",
     "execa": "^4.0.2",
     "googleapis": "^52.1.0",
