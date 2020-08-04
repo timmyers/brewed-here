@@ -9,7 +9,7 @@
     "web"
   ],
   "devDependencies": {
-    "@actions/artifact": "^0.3.3",
+    "@actions/artifact": "^0.3.5",
     "@actions/core": "^1.2.4",
     "@semantic-release/exec": "^5.0.0",
     "execa": "^4.0.3",
