@@ -1454,20 +1454,6 @@
     "@pulumi/pulumi" "^2.0.0"
     semver "^5.4.0"
 
-"@pulumi/kubernetes@^1.3.3":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-1.6.0.tgz#595d8a80e90797850a6c0ee4d2d316a971cf811a"
-  integrity sha512-v8zNjxdjtw0wGdJKYt2fr9Jweu8D0pOcE4gnZX7WeNLUcrsyjw0aRs0WUEQ9zbnQ95Q5Tpw+OnC//gKu2M+iAw==
-  dependencies:
-    "@pulumi/pulumi" "^1.11.0"
-    "@types/glob" "^5.0.35"
-    "@types/node-fetch" "^2.1.4"
-    "@types/tmp" "^0.0.33"
-    glob "^7.1.2"
-    node-fetch "^2.3.0"
-    shell-quote "^1.6.1"
-    tmp "^0.0.33"
-
 "@pulumi/kubernetes@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-2.5.0.tgz#021dad2018e6d645d2cc4f3d2d36e4ddd520c1e3"
@@ -1504,7 +1490,7 @@
     "@pulumi/kubernetes" latest
     "@pulumi/pulumi" latest
 
-"@pulumi/pulumi@^1.11.0", "@pulumi/pulumi@^1.6.1":
+"@pulumi/pulumi@^1.11.0":
   version "1.14.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-1.14.0.tgz#c4bede1fead14abf3a89ced26a08b3dc0c80f4e0"
   integrity sha512-t+o1F8xRsAHK/N4sB17w6iTEob3GEqzih9mNqlB4JbiE//X4qzt8kag7Sf/bqD4jljlAVFooPSCzlvFKrFyKfg==
@@ -1655,14 +1641,14 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@timmyers/pulumi-k8s-metrics-server@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@timmyers/pulumi-k8s-metrics-server/-/pulumi-k8s-metrics-server-2.1.0.tgz#70c2793e169db689ae3f29e992eb0cf518fe33e1"
-  integrity sha512-1sLfR83dhwKsfvXkC2LUUKEs5yOd37MpuGa7SHbaQrC8Q8M7HV0WF2IawacfWTjPRXsK9H/DWfHTo3PsyROhBQ==
+"@timmyers/pulumi-k8s-metrics-server@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@timmyers/pulumi-k8s-metrics-server/-/pulumi-k8s-metrics-server-2.2.0.tgz#f9228a9f188d01061e9c59814774598774be90c1"
+  integrity sha512-OuLZqsSOjvGffFAt8e1ZOF6Oe4HPdttQSP+qGb0CHc2nMt9EfELosQRWOmn8n34fNWwTju7VQzs3/LfwD/FAug==
   dependencies:
-    "@pulumi/kubernetes" "^1.3.3"
-    "@pulumi/pulumi" "^1.6.1"
-    typescript "^3.7.3"
+    "@pulumi/kubernetes" "^2.5.0"
+    "@pulumi/pulumi" "^2.9.0"
+    typescript "^4.0.2"
 
 "@tootallnate/once@1":
   version "1.0.0"
@@ -9333,11 +9319,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.7.3:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 typescript@^4.0.2:
   version "4.0.2"
