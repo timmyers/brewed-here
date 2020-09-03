@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@pulumi/digitalocean": "^2.7.0",
+    "@pulumi/digitalocean": "^2.8.0",
     "@pulumi/docker": "^2.3.0",
     "@pulumi/kubernetes": "^2.5.0",
     "@pulumi/kubernetesx": "^0.1.3",
