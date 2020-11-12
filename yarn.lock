@@ -1406,10 +1406,10 @@
     "@pulumi/pulumi" "^2.0.0"
     semver "^5.4.0"
 
-"@pulumi/kubernetes@^2.5.0", "@pulumi/kubernetes@^2.6.3":
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-2.6.3.tgz#0e955d067bbb2a601a13e811578fa5a49da963b8"
-  integrity sha512-zv5k5EAS4s9ckDQ7aafVCK1ncriHhv/0Xm86Wh8eePTwbG1xg4T9QRwj8t/0fWQjlqj2t6jMJKfhPF2wa84VMA==
+"@pulumi/kubernetes@^2.5.0", "@pulumi/kubernetes@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-2.7.0.tgz#30658d3c805d819b5a0c1fc6e712fe6e90be0573"
+  integrity sha512-ECUegttwkwxaqmmgzNK/p3tWHE2OKD1I98Xh7eQ2WqUqMF28qS6wUQitUaLUIFhuW0vZ+NYFSNz0fytDuuiCbQ==
   dependencies:
     "@pulumi/pulumi" "^2.0.0"
     "@types/glob" "^5.0.35"
