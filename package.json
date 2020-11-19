@@ -14,7 +14,7 @@
     "@semantic-release/exec": "^5.0.0",
     "execa": "^4.1.0",
     "googleapis": "^65.0.0",
-    "semantic-release": "^17.2.3",
+    "semantic-release": "^17.2.4",
     "semantic-release-expo": "^2.2.3"
   }
 }
