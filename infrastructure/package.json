@@ -6,7 +6,7 @@
   "dependencies": {
     "@pulumi/digitalocean": "^3.1.1",
     "@pulumi/docker": "^2.4.1",
-    "@pulumi/kubernetes": "^2.7.2",
+    "@pulumi/kubernetes": "^2.7.3",
     "@pulumi/kubernetesx": "^0.1.3",
     "@pulumi/pulumi": "^2.15.0",
     "@timmyers/pulumi-k8s-metrics-server": "^2.2.0"
