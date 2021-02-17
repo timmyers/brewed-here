@@ -13,7 +13,7 @@
     "@actions/core": "^1.2.6",
     "@semantic-release/exec": "^5.0.0",
     "execa": "^5.0.0",
-    "googleapis": "^66.0.0",
+    "googleapis": "^67.1.0",
     "semantic-release": "^17.3.0",
     "semantic-release-expo": "^2.2.3"
   }
